@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:50:13.785297+00:00",
+ "updated": "2026-11-14T20:51:55.710354+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -207,6 +207,26 @@
    "also": []
   },
   {
+   "title": "Seattle Times Columnist Still Struggling with Middle Housing Concept",
+   "link": "https://www.theurbanist.org/seattle-times-columnist-still-struggling-with-middle-housing-concept/",
+   "source": "The Urbanist",
+   "date": "2026-11-07",
+   "access": "Free",
+   "filters": [
+    "Housing",
+    "Seattle"
+   ],
+   "topics": [
+    "Housing"
+   ],
+   "geo": [
+    "Seattle"
+   ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -296,6 +316,24 @@
    "topics": [
     "Multifamily",
     "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Taskforce Spells Out Need for Cabinet-Level Housing Agency in Washington",
+   "link": "https://www.theurbanist.org/taskforce-spells-out-need-for-cabinet-level-housing-agency-in-washington/",
+   "source": "The Urbanist",
+   "date": "2026-11-11",
+   "access": "Free",
+   "filters": [
+    "Housing"
+   ],
+   "topics": [
+    "Housing",
+    "Policy"
    ],
    "geo": [],
    "note": null,
@@ -404,9 +442,9 @@
    "access": "Free"
   },
   {
-   "name": "The Seattle Times",
-   "state": "error error: ParseError",
-   "access": "Metered"
+   "name": "The Urbanist",
+   "state": "healthy",
+   "access": "Free"
   }
  ]
 }
