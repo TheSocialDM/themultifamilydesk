@@ -1,0 +1,78 @@
+{
+ "from": "2026-11-07T21:13+00:00",
+ "to": "2026-11-14T21:13+00:00",
+ "refreshes": 1,
+ "collected": 130,
+ "published": 19,
+ "filtered_out": {
+  "off_topic": 40,
+  "too_old": 65,
+  "duplicate": 4,
+  "opinion": 2
+ },
+ "source_issues": {
+  "Multi-Housing News": {
+   "error 403": 1
+  }
+ },
+ "topics": {
+  "Multifamily": 14,
+  "Capital Markets": 6,
+  "Supply": 5,
+  "Housing": 4,
+  "Rates": 4,
+  "Operations": 3,
+  "Policy": 3,
+  "REITs": 2,
+  "Rents": 2,
+  "Employment": 1,
+  "Arizona": 1
+ },
+ "for_melanie": [
+  {
+   "why": "Phoenix and Arizona",
+   "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
+   "source": "Bisnow Phoenix",
+   "date": "2026-10-14",
+   "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply"
+  },
+  {
+   "why": "Rents and renewals",
+   "title": "October apartment rents rose MOM for first time since 2022: Yardi",
+   "source": "Multifamily Dive",
+   "date": "2026-11-12",
+   "link": "https://www.multifamilydive.com/news/october-apartment-rents-yardi-multifamily/874417/"
+  },
+  {
+   "why": "Rents and renewals",
+   "title": "Orange County Multifamily Market Report – October 2026",
+   "source": "Yardi Matrix",
+   "date": "2026-11-03",
+   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/"
+  },
+  {
+   "why": "Occupancy and concessions",
+   "title": "A look at how apartment REITs did in Q3",
+   "source": "Multifamily Dive",
+   "date": "2026-11-12",
+   "link": "https://www.multifamilydive.com/news/reits-concessions-rent-growth-acquisitions-dispositions/874382/"
+  },
+  {
+   "why": "Lending and debt",
+   "title": "Apartment Loans Fuel A Booming CRE CLO Market Not Seen Since 2021",
+   "source": "Bisnow",
+   "date": "2026-11-12",
+   "link": "https://www.bisnow.com/news/national/capital-markets/apartment-loans-fuel-a-booming-cre-clo-market-not-seen-since-2021"
+  },
+  {
+   "why": "Lending and debt",
+   "title": "SFR REIT VineBrook Stops Buybacks, Flags Upcoming Maturities",
+   "source": "Bisnow",
+   "date": "2026-11-12",
+   "link": "https://www.bisnow.com/news/national/single-family-rentals/sfr-reit-vinebrook-ends-buybacks-flags-upcoming-maturities"
+  }
+ ],
+ "coverage_gaps": [
+  "Seattle and Washington"
+ ]
+}
