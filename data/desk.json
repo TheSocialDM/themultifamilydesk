@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:44:08.890965+00:00",
+ "updated": "2026-11-14T20:48:12.182428+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -188,7 +188,7 @@
    "also": []
   },
   {
-   "title": "Orange County Multifamily Market Report – October 2026",
+   "title": "Orange County Multifamily Market Report \u2013 October 2026",
    "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/",
    "source": "Yardi Matrix",
    "date": "2026-11-03",
@@ -267,7 +267,7 @@
    "also": []
   },
   {
-   "title": "Why Michael Lynd sees a ‘misalignment’ between apartment sponsor and investment interest",
+   "title": "Why Michael Lynd sees a \u2018misalignment\u2019 between apartment sponsor and investment interest",
    "link": "https://www.multifamilydive.com/news/property-management-merger-acquisition-apartment-equity-investment/874439/",
    "source": "Multifamily Dive",
    "date": "2026-11-11",
@@ -296,6 +296,26 @@
    "topics": [
     "Multifamily",
     "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Self-Storage REITs See Housing Challenges Driving Demand for Space: Green Street",
+   "link": "https://www.reit.com/news/podcasts/self-storage-reits-see-housing-challenges-driving-demand-space-green-street",
+   "source": "Nareit",
+   "date": "2026-11-05",
+   "access": "Free",
+   "filters": [
+    "REITs",
+    "Housing"
+   ],
+   "topics": [
+    "REITs",
+    "Supply",
+    "Housing"
    ],
    "geo": [],
    "note": null,
@@ -382,6 +402,11 @@
    "name": "Nareit",
    "state": "healthy",
    "access": "Free"
+  },
+  {
+   "name": "The Seattle Times",
+   "state": "error error: ParseError",
+   "access": "Metered"
   }
  ]
 }
