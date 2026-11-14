@@ -36,3 +36,12 @@
     document.querySelectorAll("p").forEach(function (p) { if (/^Updated /.test(p.textContent.trim())) p.textContent = txt })
   }).catch(function () {})
 })()
+// Keep the "Where this comes from" list in step with the feeds that are working.
+(function () {
+  fetch("/data/desk.json", { cache: "no-store" }).then(function (r) { return r.json() }).then(function (d) {
+    var box = document.querySelector(".srclist"); if (!box || !d.sources) return
+    var names = {}; d.sources.forEach(function (s) { if (s.state === "healthy") names[s.name.replace(" Phoenix", "")] = 1 })
+    var list = Object.keys(names).sort(); if (!list.length) return
+    box.innerHTML = list.map(function (n) { return '<span class="dot"></span>' + n.replace(/[&<>]/g, "") }).join("<br>")
+  }).catch(function () {})
+})()
