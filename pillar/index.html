@@ -28,7 +28,7 @@ a{color:#101317}a:hover{color:#8a2433}
 .ledger-row{display:grid;grid-template-columns:110px minmax(0,1fr) 150px 130px;gap:24px;padding:18px 0;border-top:1px solid #e3e5e8;align-items:baseline}
 .btn{display:inline-flex;align-items:center;min-height:44px;padding:0 22px;border-radius:999px;text-decoration:none;font-size:15px;font-weight:500}
 input,textarea{font:inherit;font-size:16px}
-@media(max-width:900px){.hero,.feat,.port,.two{grid-template-columns:minmax(0,1fr);gap:32px}.six{grid-template-columns:repeat(2,minmax(0,1fr))}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks a:not(.btn){display:none}}
+@media(max-width:900px){.hero,.feat,.port,.two{grid-template-columns:minmax(0,1fr);gap:32px}.six{grid-template-columns:repeat(2,minmax(0,1fr))}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.navlinks{gap:20px!important;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;max-width:62vw}.navlinks a{padding:12px 0}}
 @media(max-width:600px){.six{grid-template-columns:minmax(0,1fr)}.ledger-row{grid-template-columns:minmax(0,1fr)!important;gap:6px!important}.wrap{padding:0 20px}}
 .mp{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;background:#262b31;border:1px solid #262b31;border-radius:6px;overflow:hidden}
 .mpt{background:#101317;padding:26px 24px 22px;min-height:236px;display:flex;flex-direction:column}
@@ -45,7 +45,8 @@ input,textarea{font:inherit;font-size:16px}
 @keyframes tick{to{transform:translateX(-50%)}}
 @media(max-width:1100px){.mp{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:900px){.mp{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .hl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}@media(max-width:800px){.hl{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:560px){.mp{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:560px){.mp{grid-template-columns:minmax(0,1fr)}[aria-label="Market ticker"]{display:none}footer a,a[href="Perspective.dc.html"],a[href*="linkedin.com"]{display:inline-block;padding-block:12px}.mpt span{white-space:normal!important}}
+.mpt .rise,.mpt div[style*="align-items: baseline"]{flex-wrap:wrap}
 @media(prefers-reduced-motion:reduce){.spark,.rise,.grow,.growr,.tick,.dot{animation:none;opacity:1;transform:none;stroke-dashoffset:0}}
 </style>
 <script src="/home-desk.js" defer></script><script src="/pulse.js" defer></script>
@@ -82,7 +83,7 @@ input,textarea{font:inherit;font-size:16px}
 <h1 class="serif" style="margin: 0; font-size: clamp(48px, 6.4vw, 92px); line-height: 0.98; letter-spacing: -0.02em; text-wrap: balance">The business of multifamily. The perspective of an operator.</h1>
 <p style="margin: 32px 0 0; font-size: 19px; line-height: 1.6; color: #2b3036; max-width: 560px">Melanie Graham Prock has led Pillar Communities since 2000, overseeing apartment operations in Phoenix and Seattle. Before Pillar she spent eleven years at Archstone as a district manager. This is where she writes about what running communities actually involves, with the sources shown.</p>
 <div style="display: flex; gap: 12px; margin-top: 36px; flex-wrap: wrap">
-<a href="/pillar/market-signal/no-03/" class="btn" style="background: #8a2433; color: #ffffff">Read the latest Market Signal</a>
+<a href="/pillar/market-signal/no-03/" class="btn" style="background: #8a2433; color: #ffffff">Read the latest market analysis</a>
 <a href="#about" class="btn" style="border: 1px solid #101317; color: #101317">About Melanie</a>
 </div>
 </div>
@@ -109,7 +110,7 @@ input,textarea{font:inherit;font-size:16px}
 </div>
 <div style="padding: 28px 0 28px 24px">
 <div class="serif" style="font-size: 44px; line-height: 1">36th</div>
-<div style="margin-top: 10px; font-size: 14px; color: #5b626b">Phoenix area acquisition by Pillar and PPG, per CBRE (Huxley Scottsdale, July 2025)</div>
+<div style="margin-top: 10px; font-size: 14px; color: #5b626b">Phoenix area acquisition by Pillar and Private Portfolio Group (PPG), per CBRE (Huxley Scottsdale, July 2025)</div>
 </div>
 </div>
 </section>
@@ -205,7 +206,7 @@ input,textarea{font:inherit;font-size:16px}
 <section id="portfolio" style="margin-top: 88px; background: #101317; color: #ffffff">
 <div class="wrap" style="padding-top: 88px; padding-bottom: 88px">
 <div class="two" style="align-items: end; margin-bottom: 40px">
-<h2 class="serif" style="margin: 0; font-size: 44px; line-height: 1.05">The communities behind the commentary</h2>
+<h2 class="serif" style="margin: 0; font-size: 44px; line-height: 1.05">From the portfolio</h2>
 <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #c9cdd2">Each community shows its market, its photography and exactly what Pillar does there: management, ownership or both.</p>
 </div>
 <div class="port">
@@ -213,7 +214,7 @@ input,textarea{font:inherit;font-size:16px}
 <div>
 <div style="font-size: 14px; color: #c9cdd2">North Scottsdale, Arizona</div>
 <h3 class="serif" style="margin: 10px 0 0; font-size: 46px; line-height: 1">Huxley Scottsdale</h3>
-<p style="margin: 18px 0 0; font-size: 17px; line-height: 1.6; color: #e3e5e8">A five story community completed in 2024, with a rooftop sky lounge, resort style pool and spa, and work from home lounges.</p>
+<p style="margin: 18px 0 0; font-size: 17px; line-height: 1.6; color: #e3e5e8">192 homes in North Scottsdale, completed in 2024 and acquired in July 2025.</p>
 <div style="margin-top: 26px; border-top: 1px solid #2c3238">
 <div style="display: flex; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid #2c3238; font-size: 15px"><span style="color: #c9cdd2">Homes</span><span>192</span></div>
 <div style="display: flex; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid #2c3238; font-size: 15px"><span style="color: #c9cdd2">Buyers</span><span style="text-align: right">Pillar Communities and Private Portfolio Group</span></div>

@@ -138,6 +138,9 @@ def score(item, src):
     return round(pts, 2), topics, geo
 
 
+SEEN = []  # every collected item and what happened to it (internal weekly report)
+
+
 def build_items(raw_feeds, sources):
     items, dropped = [], {"no_link": 0, "too_old": 0, "irrelevant": 0, "duplicate": 0, "opinion": 0}
     cutoff = now_utc() - dt.timedelta(days=MAX_AGE_DAYS)
@@ -147,17 +150,18 @@ def build_items(raw_feeds, sources):
             continue
         for d, title, link, desc in feed.get("items", []):
             date = parse_date(d)
+            SEEN.append({"title": html.unescape(title or "").strip(), "link": (link or "").strip(), "source": src["name"], "public": bool(src.get("public")), "fate": "kept"})
             if not link:
-                dropped["no_link"] += 1; continue
+                dropped["no_link"] += 1; SEEN[-1]["fate"] = "no_link"; continue
             geo_hit = any(re.search(p, title, re.I) for p, _, _ in GEO)
             if not date or date < (cutoff - dt.timedelta(days=31) if geo_hit else cutoff):
-                dropped["too_old"] += 1; continue
+                dropped["too_old"] += 1; SEEN[-1]["fate"] = "too_old"; continue
             if OPINION.search(title):
-                dropped["opinion"] += 1; continue
+                dropped["opinion"] += 1; SEEN[-1]["fate"] = "opinion"; continue
             it = {"title": html.unescape(title).strip(), "link": link.strip(), "date": date, "desc": desc or ""}
             s = score(it, src)
             if s is None:
-                dropped["irrelevant"] += 1; continue
+                dropped["irrelevant"] += 1; SEEN[-1]["fate"] = "off_topic"; continue
             it["score"], it["topics"], it["geo"] = s
             it["source_key"], it["source"], it["access"] = key, src["name"].replace(" Phoenix", ""), src["access"]
             it["public"] = bool(src.get("public"))
@@ -179,7 +183,10 @@ def build_items(raw_feeds, sources):
                 if money and money & km and len(common) >= 2:
                     dup = True; k.setdefault("also", []).append(it["source"]); break
         if dup:
-            dropped["duplicate"] += 1; continue
+            dropped["duplicate"] += 1
+            for x in SEEN:
+                if x["link"] == it["link"] and x["fate"] == "kept": x["fate"] = "duplicate"; break
+            continue
         seen_urls.add(cu)
         kept.append(it)
     kept.sort(key=lambda i: i["score"], reverse=True)
@@ -303,7 +310,9 @@ def main():
                   "date": i["date"].strftime("%Y-%m-%d"), "link": i["link"], "topics": i["topics"], "geo": i["geo"],
                   "public": i["public"], "also": i.get("also", [])} for n, i in enumerate(items[:15])]
     json.dump({"updated": fetched.isoformat(), "health": hl, "dropped": dropped,
-               "kept": len(items), "public_kept": len(pub), "shortlist": shortlist},
+               "kept": len(items), "public_kept": len(pub), "shortlist": shortlist,
+               "collected": len(SEEN), "seen": SEEN,
+               "published": [{"title": i["title"], "link": i["link"], "source": i["source"], "date": i["date"], "filters": i["filters"], "geo": i.get("geo", []), "topics": i.get("topics", [])} for i in pub]},
               open(os.path.join(OUT, "brief.json"), "w"), indent=1)
     print(f"kept {len(items)} ({len(pub)} public), dropped {dropped}")
     for h in hl:

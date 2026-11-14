@@ -30,10 +30,18 @@
     })
     feed.innerHTML = html
     var all = document.querySelector('label[for="f-All"] span'); if (all) all.textContent = items.length
-    d.filters.forEach(function (f) { var s = document.querySelector('label[for="f-' + SLUG(f) + '"] span'); if (s) s.textContent = counts[f] })
+    d.filters.forEach(function (f) { var s = document.querySelector('label[for="f-' + SLUG(f) + '"] span'); if (s) { s.textContent = counts[f]; s.parentNode.style.display = counts[f] ? "" : "none" } })
     var up = new Date(d.updated)
     var txt = "Updated " + up.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: "America/Phoenix" }) + " Arizona time"
     document.querySelectorAll("p").forEach(function (p) { if (/^Updated /.test(p.textContent.trim())) p.textContent = txt })
+    // If the scheduled refresh has stalled, say so plainly instead of implying fresh news.
+    if (Date.now() - up.getTime() > 12 * 3600 * 1000) {
+      var n = document.createElement("div")
+      n.setAttribute("role", "status")
+      n.style.cssText = "margin:0 0 20px;padding:12px 16px;border:1px solid #e3e5e8;border-radius:6px;font-size:14px;color:#5b626b;background:#f7f7f8"
+      n.textContent = "The desk has not refreshed since " + up.toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit", timeZone: "America/Phoenix" }) + " Arizona time. These are the most recent stories it collected; each shows its publish date."
+      feed.parentNode.insertBefore(n, feed)
+    }
   }).catch(function () {})
 })()
 // Keep the "Where this comes from" list in step with the feeds that are working.

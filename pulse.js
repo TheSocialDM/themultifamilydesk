@@ -24,20 +24,20 @@
     document.querySelectorAll(".mpt").forEach(function (t) {
       var lab = t.firstElementChild && t.firstElementChild.textContent.trim();
       var s = by[lab];
-      if (!s || s.held) return;
+      if (!s) return;
       var row = t.querySelector(".rise");
       var spans = row ? row.querySelectorAll("span") : [];
       if (spans[0]) spans[0].textContent = s.display;
       if (spans[1] && s.change_text) {
         spans[1].textContent = s.change_text;
         // Rising rates and vacancy are a headwind for owners: red up, green down.
-        spans[1].style.color = !s.change ? "#c9cdd2" : (s.change > 0 ? "#ff8a80" : "#7fd8a6");
+        spans[1].style.color = s.held || !s.change ? "#c9cdd2" : (s.change > 0 ? "#ff8a80" : "#7fd8a6");
       }
       spark(t.querySelector("svg"), s.spark);
       var foot = t.querySelector("svg") && t.querySelector("svg").nextElementSibling;
       if (foot) {
         var extra = lab === "SOFR" ? " · the rate that replaced LIBOR" : "";
-        foot.textContent = s.freq + " · " + fmtDate(s.date, s.freq) + extra;
+        foot.textContent = s.freq + " · " + fmtDate(s.date, s.freq) + (s.held ? " · update delayed, last good reading" : extra);
       }
     });
     // Ticker: update the rate entries in place.
@@ -46,7 +46,7 @@
       var b = sp.querySelector("span"), meta = sp.querySelectorAll("span")[1];
       if (!b) return;
       var s = by[names[b.textContent.trim()]];
-      if (!s || s.held) return;
+      if (!s) return;
       var when = s.freq === "Weekly" ? "week of " + fmtDate(s.date, s.freq).replace(/, \d{4}$/, "") : fmtDate(s.date, s.freq).replace(/, \d{4}$/, "");
       if (b.nextSibling) b.nextSibling.textContent = "  " + s.display + "  ";
       if (meta) meta.textContent = (s.id === "CUSR0000SEHA" ? "month over month" : s.change_text) + " · " + when;
@@ -54,7 +54,9 @@
     document.querySelectorAll("div").forEach(function (el) {
       if (el.children.length === 1 && /^Checked /.test(el.textContent.trim())) {
         var t = new Date(d.checked);
-        el.lastChild.textContent = "Checked " + MON[t.getMonth()] + " " + t.getDate() + ", " + t.getFullYear();
+        var old = Date.now() - t.getTime() > 36 * 3600 * 1000;
+        el.lastChild.textContent = (old ? "Last checked " : "Checked ") + MON[t.getMonth()] + " " + t.getDate() + ", " + t.getFullYear();
+        var dot = el.querySelector(".dot"); if (dot && (old || (d.problems && d.problems.length))) dot.style.background = "#c9cdd2";
       }
     });
   }).catch(function () {});

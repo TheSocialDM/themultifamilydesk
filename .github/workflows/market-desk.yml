@@ -30,6 +30,9 @@ jobs:
               print("::error::Fewer than 5 stories, keeping the previous feed"); sys.exit(0)
           shutil.copy("/tmp/desk/desk.json", "data/desk.json")
           PY
+      - name: Update internal weekly report
+        continue-on-error: true
+        run: python3 _desk/weekly.py log /tmp/desk/brief.json
       - name: Refresh Market Pulse from FRED (checked)
         continue-on-error: true
         run: python3 _desk/pulse.py
@@ -37,6 +40,6 @@ jobs:
         run: |
           git config user.name "market-desk-bot"
           git config user.email "market-desk-bot@users.noreply.github.com"
-          git add data/desk.json data/pulse.json _desk/state.json 2>/dev/null || git add data/desk.json data/pulse.json
+          git add data/desk.json data/pulse.json _desk/state.json _desk/week_log.json _desk/reports 2>/dev/null || git add data/desk.json data/pulse.json
           git diff --cached --quiet || git commit -m "Market Desk refresh $(date -u +%FT%TZ)"
           git push

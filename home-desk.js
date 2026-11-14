@@ -5,6 +5,14 @@
   fetch("/data/desk.json", { cache: "no-store" }).then(function (r) { return r.json() }).then(function (d) {
     var box = document.querySelector(".hl"); if (!box || !d.items || d.items.length < 3) return
     var links = box.querySelectorAll("a"); if (links.length < 3) return
+    if (Date.now() - new Date(d.updated).getTime() > 12 * 3600 * 1000) {
+      document.querySelectorAll("div").forEach(function (el) {
+        if (el.children.length === 0 && /refreshed every four hours/.test(el.textContent)) {
+          var t = new Date(d.updated)
+          el.textContent = "The multifamily stories worth an owner's time. Last refreshed " + M[t.getMonth()] + " " + t.getDate()
+        }
+      })
+    }
     d.items.slice(0, 3).forEach(function (it, i) {
       var p = it.date.split("-"), a = links[i]
       a.href = it.link; a.target = "_blank"; a.rel = "noopener"
