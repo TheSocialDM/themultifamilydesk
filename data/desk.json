@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T14:30:00+00:00",
+ "updated": "2026-11-14T16:22:54.060099+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -9,6 +9,26 @@
   "Seattle"
  ],
  "items": [
+  {
+   "title": "Federal permitting bill that could speed apartment construction advances in Senate",
+   "link": "https://www.multifamilydive.com/news/baaja-permitting-bill-speed-apartment-construction-advances-in/874433/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-11",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Supply",
+    "Employment"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
   {
    "title": "A look at how apartment REITs did in Q3",
    "link": "https://www.multifamilydive.com/news/reits-concessions-rent-growth-acquisitions-dispositions/874382/",
@@ -26,7 +46,7 @@
    ],
    "geo": [],
    "note": null,
-   "note_status": "draft",
+   "note_status": null,
    "also": []
   },
   {
@@ -46,7 +66,7 @@
    ],
    "geo": [],
    "note": null,
-   "note_status": "draft",
+   "note_status": null,
    "also": []
   },
   {
@@ -70,24 +90,23 @@
    "also": []
   },
   {
-   "title": "Affordable Housing Refinancing: Difficult but Doable",
-   "link": "https://www.multihousingnews.com/affordable-housing-refinancing-difficult-but-doable/",
-   "source": "Multi-Housing News",
+   "title": "BNPL for rent seeks a market",
+   "link": "https://www.multifamilydive.com/news/bnpl-for-rent-seeks-a-market/874446/",
+   "source": "Multifamily Dive",
    "date": "2026-11-11",
    "access": "Free",
    "filters": [
     "Multifamily",
-    "Capital Markets",
-    "Housing"
+    "Capital Markets"
    ],
    "topics": [
     "Multifamily",
-    "Capital Markets",
-    "Housing"
+    "Rates",
+    "Capital Markets"
    ],
    "geo": [],
    "note": null,
-   "note_status": "draft",
+   "note_status": null,
    "also": []
   },
   {
@@ -107,7 +126,7 @@
    ],
    "geo": [],
    "note": null,
-   "note_status": "draft",
+   "note_status": null,
    "also": []
   },
   {
@@ -123,47 +142,6 @@
    "topics": [
     "Multifamily",
     "Rates",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": "draft",
-   "also": []
-  },
-  {
-   "title": "Federal permitting bill that could speed apartment construction advances in Senate",
-   "link": "https://www.multifamilydive.com/news/baaja-permitting-bill-speed-apartment-construction-advances-in/874433/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-11",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Supply",
-    "Policy"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": "draft",
-   "also": []
-  },
-  {
-   "title": "BREIT Takes $500M Hit Even As It Posts Q3 Returns",
-   "link": "https://www.bisnow.com/news/national/capital-markets/breit-hit-with-nearly-500m-of-impairments-driven-by-apartments",
-   "source": "Bisnow",
-   "date": "2026-11-10",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "REITs",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "REITs",
     "Capital Markets"
    ],
    "geo": [],
@@ -186,7 +164,7 @@
    ],
    "geo": [],
    "note": null,
-   "note_status": "draft",
+   "note_status": null,
    "also": []
   },
   {
@@ -205,41 +183,23 @@
     "Arizona"
    ],
    "note": null,
-   "note_status": "draft",
-   "also": []
-  },
-  {
-   "title": "BNPL for rent seeks a market",
-   "link": "https://www.multifamilydive.com/news/bnpl-for-rent-seeks-a-market/874446/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-11",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
    "note_status": null,
    "also": []
   },
   {
-   "title": "What Makes NYC Multifamily Deals Pencil",
-   "link": "https://www.multihousingnews.com/what-makes-nyc-multifamily-deals-pencil/",
-   "source": "Multi-Housing News",
-   "date": "2026-11-11",
+   "title": "TruAmerica expands into ground-up development with California project",
+   "link": "https://www.multifamilydive.com/news/truamerica-expands-construction-california-project/874286/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-10",
    "access": "Free",
    "filters": [
     "Multifamily",
-    "Capital Markets"
+    "Housing"
    ],
    "topics": [
     "Multifamily",
-    "Capital Markets"
+    "Supply",
+    "Housing"
    ],
    "geo": [],
    "note": null,
@@ -250,7 +210,7 @@
    "title": "CRE's Lending War Rages On After The Fed's Hike, But A $19B Refi Gap Looms",
    "link": "https://www.bisnow.com/news/national/capital-markets/cre-lending-war-rages-on-after-fed-hike-but-a-19b-refi-gap-looms",
    "source": "Bisnow",
-   "date": "2026-11-10",
+   "date": "2026-11-09",
    "access": "Free",
    "filters": [
     "Multifamily",
@@ -263,7 +223,26 @@
    ],
    "geo": [],
    "note": null,
-   "note_status": "draft",
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Orange County Multifamily Market Report \u2013 October 2026",
+   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/",
+   "source": "Yardi Matrix",
+   "date": "2026-11-03",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rents",
+    "Operations"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
    "also": []
   },
   {
@@ -286,7 +265,27 @@
     "Arizona"
    ],
    "note": null,
-   "note_status": "draft",
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Developers In Talks With TSMC Suppliers For $7B Halo Vista Mixed-Use Project",
+   "link": "https://www.bisnow.com/news/phoenix/industrial/developers-in-talks-with-tsmc-suppliers-for-7b-halo-vista-mixed-use-project",
+   "source": "Bisnow",
+   "date": "2026-10-26",
+   "access": "Free",
+   "filters": [
+    "Arizona"
+   ],
+   "topics": [
+    "Supply",
+    "Employment"
+   ],
+   "geo": [
+    "Arizona"
+   ],
+   "note": null,
+   "note_status": null,
    "also": []
   },
   {
@@ -309,20 +308,21 @@
    "also": []
   },
   {
-   "title": "Developers In Talks With TSMC Suppliers For $7B Halo Vista Mixed-Use Project",
-   "link": "https://www.bisnow.com/news/phoenix/industrial/developers-in-talks-with-tsmc-suppliers-for-7b-halo-vista-mixed-use-project",
+   "title": "BREIT Takes $500M Hit Even As It Posts Q3 Returns",
+   "link": "https://www.bisnow.com/news/national/capital-markets/breit-hit-with-nearly-500m-of-impairments-driven-by-apartments",
    "source": "Bisnow",
-   "date": "2026-10-26",
+   "date": "2026-11-10",
    "access": "Free",
    "filters": [
-    "Arizona"
+    "REITs",
+    "Capital Markets"
    ],
    "topics": [
-    "Supply"
+    "REITs",
+    "Capital Markets",
+    "Employment"
    ],
-   "geo": [
-    "Arizona"
-   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
@@ -346,7 +346,26 @@
    "also": []
   },
   {
-   "title": "Why Michael Lynd sees a 'misalignment' between apartment sponsor and investment interest",
+   "title": "U.S. Industrial Market Outlook \u2013 October 2026",
+   "link": "https://www.yardimatrix.com/blog/us-industrial-market-outlook/",
+   "source": "Yardi Matrix",
+   "date": "2026-11-02",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily",
+    "Operations",
+    "Supply"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Why Michael Lynd sees a \u2018misalignment\u2019 between apartment sponsor and investment interest",
    "link": "https://www.multifamilydive.com/news/property-management-merger-acquisition-apartment-equity-investment/874439/",
    "source": "Multifamily Dive",
    "date": "2026-11-11",
@@ -356,24 +375,6 @@
    ],
    "topics": [
     "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Thin Supply Heats Up Senior Housing Buyer Competition",
-   "link": "https://www.multihousingnews.com/thin-supply-heats-up-senior-housing-buyer-competition/",
-   "source": "Multi-Housing News",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "Housing"
-   ],
-   "topics": [
-    "Supply",
-    "Housing"
    ],
    "geo": [],
    "note": null,
@@ -418,40 +419,6 @@
    "also": []
   },
   {
-   "title": "Apartment Alchemy: Finding Value Beyond the Model",
-   "link": "https://www.multihousingnews.com/apartment-alchemy-finding-value-beyond-the-model/",
-   "source": "Multi-Housing News",
-   "date": "2026-11-11",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Advanced Real Estate Pays $56M for Inland Empire Asset",
-   "link": "https://www.multihousingnews.com/advanced-real-estate-pays-56m-for-inland-empire-asset/",
-   "source": "Multi-Housing News",
-   "date": "2026-11-13",
-   "access": "Free",
-   "filters": [
-    "Capital Markets"
-   ],
-   "topics": [
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Shareholders Reject H&R REIT Breakup",
    "link": "https://www.bisnow.com/news/national/capital-markets/shareholders-reject-h-r-reit-breakup",
    "source": "Bisnow",
@@ -469,16 +436,53 @@
    "also": []
   },
   {
-   "title": "Pittsburgh Multifamily Market Report \u2013 October 2026",
-   "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/",
-   "source": "Yardi Matrix",
+   "title": "Self-Storage REITs: Stabilizing Fundamentals and Strong Total Returns",
+   "link": "https://www.reit.com/news/articles/self-storage-reits-stabilizing-fundamentals-and-strong-total-returns",
+   "source": "Nareit",
    "date": "2026-11-06",
    "access": "Free",
    "filters": [
-    "Multifamily"
+    "Multifamily",
+    "REITs"
    ],
    "topics": [
-    "Multifamily"
+    "Multifamily",
+    "REITs"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "5 Pension Funds Join Shareholder Revolt Threatening H&R REIT Breakup Plan",
+   "link": "https://www.bisnow.com/news/national/investment/5-pension-funds-join-shareholder-revolt-threatening-h-r-reit-breakup-plan",
+   "source": "Bisnow",
+   "date": "2026-11-12",
+   "access": "Free",
+   "filters": [
+    "REITs"
+   ],
+   "topics": [
+    "REITs"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Blackstone Targets $3B Fundraise For Real Estate Secondaries",
+   "link": "https://www.bisnow.com/news/national/capital-markets/blackstone-targets-3b-fund-raise-for-real-estate-secondaries",
+   "source": "Bisnow",
+   "date": "2026-11-11",
+   "access": "Free",
+   "filters": [
+    "Housing"
+   ],
+   "topics": [
+    "Employment",
+    "Housing"
    ],
    "geo": [],
    "note": null,
@@ -535,14 +539,16 @@
    "also": []
   },
   {
-   "title": "Kennedy Wilson Makes Atlanta Development Debut",
-   "link": "https://www.multihousingnews.com/kennedy-wilson-makes-atlanta-debut/",
-   "source": "Multi-Housing News",
-   "date": "2026-11-11",
+   "title": "LaSalle\u2019s Allan Swaringen Positive on Core Real Estate Amid Continued Higher Rates",
+   "link": "https://www.reit.com/news/podcasts/lasalles-allan-swaringen-positive-core-real-estate-amid-continued-higher-rates",
+   "source": "Nareit",
+   "date": "2026-11-12",
    "access": "Free",
-   "filters": [],
+   "filters": [
+    "Capital Markets"
+   ],
    "topics": [
-    "Supply"
+    "Rates"
    ],
    "geo": [],
    "note": null,
@@ -550,14 +556,16 @@
    "also": []
   },
   {
-   "title": "TruAmerica expands into ground-up development with California project",
-   "link": "https://www.multifamilydive.com/news/truamerica-expands-construction-california-project/874286/",
-   "source": "Multifamily Dive",
+   "title": "SFR Owner Pretium To Pay $50M To Settle Charges Over Deceptive Rental Pricing",
+   "link": "https://www.bisnow.com/news/national/single-family-rentals/sfr-owner-pretium-to-pay-50m-to-settle-deceptive-rental-pricing-charges",
+   "source": "Bisnow",
    "date": "2026-11-10",
    "access": "Free",
-   "filters": [],
+   "filters": [
+    "Housing"
+   ],
    "topics": [
-    "Supply"
+    "Policy"
    ],
    "geo": [],
    "note": null,
@@ -583,7 +591,7 @@
   },
   {
    "name": "Multi-Housing News",
-   "state": "healthy",
+   "state": "error 403",
    "access": "Free"
   },
   {
