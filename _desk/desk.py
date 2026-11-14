@@ -39,7 +39,7 @@ TOPICS = [
     (r"\bmultifamily|apartment|rental market|renters?\b|\brents?\b|\bunits?\b|lease-?up|build-to-rent|\bBTR\b", 4, "Multifamily"),
     (r"rent growth|rents? (rose|fell|rise|fall|increase|decline)|rent prices|asking rents?|renewal", 3, "Rents"),
     (r"\bREITs?\b|BREIT|funds? from operations|\bFFO\b", 3, "REITs"),
-    (r"(?<!market-)\brate(s)?\b|treasur|yield|\bfed\b|federal reserve|inflation|\bCPI\b|\bPPI\b|SOFR|mortgage rate", 2, "Rates"),
+    (r"(?<!market-)\brate(s)?\b|treasury|treasuries|\bfed\b|federal reserve|inflation|\bCPI\b|\bPPI\b|SOFR|mortgage rate", 2, "Rates"),
     (r"refinanc|\bloans?\b|lend|debt|\bCLO\b|CMBS|delinquen|maturit|freddie|fannie|bridge loan|financing|capital markets|impairment|default", 3, "Capital Markets"),
     (r"insurance|insurer", 2, "Insurance"),
     (r"property tax|tax assessment", 3, "Property taxes"),
