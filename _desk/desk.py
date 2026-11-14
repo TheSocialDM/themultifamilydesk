@@ -59,10 +59,10 @@ GEO = [
 # multifamily signal. Keeps luxury homes, retail, office and lab noise out.
 NOISE = re.compile(r"collapse|killed|fatal|luxury|lists (his|her) |estate sets|mansion|celebrity|\bmall\b|retail|stores close|office|\blab\b|life science|data center|self-storage|hotel|winery|restaurant|condo|senior management|tokeniz|crypto|nvidia|skydance|timber", re.I)
 HOUSING = re.compile(r"multifamily|multi-family|apartment|rental (housing|market|home)|renters?\b|\brents?\b|build-to-rent|\bBTR\b|\bSFR\b|single-family rental|housing|affordable|LIHTC|mobile home|manufactured home|lease-?up|landlord|tenant|eviction", re.I)
-STRONG_HOUSING = re.compile(r"multifamily|multi-family|apartment|housing|renters?\b|rental|build-to-rent|\bSFR\b|single-family rental|affordable", re.I)
+STRONG_HOUSING = re.compile(r"multifamily|multi-family|apartment|renters?\b|rental hous|build-to-rent|\bSFR\b|single-family rental", re.I)
 MONEY = re.compile(r"\bfed\b|federal reserve|treasur|yield|inflation|\bCPI\b|SOFR|mortgage rate|interest rate|rate (cut|hike)|\bCRE\b.*(lend|loan|debt|refi|capital)|(lend|loan|debt|refi|CMBS|CLO|delinquen|maturit).*\bCRE\b|CMBS|freddie|fannie|construction (cost|material|lending)|construction materials", re.I)
 OTHER_TYPES = re.compile(r"industrial|logistics|warehouse|distribution cent|self-storage|storage|data cent(er|re)|office|retail|\bmall\b|hotel|hospitality|life science|\blab\b|mixed-use|net lease|core real estate|secondaries|diversified", re.I)
-OPINION = re.compile(r"^opinion\s*\|", re.I)
+OPINION = re.compile(r"^opinion\s*\||columnist|\bop-?ed\b|editorial|letters? to the editor|\bopinion\b", re.I)
 
 FILTERS = ["Multifamily", "REITs", "Capital Markets", "Housing", "Arizona", "Seattle"]
 FILTER_MAP = {  # topic -> public filter
