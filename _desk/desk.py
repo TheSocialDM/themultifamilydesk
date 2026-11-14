@@ -246,7 +246,17 @@ def fetch_live(sources, state_path):
         try:
             with urllib.request.urlopen(req, timeout=20) as r:
                 body = r.read(2_000_000)
-                root = ET.fromstring(body)
+                try:
+                    root = ET.fromstring(body)
+                except ET.ParseError:
+                    # Some feeds use HTML entities XML does not define. Map the
+                    # common ones; anything else is reported, never guessed.
+                    fixed = re.sub(rb"&(nbsp|rsquo|lsquo|rdquo|ldquo|mdash|ndash|hellip);", lambda m: {b"nbsp": b"&#160;", b"rsquo": b"&#8217;", b"lsquo": b"&#8216;", b"rdquo": b"&#8221;", b"ldquo": b"&#8220;", b"mdash": b"&#8212;", b"ndash": b"&#8211;", b"hellip": b"&#8230;"}[m.group(1)], body)
+                    try:
+                        root = ET.fromstring(fixed)
+                    except ET.ParseError:
+                        print(f"::warning::{key} is not valid XML; starts {body[:160]!r}")
+                        raise
                 items = []
                 for it in root.iter("item"):
                     g = lambda t: (it.findtext(t) or "").strip()
