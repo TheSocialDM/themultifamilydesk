@@ -1,0 +1,39 @@
+name: Market Desk refresh
+on:
+  schedule:
+    - cron: "17 */4 * * *"   # every 4 hours at :17 UTC
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: market-desk, cancel-in-progress: false }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Fetch public feeds and rank
+        env: { DESK_PUBLIC_ONLY: "1", DESK_OUT: "/tmp/desk" }
+        run: python3 _desk/desk.py --live
+      - name: Publish only if the feed is healthy
+        run: |
+          python3 - <<'PY'
+          import json, shutil, sys
+          d = json.load(open("/tmp/desk/desk.json"))
+          b = json.load(open("/tmp/desk/brief.json"))
+          for h in b["health"]:
+              if h["public"] and h["state"] != "healthy":
+                  print(f"::warning::{h['name']} is {h['state']} ({h['url']})")
+          if len(d["items"]) < 5:
+              print("::error::Fewer than 5 stories, keeping the previous feed"); sys.exit(0)
+          shutil.copy("/tmp/desk/desk.json", "data/desk.json")
+          PY
+      - name: Commit
+        run: |
+          git config user.name "market-desk-bot"
+          git config user.email "market-desk-bot@users.noreply.github.com"
+          git add data/desk.json _desk/state.json 2>/dev/null || git add data/desk.json
+          git diff --cached --quiet || git commit -m "Market Desk refresh $(date -u +%FT%TZ)"
+          git push

@@ -1,0 +1,24 @@
+{
+  "_doc": "Market Desk source registry. 'public' controls whether items may appear on the public Market Desk page. 'internal' sources feed only the private desk brief. Every source is fetched as RSS only; article pages are never requested.",
+  "user_agent": "PillarMarketDesk/1.0 (+https://melaniegrahamprock.com/market-desk; feed reader; contact: site owner)",
+  "default_min_interval_minutes": 180,
+  "sources": {
+    "mfdive":            {"name": "Multifamily Dive", "url": "https://www.multifamilydive.com/feeds/news/", "access": "Free", "public": true, "weight": 1.15, "crawl_delay_s": 5, "stale_after_h": 72, "terms": "Industry Dive. Headline, link and our own one-line note only. Confirm syndication terms before launch."},
+    "bisnow_national":   {"name": "Bisnow", "url": "https://www.bisnow.com/national/rss", "access": "Free", "public": true, "weight": 1.0, "stale_after_h": 72, "terms": "Headline, link and our own note only. Confirm terms before launch."},
+    "bisnow_phoenix":    {"name": "Bisnow Phoenix", "url": "https://www.bisnow.com/phoenix/rss", "access": "Free", "public": true, "weight": 1.0, "stale_after_h": 720, "terms": "Low frequency (a few stories a month). Treat as healthy unless silent 30 days."},
+    "mhn":               {"name": "Multi-Housing News", "url": "https://www.multihousingnews.com/feed/", "access": "Free", "public": true, "weight": 1.1, "stale_after_h": 72, "terms": "Main feed only. robots.txt disallows /tag/ and /rss/ paths, so tag feeds are not used."},
+    "yardi_blog":        {"name": "Yardi Matrix", "url": "https://www.yardimatrix.com/blog/feed", "access": "Free", "public": true, "weight": 1.25, "primary_research": true, "stale_after_h": 336, "terms": "Primary research. Report PDFs are not downloaded or summarized beyond the headline."},
+    "nareit":            {"name": "Nareit", "url": "https://www.reit.com/news/rss.xml", "access": "Free", "public": true, "weight": 0.9, "stale_after_h": 336, "terms": "Use /news/rss.xml. The site-root /rss.xml is stale (newest item 2018) and is excluded."},
+    "wsj_realestate":    {"name": "The Wall Street Journal", "url": "https://feeds.content.dowjones.io/public/rss/latestnewsrealestate", "access": "Subscriber", "public": false, "weight": 1.1, "stale_after_h": 48, "terms": "Dow Jones terms limit RSS content to personal, non-commercial use without written consent. Internal brief only until licensed."},
+    "wsj_economy":       {"name": "The Wall Street Journal", "url": "https://feeds.content.dowjones.io/public/rss/socialeconomyfeed", "access": "Subscriber", "public": false, "weight": 1.0, "stale_after_h": 48, "terms": "As above."},
+    "wsj_markets":       {"name": "The Wall Street Journal", "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "access": "Subscriber", "public": false, "weight": 0.9, "stale_after_h": 48, "terms": "As above."},
+    "wsj_business":      {"name": "The Wall Street Journal", "url": "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness", "access": "Subscriber", "public": false, "weight": 0.8, "stale_after_h": 48, "terms": "As above."},
+    "globest_multifamily": {"name": "GlobeSt", "url": "https://feeds.feedblitz.com/globest/multifamily", "access": "Metered", "public": false, "weight": 1.0, "stale_after_h": 72, "terms": "Endpoint answers but returns zero items (checked Nov 14, 2026). Held out until the feed carries stories again."},
+    "globest_southwest": {"name": "GlobeSt Southwest", "url": "https://feeds.feedblitz.com/globest/southwest", "access": "Metered", "public": false, "weight": 1.0, "stale_after_h": 72, "terms": "Same as above."}
+  },
+  "no_feed": {
+    "NMHC": "No RSS endpoint found. Research releases checked by hand weekly and linked from Market Signal when used.",
+    "RealPage Analytics": "Not reachable from the fetcher in testing. Checked by hand.",
+    "U.S. Census Bureau, BLS, FRED": "Data series, not news. They drive Market Pulse through the FRED data service, not this feed."
+  }
+}
