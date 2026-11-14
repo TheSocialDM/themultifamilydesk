@@ -168,45 +168,6 @@
    "also": []
   },
   {
-   "title": "SpaceX Unveils $74B Data Center Plans In Texas, Arizona",
-   "link": "https://www.bisnow.com/news/national/data-center-development/elon-musk-spacex-unveils-74b-data-center-build-out-texas-arizona",
-   "source": "Bisnow",
-   "date": "2026-11-13",
-   "access": "Free",
-   "filters": [
-    "Arizona"
-   ],
-   "topics": [
-    "Employment"
-   ],
-   "geo": [
-    "Arizona"
-   ],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "TruAmerica expands into ground-up development with California project",
-   "link": "https://www.multifamilydive.com/news/truamerica-expands-construction-california-project/874286/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-10",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Supply",
-    "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "CRE's Lending War Rages On After The Fed's Hike, But A $19B Refi Gap Looms",
    "link": "https://www.bisnow.com/news/national/capital-markets/cre-lending-war-rages-on-after-fed-hike-but-a-19b-refi-gap-looms",
    "source": "Bisnow",
@@ -227,7 +188,7 @@
    "also": []
   },
   {
-   "title": "Orange County Multifamily Market Report \u2013 October 2026",
+   "title": "Orange County Multifamily Market Report – October 2026",
    "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/",
    "source": "Yardi Matrix",
    "date": "2026-11-03",
@@ -269,26 +230,6 @@
    "also": []
   },
   {
-   "title": "Developers In Talks With TSMC Suppliers For $7B Halo Vista Mixed-Use Project",
-   "link": "https://www.bisnow.com/news/phoenix/industrial/developers-in-talks-with-tsmc-suppliers-for-7b-halo-vista-mixed-use-project",
-   "source": "Bisnow",
-   "date": "2026-10-26",
-   "access": "Free",
-   "filters": [
-    "Arizona"
-   ],
-   "topics": [
-    "Supply",
-    "Employment"
-   ],
-   "geo": [
-    "Arizona"
-   ],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "SFR REIT VineBrook Stops Buybacks, Flags Upcoming Maturities",
    "link": "https://www.bisnow.com/news/national/single-family-rentals/sfr-reit-vinebrook-ends-buybacks-flags-upcoming-maturities",
    "source": "Bisnow",
@@ -301,45 +242,6 @@
    "topics": [
     "REITs",
     "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "BREIT Takes $500M Hit Even As It Posts Q3 Returns",
-   "link": "https://www.bisnow.com/news/national/capital-markets/breit-hit-with-nearly-500m-of-impairments-driven-by-apartments",
-   "source": "Bisnow",
-   "date": "2026-11-10",
-   "access": "Free",
-   "filters": [
-    "REITs",
-    "Capital Markets"
-   ],
-   "topics": [
-    "REITs",
-    "Capital Markets",
-    "Employment"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "U.S. Industrial Market Outlook \u2013 October 2026",
-   "link": "https://www.yardimatrix.com/blog/us-industrial-market-outlook/",
-   "source": "Yardi Matrix",
-   "date": "2026-11-02",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily",
-    "Operations",
-    "Supply"
    ],
    "geo": [],
    "note": null,
@@ -365,7 +267,7 @@
    "also": []
   },
   {
-   "title": "Why Michael Lynd sees a \u2018misalignment\u2019 between apartment sponsor and investment interest",
+   "title": "Why Michael Lynd sees a ‘misalignment’ between apartment sponsor and investment interest",
    "link": "https://www.multifamilydive.com/news/property-management-merger-acquisition-apartment-equity-investment/874439/",
    "source": "Multifamily Dive",
    "date": "2026-11-11",
@@ -401,112 +303,6 @@
    "also": []
   },
   {
-   "title": "Rate Whiplash Has CRE's Biggest Brokerages Bracing For A Flat Q4",
-   "link": "https://www.bisnow.com/news/national/capital-markets/rate-whiplash-has-cre-s-biggest-brokerages-bracing-for-a-flat-q4",
-   "source": "Bisnow",
-   "date": "2026-11-10",
-   "access": "Free",
-   "filters": [
-    "Capital Markets"
-   ],
-   "topics": [
-    "Rates",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Shareholders Reject H&R REIT Breakup",
-   "link": "https://www.bisnow.com/news/national/capital-markets/shareholders-reject-h-r-reit-breakup",
-   "source": "Bisnow",
-   "date": "2026-11-13",
-   "access": "Free",
-   "filters": [
-    "REITs"
-   ],
-   "topics": [
-    "REITs"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Self-Storage REITs: Stabilizing Fundamentals and Strong Total Returns",
-   "link": "https://www.reit.com/news/articles/self-storage-reits-stabilizing-fundamentals-and-strong-total-returns",
-   "source": "Nareit",
-   "date": "2026-11-06",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "REITs"
-   ],
-   "topics": [
-    "Multifamily",
-    "REITs"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "5 Pension Funds Join Shareholder Revolt Threatening H&R REIT Breakup Plan",
-   "link": "https://www.bisnow.com/news/national/investment/5-pension-funds-join-shareholder-revolt-threatening-h-r-reit-breakup-plan",
-   "source": "Bisnow",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "REITs"
-   ],
-   "topics": [
-    "REITs"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Blackstone Targets $3B Fundraise For Real Estate Secondaries",
-   "link": "https://www.bisnow.com/news/national/capital-markets/blackstone-targets-3b-fund-raise-for-real-estate-secondaries",
-   "source": "Bisnow",
-   "date": "2026-11-11",
-   "access": "Free",
-   "filters": [
-    "Housing"
-   ],
-   "topics": [
-    "Employment",
-    "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Logistics Company Buys Land For 1.2M SF Phoenix Industrial Park",
-   "link": "https://www.bisnow.com/news/phoenix/industrial/logistics-property-co-buys-land-sonoran-logistics-park-southwest-valley",
-   "source": "Bisnow",
-   "date": "2026-10-07",
-   "access": "Free",
-   "filters": [
-    "Arizona"
-   ],
-   "topics": [],
-   "geo": [
-    "Arizona"
-   ],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Members Of Congress Have Questions For Brookfield After Its Mass Mobile Home Purchase",
    "link": "https://www.bisnow.com/news/national/capital-markets/brookfield-quietly-buys-sprawling-mobile-home-community-portfolio-members-of-congress-have-questions",
    "source": "Bisnow",
@@ -532,23 +328,6 @@
    "filters": [],
    "topics": [
     "Supply"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "LaSalle\u2019s Allan Swaringen Positive on Core Real Estate Amid Continued Higher Rates",
-   "link": "https://www.reit.com/news/podcasts/lasalles-allan-swaringen-positive-core-real-estate-amid-continued-higher-rates",
-   "source": "Nareit",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "Capital Markets"
-   ],
-   "topics": [
-    "Rates"
    ],
    "geo": [],
    "note": null,

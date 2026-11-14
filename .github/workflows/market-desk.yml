@@ -1,4 +1,4 @@
-name: Market Desk refresh
+name: Market Desk and Pulse refresh
 on:
   schedule:
     - cron: "17 */4 * * *"   # every 4 hours at :17 UTC
@@ -30,10 +30,13 @@ jobs:
               print("::error::Fewer than 5 stories, keeping the previous feed"); sys.exit(0)
           shutil.copy("/tmp/desk/desk.json", "data/desk.json")
           PY
+      - name: Refresh Market Pulse from FRED (checked)
+        continue-on-error: true
+        run: python3 _desk/pulse.py
       - name: Commit
         run: |
           git config user.name "market-desk-bot"
           git config user.email "market-desk-bot@users.noreply.github.com"
-          git add data/desk.json _desk/state.json 2>/dev/null || git add data/desk.json
+          git add data/desk.json data/pulse.json _desk/state.json 2>/dev/null || git add data/desk.json data/pulse.json
           git diff --cached --quiet || git commit -m "Market Desk refresh $(date -u +%FT%TZ)"
           git push

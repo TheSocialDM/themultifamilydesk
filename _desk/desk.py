@@ -53,11 +53,15 @@ TOPICS = [
 ]
 GEO = [
     (r"arizona|phoenix|scottsdale|chandler|tempe|mesa|glendale|maricopa|pinal|gilbert|\bAZ\b|TSMC", 6, "Arizona"),
-    (r"seattle|puget|bellevue|tacoma|washington state|king county|redmond", 6, "Seattle"),
+    (r"seattle|puget|bellevue|tacoma|washington state|\bWA\b|king county|redmond|kirkland|everett", 6, "Seattle"),
 ]
 # Headlines matching these are dropped unless they also carry a strong
 # multifamily signal. Keeps luxury homes, retail, office and lab noise out.
 NOISE = re.compile(r"collapse|killed|fatal|luxury|lists (his|her) |estate sets|mansion|celebrity|\bmall\b|retail|stores close|office|\blab\b|life science|data center|self-storage|hotel|winery|restaurant|condo|senior management|tokeniz|crypto|nvidia|skydance|timber", re.I)
+HOUSING = re.compile(r"multifamily|multi-family|apartment|rental (housing|market|home)|renters?\b|\brents?\b|build-to-rent|\bBTR\b|\bSFR\b|single-family rental|housing|affordable|LIHTC|mobile home|manufactured home|lease-?up|landlord|tenant|eviction", re.I)
+STRONG_HOUSING = re.compile(r"multifamily|multi-family|apartment|housing|renters?\b|rental|build-to-rent|\bSFR\b|single-family rental|affordable", re.I)
+MONEY = re.compile(r"\bfed\b|federal reserve|treasur|yield|inflation|\bCPI\b|SOFR|mortgage rate|interest rate|rate (cut|hike)|\bCRE\b.*(lend|loan|debt|refi|capital)|(lend|loan|debt|refi|CMBS|CLO|delinquen|maturit).*\bCRE\b|CMBS|freddie|fannie|construction (cost|material|lending)|construction materials", re.I)
+OTHER_TYPES = re.compile(r"industrial|logistics|warehouse|distribution cent|self-storage|storage|data cent(er|re)|office|retail|\bmall\b|hotel|hospitality|life science|\blab\b|mixed-use|net lease|core real estate|secondaries|diversified", re.I)
 OPINION = re.compile(r"^opinion\s*\|", re.I)
 
 FILTERS = ["Multifamily", "REITs", "Capital Markets", "Housing", "Arizona", "Seattle"]
@@ -110,10 +114,17 @@ def score(item, src):
         if re.search(pat, text, re.I):
             pts += p
             geo.append(name)
-    mf = "Multifamily" in topics
-    local_economy = geo and any(t in topics for t in ("Employment", "Supply", "Capital Markets")) or (geo and re.search(r"invest|\$\d", text))
-    if NOISE.search(item["title"]) and not mf and not local_economy:
-        return None  # irrelevant
+    # Relevance gate, judged on the headline alone (descriptions mention rents
+    # and units in industrial and storage reports too). A story qualifies only
+    # if it is about housing, or about money and rates with no other property type.
+    t = item["title"]
+    housing = HOUSING.search(t)
+    if OTHER_TYPES.search(t) and not STRONG_HOUSING.search(t):
+        return None  # industrial, storage, office, data centers etc.
+    if not housing and not MONEY.search(t):
+        return None  # geography or a big employer alone is not enough
+    if NOISE.search(t) and not housing:
+        return None
     if re.search(r"collapse|killed|fatal", item["title"], re.I):
         return None  # tragedies are not market intelligence
     if not topics and not geo:
