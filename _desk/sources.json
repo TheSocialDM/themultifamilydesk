@@ -113,19 +113,20 @@
       "stale_after_h": 72,
       "terms": "Same as above."
     },
-    "seattletimes_re": {
-      "name": "The Seattle Times",
-      "url": "https://www.seattletimes.com/business/real-estate/feed/",
-      "access": "Metered",
+    "urbanist": {
+      "name": "The Urbanist",
+      "url": "https://www.theurbanist.org/feed/",
+      "access": "Free",
       "public": true,
-      "weight": 1.0,
-      "stale_after_h": 336,
-      "terms": "Real estate section feed. robots.txt allows the feed for general agents (checked Nov 14, 2026). Headline, link and our own note only; article pages are never fetched. Confirm syndication terms before launch."
+      "weight": 0.85,
+      "stale_after_h": 168,
+      "terms": "Seattle housing, land use and policy news (nonprofit, advocacy leaning). robots.txt allows the feed (checked Nov 14, 2026). Only housing headlines pass the relevance gate. Headline, link and our own note only. Confirm terms before launch."
     }
   },
   "no_feed": {
     "NMHC": "No RSS endpoint found. Research releases checked by hand weekly and linked from Market Signal when used.",
     "RealPage Analytics": "Not reachable from the fetcher in testing. Checked by hand.",
-    "U.S. Census Bureau, BLS, FRED": "Data series, not news. They drive Market Pulse through the FRED data service, not this feed."
+    "U.S. Census Bureau, BLS, FRED": "Data series, not news. They drive Market Pulse through the FRED data service, not this feed.",
+    "The Seattle Times": "Real estate feed returns an empty response to our automated reader (Nov 14, 2026). Respected, not worked around. Checked by hand."
   }
 }
