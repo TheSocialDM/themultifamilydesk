@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Michael Shad | Multifamily Marketing, AI Search and Market Data</title>
-<meta name="description" content="Daily multifamily market numbers, what they mean for leasing and marketing, and how AI search is changing the way renters choose. From Michael Shad, founder of The SocialDM.">
+<meta name="description" content="Multifamily market numbers, checked hourly, what they mean for leasing and marketing, and how AI search is changing the way renters choose. From Michael Shad, founder of The SocialDM.">
 <meta name="robots" content="noindex,nofollow">
 <link rel="canonical" href="https://themultifamilydesk.com/michael/">
 <meta property="og:title" content="Michael Shad | Multifamily Marketing, AI Search and Market Data">
-<meta property="og:description" content="Daily market numbers, what they mean for leasing and marketing, and how AI search is changing the way renters choose.">
+<meta property="og:description" content="Multifamily market numbers, checked hourly, what they mean for leasing and marketing, and how AI search is changing the way renters choose.">
 <meta property="og:url" content="https://themultifamilydesk.com/michael/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="The Multifamily Desk">
@@ -33,8 +33,8 @@ h1 em{font-style:italic;color:var(--lime)}
 .btn{display:inline-block;padding:14px 22px;font-size:15px;font-weight:600;text-decoration:none;border:1px solid #fff}
 .btn.solid{background:var(--lime);border-color:var(--lime);color:var(--ink)}
 .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:56px}
-.facts div{padding:22px 24px 22px 0}
-.facts div+div{padding-left:24px;border-left:1px solid var(--line)}
+.facts>div{padding:22px 24px 22px 0}
+.facts>div+div{padding-left:24px;border-left:1px solid var(--line)}
 .facts .n{font-size:34px}
 .facts .l{font-size:14px;color:var(--mute);margin-top:6px;line-height:1.4}
 section{padding:72px 0 0}
@@ -69,7 +69,7 @@ h2{font-size:44px;line-height:1.05;margin:0}
 footer{margin-top:88px;border-top:1px solid var(--line);padding:28px 0 48px;font-size:13px;color:var(--mute);line-height:1.6}
 footer a{color:var(--soft)}
 @media(max-width:980px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.brands{grid-template-columns:minmax(0,1fr)}.rdg{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:620px){.facts{grid-template-columns:minmax(0,1fr)}.facts div+div{border-left:0;padding-left:0;border-top:1px solid var(--line)}.list a{grid-template-columns:minmax(0,1fr);gap:6px}h2{font-size:36px}.btn{padding-block:15px}.tiles{grid-template-columns:minmax(0,1fr)}.t{min-height:0}}
+@media(max-width:620px){.facts{grid-template-columns:minmax(0,1fr)}.facts>div+div{border-left:0;padding-left:0;border-top:1px solid var(--line)}.list a{grid-template-columns:minmax(0,1fr);gap:6px}h2{font-size:36px}.btn{padding-block:15px}.tiles{grid-template-columns:minmax(0,1fr)}.t{min-height:0}}
 </style>
 </head>
 <body>
@@ -121,7 +121,7 @@ footer a{color:var(--soft)}
 </section>
 
 <footer>
-<div>Sources: U.S. Treasury, Federal Reserve Bank of New York (SOFR) and Freddie Mac via FRED, St. Louis Fed; U.S. Census Bureau; U.S. Bureau of Labor Statistics. Headlines belong to their publishers. Changes are from the prior reading, in basis points (bp) for rates and percentage points (pt) for vacancy. Commentary explains what a move means and is not investment advice.</div>
+<div>Sources: U.S. Treasury, Federal Reserve Bank of New York (SOFR) and Freddie Mac, via FRED (St. Louis Fed); U.S. Census Bureau; U.S. Bureau of Labor Statistics. Headlines belong to their publishers. Changes are from the prior reading, in basis points (bp) for rates and percentage points (pt) for vacancy. Commentary explains what a move means and is not investment advice.</div>
 <div style="margin-top:14px">Part of <a href="/">The Multifamily Desk</a> · Site by <a href="https://www.thesocialdm.com/">The SocialDM</a></div>
 </footer>
 </div>
@@ -145,13 +145,13 @@ footer a{color:var(--soft)}
   }
   function rows(box, items) { box.innerHTML = ""; items.forEach(function (x) { var w = el("div", "rd" + (x.label === "What to watch" ? " wide" : "")); w.appendChild(el("div", "rdl", x.label)); w.appendChild(el("p", null, x.text)); box.appendChild(w); }); }
   function list(box, items) { box.innerHTML = ""; items.forEach(function (x) { var a = el("a"); a.href = x.link; a.rel = "noopener"; var p = x.date.split("-");
-    a.appendChild(el("div", "m", x.source + " · " + MON[+p[1] - 1] + " " + (+p[2]))); a.appendChild(el("div", "h serif", x.title)); box.appendChild(a); }); }
+    a.appendChild(el("div", "m", x.source + " · " + MON[+p[1] - 1] + " " + (+p[2]))); a.appendChild(el("div", "h serif", x.title.replace(/\s+[\u2013\u2014-]\s+/g, ": ").replace(/(\d)\s*[-\u2013\u2014]\s*(\d)/g, "$1 to $2"))); box.appendChild(a); }); }
 
   fetch("/data/pulse.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
     var box = document.getElementById("tiles"); box.innerHTML = "";
     d.series.forEach(function (s) {
       var t = el("div", "t"); t.appendChild(el("div", "k", s.label)); t.appendChild(el("div", "v serif", s.display));
-      var c = el("div", "c", s.change_text || ""); c.style.color = s.held || !s.change ? "#c9cdd2" : (s.change > 0 ? "#ff8a80" : "#7fd8a6"); t.appendChild(c);
+      var c = el("div", "c", s.change_text || ""); c.style.color = "#c9cdd2"; t.appendChild(c);
       if (s.spark) t.appendChild(spark(s.spark));
       t.appendChild(el("div", "f", s.freq + " · " + fmt(s.date, s.freq) + (s.held ? " · last good reading" : ""))); box.appendChild(t);
     });

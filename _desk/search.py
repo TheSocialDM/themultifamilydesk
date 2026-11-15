@@ -24,7 +24,7 @@ SOURCES = [
 
 STRONG = re.compile(r"AI Overview|AI Mode|ChatGPT|Gemini|Perplexity|Copilot|\bLLMs?\b|answer engine|\bAEO\b|\bGEO\b|generative|AI search|AI assistant|Google Business Profile|\bGBP\b|Google Maps|local search|local pack|map pack|reviews?\b|Business Profile", re.I)
 LOCAL = re.compile(r"local|Maps|Business Profile|\bGBP\b|reviews?\b|near me|map pack|local pack", re.I)
-NOISE = re.compile(r"webinar|sponsored|podcast|\bjobs?\b|hiring|\bPPC\b|Google Ads|Microsoft Ads|Amazon|shopping ads|ecommerce|e-commerce|Merchant Center|PMax|Performance Max|bidding|daily brief|week in review|recap|SMX", re.I)
+NOISE = re.compile(r"webinar|sponsored|podcast|\bjobs?\b|hiring|\bPPC\b|Google Ads|Microsoft Ads|Amazon|shopping ads|ecommerce|e-commerce|Merchant Center|your products|PMax|Performance Max|bidding|daily brief|week in review|recap|SMX", re.I)
 
 
 def fetch(url):
@@ -82,6 +82,7 @@ def main():
             continue
         for title, link, pub in rows:
             title = html.unescape(re.sub(r"\s+", " ", title)).strip()
+            title = re.sub(r"\s+via\s+@\S+(,\s*@\S+)*\s*$", "", title).strip()
             d = when(pub)
             if not title or not link or not d or (now - d).days > MAX_AGE_DAYS:
                 continue

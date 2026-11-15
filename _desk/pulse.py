@@ -173,9 +173,9 @@ def marketing_read(by):
     if m and not m.get("held"):
         v = m["value"]
         if v >= 6.5:
-            txt = f"At {v:.2f}%, the 30 year mortgage keeps buying out of reach for many renters. Renewals and referrals matter as much as new leases, so the resident experience is part of the marketing plan."
+            txt = f"At {v:.2f}%, the 30 year mortgage keeps buying out of reach for many renters. Renewals and referrals carry more weight, so the resident experience is part of the marketing plan."
         else:
-            txt = f"At {v:.2f}%, buying is more realistic for some renters. Retention marketing and renewal offers matter more as move outs to purchase pick up."
+            txt = f"At {v:.2f}%, buying is more realistic for some renters. Retention marketing and renewal offers matter more when buying is within reach."
         out.append({"label": "Renter demand", "text": txt})
     r = by.get("RRVRUSQ156N")
     if r and not r.get("held"):
@@ -194,7 +194,7 @@ def marketing_read(by):
         else:
             txt = f"Rent of primary residence rose {v:.1f}% in {mon}, a modest pace. When pricing power is limited, reputation, reviews and presentation carry more of the leasing load." if v > 0 else f"Rent of primary residence was flat or lower in {mon}. When pricing power is limited, reputation, reviews and presentation carry more of the leasing load."
         out.append({"label": "Pricing power", "text": txt})
-    out.append({"label": "What to watch", "text": "How AI assistants answer apartment questions in your market. Being seen is not the same as being chosen, and the gap shows up in tours before it shows up in reports."})
+    out.append({"label": "What to watch", "text": "How AI assistants answer apartment questions in your market. Being seen is not the same as being chosen, and that gap can cost tours."})
     return out
 
 
