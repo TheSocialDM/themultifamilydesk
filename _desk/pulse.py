@@ -158,6 +158,46 @@ def desk_read(by):
     return out
 
 
+def marketing_read(by):
+    """Marketing and leasing lens for Michael's page. Meaning only, no forecasts, no dashes."""
+    out = []
+    t = by.get("DGS10")
+    if t and not t.get("held"):
+        v = t["value"]
+        if v >= 4.5:
+            txt = f"With the 10 year Treasury at {v:.2f}%, owners are paying more for debt, so marketing budgets get a harder look. The plans that hold up show which leases each dollar produced."
+        else:
+            txt = f"With the 10 year Treasury at {v:.2f}%, debt pressure on owners is easing, which opens room for marketing that compounds, like reputation and search."
+        out.append({"label": "Owner budgets", "text": txt})
+    m = by.get("MORTGAGE30US")
+    if m and not m.get("held"):
+        v = m["value"]
+        if v >= 6.5:
+            txt = f"At {v:.2f}%, the 30 year mortgage keeps buying out of reach for many renters. Renewals and referrals matter as much as new leases, so the resident experience is part of the marketing plan."
+        else:
+            txt = f"At {v:.2f}%, buying is more realistic for some renters. Retention marketing and renewal offers matter more as move outs to purchase pick up."
+        out.append({"label": "Renter demand", "text": txt})
+    r = by.get("RRVRUSQ156N")
+    if r and not r.get("held"):
+        v, ch = r["value"], r.get("change", 0)
+        if ch >= 0:
+            txt = f"National rental vacancy is {v:.1f}%, so renters have options and compare more communities before they tour. The communities that show up first in Google, Maps and AI answers get the first look."
+        else:
+            txt = f"National rental vacancy fell to {v:.1f}%. With fewer choices, renters decide faster, so accurate listings, fast replies and strong reviews close the gap between a search and a tour."
+        out.append({"label": "Leasing competition", "text": txt})
+    c = by.get("CUSR0000SEHA")
+    if c and not c.get("held"):
+        v = c["value"]
+        mon = ["January","February","March","April","May","June","July","August","September","October","November","December"][int(c["date"][5:7]) - 1]
+        if v >= 0.4:
+            txt = f"Rent of primary residence rose {v:.1f}% in {mon}. Firm rent growth rewards communities whose reputation and presentation justify the price."
+        else:
+            txt = f"Rent of primary residence rose {v:.1f}% in {mon}, a modest pace. When pricing power is limited, reputation, reviews and presentation carry more of the leasing load." if v > 0 else f"Rent of primary residence was flat or lower in {mon}. When pricing power is limited, reputation, reviews and presentation carry more of the leasing load."
+        out.append({"label": "Pricing power", "text": txt})
+    out.append({"label": "What to watch", "text": "How AI assistants answer apartment questions in your market. Being seen is not the same as being chosen, and the gap shows up in tours before it shows up in reports."})
+    return out
+
+
 def main():
     old = {}
     if os.path.exists(OUT):
@@ -180,7 +220,8 @@ def main():
             continue
         out.append(build(sid, cfg, rows))
     data = {"checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "series": out, "problems": problems,
-            "read": desk_read({i["id"]: i for i in out})}
+            "read": desk_read({i["id"]: i for i in out}),
+            "read_marketing": marketing_read({i["id"]: i for i in out})}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(data, open(OUT, "w"), indent=1)
     print(json.dumps({"ok": len(out) - len([s for s in out if s.get("held")]), "problems": problems}))

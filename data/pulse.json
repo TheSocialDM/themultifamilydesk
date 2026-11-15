@@ -145,5 +145,27 @@
    "label": "What to watch",
    "text": "Whether the 10 year holds above 5%, the next weekly mortgage rate on Thursday, and the next CPI rent reading."
   }
+ ],
+ "read_marketing": [
+  {
+   "label": "Owner budgets",
+   "text": "With the 10 year Treasury at 5.10%, owners are paying more for debt, so marketing budgets get a harder look. The plans that hold up show which leases each dollar produced."
+  },
+  {
+   "label": "Renter demand",
+   "text": "At 7.11%, the 30 year mortgage keeps buying out of reach for many renters. Renewals and referrals matter as much as new leases, so the resident experience is part of the marketing plan."
+  },
+  {
+   "label": "Leasing competition",
+   "text": "National rental vacancy is 7.6%, so renters have options and compare more communities before they tour. The communities that show up first in Google, Maps and AI answers get the first look."
+  },
+  {
+   "label": "Pricing power",
+   "text": "Rent of primary residence rose 0.2% in October, a modest pace. When pricing power is limited, reputation, reviews and presentation carry more of the leasing load."
+  },
+  {
+   "label": "What to watch",
+   "text": "How AI assistants answer apartment questions in your market. Being seen is not the same as being chosen, and the gap shows up in tours before it shows up in reports."
+  }
  ]
 }
