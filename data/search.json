@@ -1,0 +1,73 @@
+{
+ "updated": "2026-11-15T13:31:53+00:00",
+ "items": [
+  {
+   "title": "Core Update, ChatGPT Business Hub & AI Mode\u2019s New Model \u2013 SEO Pulse via @sejournal, @MattGSouthern",
+   "link": "https://www.searchenginejournal.com/seo-pulse-core-update-chatgpt-business-hub-ai-modes-new-model/597135/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "What Reddit Reviews Reveals About Your Products via @sejournal, @brentcsutoras",
+   "link": "https://www.searchenginejournal.com/what-reddit-reviews-reveals-about-your-products/596963/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "Google Tests Dropping AI Mode From Search Bar & Ask Anything",
+   "link": "https://www.seroundtable.com/google-dropping-ai-mode-again-42534.html",
+   "source": "Search Engine Roundtable",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "Google Search Console Generative AI Performance Report Data Bug Nov 9 - 11",
+   "link": "https://www.seroundtable.com/google-generative-ai-performance-report-data-bug-42527.html",
+   "source": "Search Engine Roundtable",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "Google Search Gets Massive Upgrade With Gemini 4 Hydrogen",
+   "link": "https://www.seroundtable.com/google-search-gemini-4-hydrogen-42526.html",
+   "source": "Search Engine Roundtable",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "Google Makes Gemini 4 Hydrogen The Default Model In AI Mode via @sejournal, @MattGSouthern",
+   "link": "https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-12"
+  }
+ ],
+ "health": [
+  {
+   "source": "Google Search Central",
+   "url": "https://developers.google.com/search/blog/feed.xml",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "source": "Google Search Central",
+   "url": "https://feeds.feedburner.com/blogspot/amDG",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "source": "Search Engine Land",
+   "url": "https://searchengineland.com/feed",
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "Search Engine Roundtable",
+   "url": "https://www.seroundtable.com/index.xml",
+   "ok": true,
+   "items": 15
+  },
+  {
+   "source": "Search Engine Journal",
+   "url": "https://www.searchenginejournal.com/feed/",
+   "ok": true,
+   "items": 20
+  }
+ ]
+}
