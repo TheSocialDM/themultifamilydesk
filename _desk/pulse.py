@@ -76,6 +76,88 @@ def build(sid, cfg, rows):
     return item
 
 
+# Local readings shown in the Pillar markets tile (not on FRED). Update here when a newer release is out.
+LOCAL = {
+    "phx_renewal": -2.4, "us_renewal": 1.7, "phx_period": "Sep 2026",
+    "sea_vacancy": 6.6, "sea_yoy": -0.4, "sea_period": "Q3 2026",
+}
+
+
+def bp(n):
+    return f"{abs(n)} basis point{'s' if abs(n) != 1 else ''}"
+
+
+def desk_read(by):
+    """Plain language read of what each move means for owners and operators.
+    Rule based, explains meaning only, never forecasts. No dashes in copy."""
+    out = []
+    t = by.get("DGS10")
+    if t and not t.get("held"):
+        v, ch, sp = t["value"], t.get("change", 0), t.get("spark") or []
+        n = len(sp)
+        if ch >= 5:
+            lead = f"The 10 year Treasury rose {bp(ch)} from the prior reading to {v:.2f}%" + (f", its highest in the last {n} readings." if sp and v >= max(sp) else ".")
+        elif ch <= -5:
+            lead = f"The 10 year Treasury fell {bp(ch)} from the prior reading to {v:.2f}%" + (f", its lowest in the last {n} readings." if sp and v <= min(sp) else ".")
+        else:
+            lead = f"The 10 year Treasury was little changed at {v:.2f}%."
+        base = " Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time"
+        if v >= 5:
+            mean = base + ", so a sustained level above 5% weighs on values and refinancing for loans coming due."
+        elif ch <= -5:
+            mean = base + ", so lower long rates ease pressure on values and refinancing."
+        else:
+            mean = base + "."
+        out.append({"label": "Debt costs", "text": lead + mean})
+    s = by.get("SOFR")
+    if s and not s.get("held"):
+        v, ch = s["value"], s.get("change", 0)
+        if abs(ch) <= 3:
+            txt = f"SOFR was little changed at {v:.2f}%, so the base rate on floating rate loans held roughly flat."
+        elif ch > 0:
+            txt = f"SOFR rose {bp(ch)} to {v:.2f}%, raising the base rate on floating rate loans, which weighs most on properties without rate caps."
+        else:
+            txt = f"SOFR fell {bp(ch)} to {v:.2f}%, lowering the base rate on floating rate loans."
+        out.append({"label": "Floating rate loans", "text": txt})
+    m = by.get("MORTGAGE30US")
+    if m and not m.get("held"):
+        v, ch = m["value"], m.get("change", 0)
+        move = f"eased {bp(ch)} to" if ch < 0 else (f"rose {bp(ch)} to" if ch > 0 else "held at")
+        if v >= 6.5:
+            txt = f"The 30 year mortgage rate {move} {v:.2f}%. Rates at this level keep homeownership costly for many renters, which tends to support renewals."
+        else:
+            txt = f"The 30 year mortgage rate {move} {v:.2f}%. Lower rates make buying more realistic for some renters, so move outs to purchase are worth tracking."
+        out.append({"label": "Renter demand", "text": txt})
+    r = by.get("RRVRUSQ156N")
+    if r and not r.get("held"):
+        v, ch = r["value"], r.get("change", 0)
+        q = "Q" + str((int(r["date"][5:7]) - 1) // 3 + 1)
+        if ch > 0:
+            txt = f"The national rental vacancy rate (Census, all rental housing) rose {abs(ch):.1f} points to {v:.1f}% in {q}. Higher vacancy gives renters more leverage, and concessions are typically most common at properties still leasing up."
+        elif ch < 0:
+            txt = f"The national rental vacancy rate (Census, all rental housing) fell {abs(ch):.1f} points to {v:.1f}% in {q}. Lower vacancy gives operators more room on renewals and concessions."
+        else:
+            txt = f"The national rental vacancy rate (Census, all rental housing) held at {v:.1f}% in {q}."
+        out.append({"label": "Vacancy", "text": txt})
+    c = by.get("CUSR0000SEHA")
+    if c and not c.get("held"):
+        v = c["value"]
+        mon = ["January","February","March","April","May","June","July","August","September","October","November","December"][int(c["date"][5:7]) - 1]
+        word = "rose" if v > 0 else ("fell" if v < 0 else "was flat")
+        amt = f" {abs(v):.1f}%" if v != 0 else ""
+        txt = f"Rent of primary residence {word}{amt} in {mon}. This measure includes existing leases, so it trails changes in asking rents by several months."
+        out.append({"label": "Rent inflation", "text": txt})
+    L = LOCAL
+    out.append({"label": "Phoenix and Seattle", "text": f"Phoenix renewal rents are {'down' if L['phx_renewal'] < 0 else 'up'} {abs(L['phx_renewal']):.1f}%, against a {abs(L['us_renewal']):.1f}% {'gain' if L['us_renewal'] >= 0 else 'decline'} for the U.S. (Yardi, {L['phx_period']}), consistent with ongoing supply pressure. Seattle apartment vacancy {'fell' if L['sea_yoy'] < 0 else 'rose'} to {L['sea_vacancy']:.1f}%, {'down' if L['sea_yoy'] < 0 else 'up'} {abs(L['sea_yoy']):.1f} points from a year earlier (Kidder Mathews, {L['sea_period']})."})
+    watch = []
+    if t and not t.get("held"):
+        watch.append("whether the 10 year holds above 5%" if t["value"] >= 5 else "whether the 10 year stays below 5%")
+    watch += ["the next weekly mortgage rate on Thursday", "the next CPI rent reading"]
+    txt = ", ".join(watch[:-1]) + ", and " + watch[-1] + "."
+    out.append({"label": "What to watch", "text": txt[0].upper() + txt[1:]})
+    return out
+
+
 def main():
     old = {}
     if os.path.exists(OUT):
@@ -97,7 +179,8 @@ def main():
                 out.append(kept)
             continue
         out.append(build(sid, cfg, rows))
-    data = {"checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "series": out, "problems": problems}
+    data = {"checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "series": out, "problems": problems,
+            "read": desk_read({i["id"]: i for i in out})}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(data, open(OUT, "w"), indent=1)
     print(json.dumps({"ok": len(out) - len([s for s in out if s.get("held")]), "problems": problems}))

@@ -115,5 +115,35 @@
    "change_text": "month over month"
   }
  ],
- "problems": []
+ "problems": [],
+ "read": [
+  {
+   "label": "Debt costs",
+   "text": "The 10 year Treasury rose 12 basis points from the prior reading to 5.10%, its highest in the last 14 readings. Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time, so a sustained level above 5% weighs on values and refinancing for loans coming due."
+  },
+  {
+   "label": "Floating rate loans",
+   "text": "SOFR was little changed at 3.90%, so the base rate on floating rate loans held roughly flat."
+  },
+  {
+   "label": "Renter demand",
+   "text": "The 30 year mortgage rate eased 7 basis points to 7.11%. Rates at this level keep homeownership costly for many renters, which tends to support renewals."
+  },
+  {
+   "label": "Vacancy",
+   "text": "The national rental vacancy rate (Census, all rental housing) rose 0.3 points to 7.6% in Q3. Higher vacancy gives renters more leverage, and concessions are typically most common at properties still leasing up."
+  },
+  {
+   "label": "Rent inflation",
+   "text": "Rent of primary residence rose 0.2% in October. This measure includes existing leases, so it trails changes in asking rents by several months."
+  },
+  {
+   "label": "Phoenix and Seattle",
+   "text": "Phoenix renewal rents are down 2.4%, against a 1.7% gain for the U.S. (Yardi, Sep 2026), consistent with ongoing supply pressure. Seattle apartment vacancy fell to 6.6%, down 0.4 points from a year earlier (Kidder Mathews, Q3 2026)."
+  },
+  {
+   "label": "What to watch",
+   "text": "Whether the 10 year holds above 5%, the next weekly mortgage rate on Thursday, and the next CPI rent reading."
+  }
+ ]
 }

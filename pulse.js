@@ -51,6 +51,17 @@
       if (b.nextSibling) b.nextSibling.textContent = "  " + s.display + "  ";
       if (meta) meta.textContent = (s.id === "CUSR0000SEHA" ? "month over month" : s.change_text) + " · " + when;
     });
+    // The Desk's Read: plain language meaning of each move, rebuilt from the same checked data.
+    var rd = document.querySelector("#desk-read .rdg");
+    if (rd && d.read && d.read.length) {
+      rd.innerHTML = "";
+      d.read.forEach(function (x) {
+        var w = document.createElement("div"); w.className = "rd";
+        var l = document.createElement("div"); l.className = "rdl"; l.textContent = x.label;
+        var p = document.createElement("p"); p.textContent = x.text;
+        w.appendChild(l); w.appendChild(p); rd.appendChild(w);
+      });
+    }
     document.querySelectorAll("div").forEach(function (el) {
       if (el.children.length === 1 && /^Checked /.test(el.textContent.trim())) {
         var t = new Date(d.checked);
