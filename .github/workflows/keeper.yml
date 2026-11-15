@@ -1,0 +1,28 @@
+name: Keeper (never sleeps)
+# GitHub skips many scheduled runs, so this job stays awake and starts the
+# Market Desk and Pulse refresh every hour, then restarts itself before its
+# time limit. The hourly schedule below only revives it if the chain breaks.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "41 * * * *"
+permissions:
+  actions: write
+  contents: read
+concurrency: { group: keeper, cancel-in-progress: false }
+jobs:
+  keep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - name: Start the refresh every hour for about five hours
+        env: { GH_TOKEN: "${{ github.token }}", REPO: "${{ github.repository }}" }
+        run: |
+          for i in 1 2 3 4 5; do
+            gh workflow run market-desk.yml -R "$REPO" --ref main && echo "refresh $i started $(date -u +%FT%TZ)"
+            sleep 3540
+          done
+      - name: Hand off to the next keeper
+        if: always()
+        env: { GH_TOKEN: "${{ github.token }}", REPO: "${{ github.repository }}" }
+        run: gh workflow run keeper.yml -R "$REPO" --ref main
