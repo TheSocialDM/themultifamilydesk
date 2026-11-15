@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:32:28.816837+00:00",
+ "updated": "2026-11-15T16:31:43.348892+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -45,6 +45,27 @@
     "Operations"
    ],
    "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Seattle Social Housing Developer Drops Design Director",
+   "link": "https://www.theurbanist.org/seattle-social-housing-developer-drops-design-director/",
+   "source": "The Urbanist",
+   "date": "2026-11-15",
+   "access": "Free",
+   "filters": [
+    "Housing",
+    "Seattle"
+   ],
+   "topics": [
+    "Supply",
+    "Housing"
+   ],
+   "geo": [
+    "Seattle"
+   ],
    "note": null,
    "note_status": null,
    "also": []
