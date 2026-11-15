@@ -471,11 +471,14 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
   }).catch(function () { document.getElementById("watch").style.display = "none"; document.getElementById("wk1").style.display = "none"; });
 
   fetch("/data/insights.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
-    var it = d.items, n = it.length, box = document.getElementById("arts");
-    for (var k = 0; k < 3; k++) { var x = it[(week * 3 + k) % n], a = el("a", "card c4"); a.href = x.url;
-      a.appendChild(el("span", "lab", "Insights")); a.appendChild(el("h4", null, x.title));
+    var it = d.items, box = document.getElementById("arts"), picks = [], fresh = it[0] && it[0].date && (Date.now() - Date.parse(it[0].date)) < 14 * 864e5;
+    if (fresh) { picks.push(it[0]); window.__newPost = it[0]; }
+    var rest = fresh ? it.slice(1) : it, n = rest.length;
+    for (var k = 0; picks.length < 3 && k < n; k++) picks.push(rest[(week * 3 + k) % n]);
+    picks.forEach(function (x, k) { var a = el("a", "card c4"); a.href = x.url;
+      a.appendChild(el("span", "lab", fresh && k === 0 ? "New this week" : "Insights")); a.appendChild(el("h4", null, x.title));
       if (x.dek) a.appendChild(el("p", null, x.dek.length > 150 ? x.dek.slice(0, 147).replace(/\s+\S*$/, "") + "..." : x.dek));
-      a.appendChild(el("span", "go", "Read on The SocialDM")); box.appendChild(a); }
+      a.appendChild(el("span", "go", "Read on The SocialDM")); box.appendChild(a); });
   }).catch(function () { document.getElementById("read").style.display = "none"; });
   Promise.all([fetch("/data/pulse.json", { cache: "no-store" }).then(function (r) { return r.json(); }), fetch("/data/search.json", { cache: "no-store" }).then(function (r) { return r.json(); })]).then(function (res) {
     var p = res[0], s = res[1], box = document.getElementById("tick"), frag = document.createDocumentFragment();
@@ -483,8 +486,12 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
       var c = x.change_text || ""; if (/^[+\u2212-]/.test(c)) { var up = c.charAt(0) === "+"; it.appendChild(el("span", up ? "up" : "dn", (up ? "\u25B2 " : "\u25BC ") + c.replace(/^[+\u2212-]\s*/, ""))); } else if (c) it.appendChild(el("span", "k", c));
       frag.appendChild(it); });
     s.items.slice(0, 5).forEach(function (x) { var it = el("span", "ti"); it.appendChild(el("span", "ai", "AI SEARCH")); var a = el("a", null, x.title.replace(/(\d)\s*[-\u2013\u2014]\s*(\d)/g, "$1 to $2").replace(/\s+[\u2013\u2014-]\s+/g, ": ")); a.href = x.link; a.rel = "noopener"; it.appendChild(a); frag.appendChild(it); });
+    return fetch("/data/insights.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) { var x = d.items[0];
+      if (x && x.date && (Date.now() - Date.parse(x.date)) < 14 * 864e5) { var it = el("span", "ti"); it.appendChild(el("span", "ai", "NEW POST")); var a = el("a", null, x.title); a.href = x.url; it.appendChild(a); frag.insertBefore(it, frag.firstChild); }
+    }).catch(function () {}).then(function () {
     box.appendChild(frag); var n = box.children.length; for (var k = 0; k < n; k++) { var cl = box.children[k].cloneNode(true); cl.setAttribute("aria-hidden", "true"); box.appendChild(cl); }
     requestAnimationFrame(function () { box.style.setProperty("--dur", Math.max(40, Math.round(box.scrollWidth / 2 / 45)) + "s"); });
+    });
   }).catch(function () { document.getElementById("tickbar").style.display = "none"; });
   document.getElementById("share").onclick = function () { var u = "https://themultifamilydesk.com/michael/", t = document.getElementById("toast");
     if (navigator.share) { navigator.share({ title: "The Visibility Brief", url: u }).catch(function () {}); return; }
