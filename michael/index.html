@@ -21,46 +21,75 @@
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"The Visibility Brief","publisher":{"@type":"Organization","name":"The SocialDM","url":"https://www.thesocialdm.com/"},"author":{"@type":"Person","name":"Michael Shad","jobTitle":"Founder","worksFor":{"@type":"Organization","name":"The SocialDM"},"sameAs":["https://www.linkedin.com/in/michaelshad/"]},"about":["AI search","Multifamily marketing","Apartment leasing","Google Business Profile"]}</script>
 <style>
-:root{--ink:#1d1d1f;--mute:#6e6e73;--soft:#424245;--line:#d2d2d7;--bg2:#f5f5f7;--accent:#F0566A;--blue:#0071e3;--good:#30d158;--mid:#ff9f0a;--head:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
+:root{--ink:#1d1d1f;--mute:#6e6e73;--soft:#424245;--line:#e3e3e8;--bg2:#f5f5f7;--blue:#2F5FE0;--violet:#7C3AED;--sky:#5AC8FA;
+--grad:linear-gradient(120deg,#5AC8FA 0%,#6E8BFF 48%,#9B6BFF 100%);
+--gradbtn:linear-gradient(120deg,#2F6BFF 0%,#5B5BF0 50%,#7C3AED 100%);
+--gradsoft:linear-gradient(135deg,#EEF6FF 0%,#F1EEFF 60%,#F7F0FF 100%);
+--good:#30d158;--head:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,system-ui,sans-serif}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:64px}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
 body{margin:0;background:#fff;color:var(--ink);font-family:var(--head);-webkit-font-smoothing:antialiased}
 a{color:inherit}
-.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
-.top{position:sticky;top:0;z-index:9;background:rgba(255,255,255,.82);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.08)}
-.top .wrap{display:flex;justify-content:space-between;align-items:center;height:56px;gap:16px}
-.brand{font-size:14px;color:var(--mute);white-space:nowrap}.brand b{color:var(--ink)}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+.gt{background:linear-gradient(120deg,#3A8FD8 0%,#5B6CF0 50%,#8B4FF0 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.top{position:sticky;top:0;z-index:9;background:rgba(255,255,255,.84);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.07)}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;height:58px;gap:16px}
+.brand{font-size:14px;color:var(--mute);white-space:nowrap;display:flex;align-items:center;gap:8px}.brand b{color:var(--ink)}
+.brand i{width:10px;height:10px;border-radius:3px;background:var(--grad);display:inline-block}
 .nav{display:flex;gap:22px;align-items:center;font-size:13px}
-.nav a{text-decoration:none;color:var(--soft)}.nav a:hover{color:var(--ink)}
-.nav .cta{background:var(--ink);color:#fff;padding:9px 14px;border-radius:6px;font-weight:600}
-.eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
-.hero{padding:72px 0 40px}
-h1{font-size:clamp(40px,6vw,76px);line-height:1.03;margin:14px 0 0;font-weight:700;letter-spacing:-.035em;max-width:900px;text-wrap:balance}
-h1 em{font-style:normal;color:var(--mute)}
-.lede{font-size:20px;line-height:1.5;color:var(--soft);max-width:660px;margin:22px 0 0}
-.by{display:flex;align-items:center;gap:14px;margin-top:28px}
-.by img{width:48px;height:48px;border-radius:12px;object-fit:cover;object-position:50% 25%}
-.by .n{font-weight:700;font-size:15px}.by .r{font-size:14px;color:var(--mute);margin-top:2px}
-h2{font-size:clamp(32px,4vw,44px);line-height:1.05;margin:0;font-weight:700;letter-spacing:-.035em}
-.sub{font-size:17px;color:var(--mute);margin-top:10px;max-width:620px;line-height:1.5}
+.nav a{text-decoration:none;color:var(--soft)}.nav a:hover{color:var(--ink)}.nav a.btn{color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 13px/1 var(--head);letter-spacing:.08em;text-transform:uppercase;padding:16px 22px;border-radius:8px;text-decoration:none;border:0;cursor:pointer;background:var(--gradbtn);color:#fff;box-shadow:0 8px 22px -10px rgba(91,91,240,.7)}
+.btn:hover{filter:brightness(1.06)}
+.btn.ghost{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.btn.sm{padding:11px 14px;font-size:12px}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--violet);display:inline-flex;align-items:center;gap:8px}
+.eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--grad)}
+.hero{padding:64px 0 24px;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:56px;align-items:center}
+h1{font-size:clamp(42px,6vw,78px);line-height:1.02;margin:16px 0 0;font-weight:700;letter-spacing:-.04em;text-wrap:balance}
+.lede{font-size:20px;line-height:1.5;color:var(--soft);max-width:600px;margin:22px 0 0}
+.ctas{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}
+.facts{display:flex;gap:26px;flex-wrap:wrap;margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.facts div{font-size:13px;color:var(--mute);line-height:1.35}.facts b{display:block;font-size:22px;color:var(--ink);letter-spacing:-.02em}
+.portrait{position:relative;justify-self:end;width:100%;max-width:390px}
+.portrait::before{content:"";position:absolute;inset:-14px;border-radius:40px;background:var(--grad);opacity:.35;filter:blur(28px)}
+.portrait .ph{position:relative;border-radius:30px;overflow:hidden;aspect-ratio:4/5;background:var(--gradsoft);box-shadow:0 30px 60px -30px rgba(60,60,140,.45)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;display:block}
+.portrait .tag{position:absolute;left:16px;right:16px;bottom:16px;background:rgba(255,255,255,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-radius:16px;padding:14px 16px}
+.portrait .tag .n{font-weight:700;font-size:17px}.portrait .tag .r{font-size:13px;color:var(--mute);margin-top:3px;line-height:1.4}
+.who{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:40px}
+.who a{text-decoration:none;border-radius:18px;padding:20px 22px;background:var(--gradsoft);display:block;border:1px solid rgba(110,139,255,.14)}
+.who a:hover{border-color:rgba(110,139,255,.45)}
+.who .k{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--violet)}
+.who .t{font-size:18px;font-weight:700;letter-spacing:-.02em;margin-top:8px}
+.who .d{font-size:14px;color:var(--soft);margin-top:6px;line-height:1.45}
+.who .go{font-size:14px;font-weight:600;color:var(--blue);margin-top:10px;display:block}
+h2{font-size:clamp(32px,4vw,46px);line-height:1.05;margin:10px 0 0;font-weight:700;letter-spacing:-.035em}
+.sub{font-size:17px;color:var(--mute);margin-top:10px;max-width:640px;line-height:1.5}
 .sh{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:26px}
-section{padding:88px 0 0}
-.band{background:var(--bg2);margin-top:88px;padding:80px 0}
+.step{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#6D4AE0}
+section{padding:96px 0 0}
+.band{background:var(--bg2);margin-top:96px;padding:84px 0}
 .link{color:var(--blue);text-decoration:none;font-weight:600;font-size:15px}.link:hover{text-decoration:underline}
 .bento{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
 .card{background:var(--bg2);border-radius:22px;padding:28px;position:relative;overflow:hidden}
 .band .card{background:#fff}
-.c7{grid-column:span 7}.c5{grid-column:span 5}.c4{grid-column:span 4}.c6{grid-column:span 6}.c12{grid-column:span 12}
-.dark{background:#111113!important;color:#f5f5f7}
-.dark .muted{color:#a1a1a6}
+.c7{grid-column:span 7}.c5{grid-column:span 5}.c4{grid-column:span 4}.c6{grid-column:span 6}.c8{grid-column:span 8}.c12{grid-column:span 12}
 .lab{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
-.dark .lab{color:#a1a1a6}
-.big{font-size:56px;font-weight:800;letter-spacing:-.04em;line-height:1}
-.chk{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:28px;align-items:start;margin-top:18px}
+.wk .card{display:flex;flex-direction:column;min-height:250px;background:#fff;border:1px solid var(--line)}
+.wk .card::before{content:"";position:absolute;left:0;top:0;right:0;height:4px;background:var(--grad)}
+.wk .lab{color:var(--violet)}
+.wk h4{font-size:21px;letter-spacing:-.02em;line-height:1.25;margin:12px 0 0}
+.wk p{font-size:15px;line-height:1.55;color:var(--soft);margin:10px 0 0}
+.wk .v{font-size:44px;font-weight:800;letter-spacing:-.04em;margin-top:10px;line-height:1}
+.wk .go{margin-top:auto;padding-top:16px;color:var(--blue);font-weight:600;font-size:15px;text-decoration:none}
+.dark{background:#0f0f14!important;color:#f5f5f7}
+.dark::after{content:"";position:absolute;width:420px;height:420px;right:-160px;top:-180px;background:var(--grad);opacity:.28;filter:blur(70px);border-radius:50%;pointer-events:none}
+.dark .muted{color:#a1a1a6}.dark .lab{color:#b9b2ff}
+.chk{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:28px;align-items:start;margin-top:18px;position:relative;z-index:1}
 .q{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 0;border-top:1px solid #2c2c2e;font-size:15px;line-height:1.4}
 .q button{flex:none;border:0;border-radius:999px;width:46px;height:28px;background:#3a3a3c;position:relative;cursor:pointer}
 .q button::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:left .18s}
-.q button[aria-pressed="true"]{background:var(--good)}
+.q button[aria-pressed="true"]{background:var(--gradbtn)}
 .q button[aria-pressed="true"]::after{left:21px}
 .score .num{font-size:64px;font-weight:800;letter-spacing:-.04em;line-height:1}
 .score .num small{font-size:18px;color:#a1a1a6;font-weight:600}
@@ -70,16 +99,15 @@ section{padding:88px 0 0}
 .meter .r{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px}
 .meter .bar{display:grid;grid-template-columns:repeat(12,1fr);gap:3px}
 .meter .bar i{height:6px;border-radius:2px;background:#2c2c2e}
-.verdict{font-size:14px;line-height:1.5;color:#d2d2d7;margin-top:14px}
-.btn{display:inline-flex;align-items:center;justify-content:center;font:600 13px/1 var(--head);letter-spacing:.1em;text-transform:uppercase;padding:16px 22px;border-radius:6px;text-decoration:none;background:var(--ink);color:#fff}
-.dark .btn{background:#fff;color:var(--ink)}
-.term .acr{font-size:72px;font-weight:800;letter-spacing:-.04em;line-height:1;margin-top:14px}
+.verdict{font-size:14px;line-height:1.5;color:#d2d2d7;margin-top:14px;position:relative;z-index:1}
+.dark .btn{position:relative;z-index:1}
+.term{align-self:start}.term .acr{font-size:72px;font-weight:800;letter-spacing:-.04em;line-height:1;margin-top:14px}
 .term .full{font-size:18px;font-weight:600;margin-top:8px}
 .term p{font-size:16px;line-height:1.55;color:var(--soft);margin:12px 0 0}
-.term .why{background:#fff;border-radius:14px;padding:14px 16px;margin-top:16px;font-size:15px;line-height:1.5}
+.term .why{background:#fff;border-radius:14px;padding:14px 16px;margin-top:16px;font-size:15px;line-height:1.5;border-left:4px solid var(--violet)}
 .term .next{font-size:13px;color:var(--mute);margin-top:14px}
 .dots{display:flex;gap:6px;position:absolute;top:24px;right:24px}
-.dots button{border:0;background:#e5e5ea;border-radius:6px;font:600 13px var(--head);padding:6px 10px;cursor:pointer;color:var(--soft)}
+.dots button{border:0;background:#e5e5ea;border-radius:8px;font:600 13px var(--head);padding:6px 10px;cursor:pointer;color:var(--soft)}
 .tabs{display:flex;gap:6px;background:#e8e8ed;border-radius:10px;padding:4px;margin-top:16px}
 .tabs button{flex:1;border:0;background:transparent;border-radius:8px;padding:9px 6px;font:600 13px var(--head);color:var(--soft);cursor:pointer}
 .tabs button[aria-selected="true"]{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
@@ -88,12 +116,15 @@ section{padding:88px 0 0}
 .tabp .ex{font-size:14px;color:var(--mute);margin-top:10px;font-style:italic}
 .month h3{font-size:28px;letter-spacing:-.03em;margin:12px 0 0;line-height:1.1}
 .month ul{list-style:none;padding:0;margin:16px 0 0}
-.month li{display:flex;gap:10px;font-size:15px;line-height:1.45;padding:9px 0;border-top:1px solid var(--line)}
-.month li b{flex:none;width:22px;height:22px;border-radius:7px;background:var(--ink);color:#fff;font-size:12px;display:grid;place-items:center}
-.proof .big{margin-top:16px}
-.proof .arrow{color:var(--mute);font-weight:500}
-.proof p{font-size:15px;line-height:1.5;color:var(--soft);margin:10px 0 0}
-.proof .row+.row{margin-top:20px;padding-top:20px;border-top:1px solid var(--line)}
+.month li{display:flex;gap:10px;font-size:15px;line-height:1.45;padding:9px 0;border-top:1px solid #dcdce2}
+.month li b{flex:none;width:22px;height:22px;border-radius:7px;background:var(--gradbtn);color:#fff;font-size:12px;display:grid;place-items:center}
+.proof{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.proof .card{background:#fff}
+.proof .big{font-size:50px;white-space:nowrap;font-weight:800;letter-spacing:-.04em;line-height:1;margin-top:14px}
+.proof .arrow{color:var(--mute);font-weight:500;-webkit-text-fill-color:var(--mute)}
+.proof p{font-size:15px;line-height:1.5;color:var(--soft);margin:12px 0 0}
+.proof .cta{background:var(--gradsoft);display:flex;flex-direction:column;justify-content:space-between}
+.proof .cta h4{font-size:24px;letter-spacing:-.02em;margin:12px 0 0;line-height:1.2}
 .strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
 .chip{background:var(--bg2);border-radius:16px;padding:16px 18px}
 .chip .k{font-size:12px;color:var(--mute);font-weight:600}
@@ -101,49 +132,78 @@ section{padding:88px 0 0}
 .chip .c{font-size:12px;color:var(--mute);margin-top:4px}
 .reads{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
 .rd{border:1px solid var(--line);border-radius:16px;padding:18px 20px}
-.rd .lab{color:var(--accent)}
+.rd .lab{color:var(--violet)}
 .rd p{margin:8px 0 0;font-size:15px;line-height:1.55;color:var(--soft)}
-.watch a{display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;text-decoration:none;padding:20px 0;border-top:1px solid var(--line)}
-.watch a:last-child{border-bottom:1px solid var(--line)}
+.watch a{display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;text-decoration:none;padding:20px 0;border-top:1px solid #dcdce2}
+.watch a:last-child{border-bottom:1px solid #dcdce2}
 .watch .m{font-size:13px;color:var(--mute);line-height:1.5}
 .watch .h{font-size:19px;line-height:1.3;font-weight:700;letter-spacing:-.01em}
 .watch .w{font-size:15px;line-height:1.5;color:var(--soft);margin-top:6px}
-.watch .w::before{content:"What it means: ";font-weight:700;color:var(--accent)}
+.watch .w::before{content:"What it means: ";font-weight:700;color:var(--violet)}
 .watch a:hover .h{color:var(--blue)}
 .pb{counter-reset:pb}
 .pb .card{display:flex;flex-direction:column;min-height:200px}
-.pb .card::before{counter-increment:pb;content:"0" counter(pb);font-size:14px;font-weight:800;color:var(--accent)}
+.pb .card::before{counter-increment:pb;content:"0" counter(pb);font-size:15px;font-weight:800;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .pb h4{font-size:21px;letter-spacing:-.02em;margin:12px 0 0;line-height:1.2}
 .pb p{font-size:15px;line-height:1.55;color:var(--soft);margin:10px 0 0}
 .arts a{text-decoration:none;display:flex;flex-direction:column;min-height:220px}
 .arts h4{font-size:20px;line-height:1.25;letter-spacing:-.02em;margin:12px 0 0}
 .arts p{font-size:15px;line-height:1.5;color:var(--soft);margin:10px 0 0}
+.arts .lab{color:var(--violet)}
 .arts .go,.bc .go{margin-top:auto;padding-top:16px;color:var(--blue);font-weight:600;font-size:15px}
 .bc{text-decoration:none;display:flex;flex-direction:column;min-height:240px}
 .bc .nm{font-size:28px;font-weight:700;letter-spacing:-.03em;margin-top:10px}
 .bc p{font-size:15px;line-height:1.55;color:var(--soft);margin:10px 0 0}
-footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color:var(--mute);line-height:1.6}
-@media(max-width:980px){.c7,.c5,.c4,.c6{grid-column:span 12}.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.chip:last-child{grid-column:1/-1}.reads{grid-template-columns:minmax(0,1fr)}.nav a:not(.cta){display:none}}
-@media(max-width:620px){.chk{grid-template-columns:minmax(0,1fr)}.watch a{grid-template-columns:minmax(0,1fr);gap:4px}.lede{font-size:18px}.hero{padding-top:44px}.card{padding:22px}.big{font-size:46px}.term .acr{font-size:56px}.brand span{display:none}}
+.final{margin-top:96px;border-radius:30px;padding:64px 48px;background:var(--gradsoft);position:relative;overflow:hidden;text-align:center}
+.final::before{content:"";position:absolute;inset:auto -10% -60% -10%;height:120%;background:var(--grad);opacity:.18;filter:blur(80px);border-radius:50%}
+.final>*{position:relative}
+.final h2{max-width:760px;margin:12px auto 0}
+.final .sub{margin:14px auto 0}
+.final .ctas{justify-content:center}
+.toast{font-size:13px;color:var(--violet);margin-top:12px;min-height:18px}
+footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color:var(--mute);line-height:1.6;margin-top:72px}
+@media(max-width:980px){.hero{grid-template-columns:minmax(0,1fr);gap:36px}.portrait{justify-self:start;max-width:360px}.c7,.c5,.c4,.c6,.c8{grid-column:span 12}.who,.proof{grid-template-columns:minmax(0,1fr)}.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.chip:last-child{grid-column:1/-1}.reads{grid-template-columns:minmax(0,1fr)}.nav a:not(.btn){display:none}}
+@media(max-width:620px){.chk{grid-template-columns:minmax(0,1fr)}.watch a{grid-template-columns:minmax(0,1fr);gap:4px}.lede{font-size:18px}.hero{padding-top:36px}.card{padding:22px}.proof .big{font-size:46px}.term{align-self:start}.term .acr{font-size:56px}.brand span{display:none}.final{padding:44px 22px}.ctas .btn{flex:1 1 100%}.portrait{max-width:none}.facts{gap:16px}.facts b{font-size:18px}.facts div{font-size:12px}}
 </style>
 </head>
 <body>
-<div class="top"><div class="wrap"><div class="brand"><b>The SocialDM&#8482;</b><span> · The Visibility Brief</span></div>
-<nav class="nav"><a href="#today">Today</a><a href="#watch">AI Search Watch</a><a href="#playbook">2027 Playbook</a><a href="https://www.thesocialdm.com/results">Results</a><a class="cta" href="https://www.thesocialdm.com/contact">Get your plan</a></nav></div></div>
+<div class="top"><div class="wrap"><div class="brand"><i></i><b>The SocialDM&#8482;</b><span> · The Visibility Brief</span></div>
+<nav class="nav"><a href="#week">This week</a><a href="#check">Check yourself</a><a href="#proof">Results</a><a href="#watch">AI Search Watch</a><a href="#playbook">2027 Playbook</a><a class="btn sm" href="https://www.thesocialdm.com/contact">Book a review</a></nav></div></div>
 
 <div class="wrap">
 <header class="hero">
+<div>
 <div class="eyebrow" id="issue">The Visibility Brief</div>
-<h1>Being seen is not the same as <em>being chosen.</em></h1>
-<p class="lede">How renters find and choose apartments now, what changed in Google and AI search, and what it means for your leasing team. Updated every day.</p>
-<div class="by"><img src="/michael/img/michael-shad.jpg" alt="Michael Shad" width="48" height="48"><div><div class="n">Michael Shad</div><div class="r">Founder, The SocialDM and LocalLift&#8482; · 7,900+ homes marketed nationwide</div></div></div>
+<h1>Being seen is not the same as <span class="gt">being chosen.</span></h1>
+<p class="lede">I help apartment operators get found and chosen before the first tour. Here is what changed in Google and AI search, what renters are doing, and what your team should do about it. Updated every day.</p>
+<div class="ctas"><a class="btn" href="https://www.thesocialdm.com/contact">Book a visibility review</a><a class="btn ghost" href="#check">Take the 30 second check</a></div>
+<div class="facts"><div><b>7,900+</b>homes marketed</div><div><b>Since 2019</b>building visibility</div><div><b>Google</b>certified marketer</div></div>
+</div>
+<div class="portrait"><div class="ph"><img src="/michael/img/michael-shad-lg.jpg" alt="Michael Shad, founder of The SocialDM" width="640" height="640">
+<div class="tag"><div class="n">Michael Shad</div><div class="r">Founder, The SocialDM and LocalLift&#8482;</div></div></div></div>
 </header>
 
-<section id="today" style="padding-top:24px">
+<div class="who">
+<a href="#week"><div class="k">Leasing and property teams</div><div class="t">What to do this week</div><div class="d">One AI search change, one market number and one action, in a minute.</div><span class="go">Start here</span></a>
+<a href="#check"><div class="k">Regional and portfolio leaders</div><div class="t">Where your communities stand</div><div class="d">A quick check of whether AI would recommend your community today.</div><span class="go">Run the check</span></a>
+<a href="#playbook"><div class="k">Owners and developers</div><div class="t">What to budget for in 2027</div><div class="d">Five shifts that will change how marketing dollars turn into leases.</div><span class="go">See the playbook</span></a>
+</div>
+
+<section id="week">
+<div class="sh"><div><div class="step">01 · This week in 60 seconds</div><h2>Three things worth knowing</h2><div class="sub">Refreshed on its own from the newest search news and market data.</div></div></div>
+<div class="bento wk">
+<div class="card c4" id="wk1"><div class="lab">The AI search change</div><h4 id="wk1h">Loading the newest change</h4><p id="wk1p"></p><a class="go" id="wk1a" href="#watch">See all AI Search Watch</a></div>
+<div class="card c4" id="wk2"><div class="lab">The market number</div><div class="v gt" id="wk2v"></div><h4 id="wk2h" style="font-size:17px;margin-top:8px"></h4><p id="wk2p"></p><a class="go" href="#market">See the market</a></div>
+<div class="card c4"><div class="lab">Do this week</div><h4 id="wk3h"></h4><p id="wk3p"></p><a class="go" id="wk3a" href="https://www.thesocialdm.com/blog">Read the guide</a></div>
+</div>
+</section>
+
+<section id="check">
+<div class="sh"><div><div class="step">02 · Check yourself</div><h2>Would AI put you on the shortlist?</h2><div class="sub">Renters now ask ChatGPT and Google for the best places to live. See where you stand, then learn one term that matters.</div></div></div>
 <div class="bento">
 <div class="card dark c7" id="checker">
-<div class="lab">AI Shortlist Check · 30 seconds</div>
-<div style="font-size:26px;font-weight:700;letter-spacing:-.02em;margin-top:10px;line-height:1.2">Would AI recommend your community today?</div><div class="muted" style="font-size:13px;margin-top:6px">A quick self check, not a measurement.</div>
+<div class="lab" style="position:relative;z-index:1">AI Shortlist Check · 30 seconds</div>
+<div style="font-size:26px;font-weight:700;letter-spacing:-.02em;margin-top:10px;line-height:1.2;position:relative;z-index:1">Would AI recommend your community today?</div><div class="muted" style="font-size:13px;margin-top:6px;position:relative;z-index:1">A quick self check, not a measurement.</div>
 <div class="chk">
 <div id="qs"></div>
 <div class="score"><div class="num"><span id="sc">0</span><small> /100</small></div><div class="segs" id="segs"></div>
@@ -158,49 +218,53 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
 <div class="card c5 term" id="term">
 <div class="lab">Term of the day</div>
 <div class="dots"><button type="button" id="tprev" aria-label="Previous term">&#8592;</button><button type="button" id="tnext" aria-label="Next term">&#8594;</button></div>
-<div class="acr" id="tacr">AEO</div><div class="full" id="tfull"></div>
+<div class="acr gt" id="tacr">AEO</div><div class="full" id="tfull"></div>
 <p id="tdef"></p>
 <div class="why"><b>Why it matters for multifamily: </b><span id="twhy"></span></div>
 <div class="next" id="tnextname"></div>
 </div>
 
-<div class="card c4 month">
-<div class="lab" id="mlab">This month's focus</div>
-<h3 id="mtitle"></h3>
-<ul id="mlist"></ul>
-<div style="margin-top:16px"><a class="link" id="mlink" href="https://www.thesocialdm.com/blog">Read the guide</a></div>
-</div>
-
-<div class="card c4">
+<div class="card c6">
 <div class="lab">AI, explained simply</div>
 <div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-t="0">Search</button><button role="tab" aria-selected="false" data-t="1">Assistant</button><button role="tab" aria-selected="false" data-t="2">Agent</button></div>
 <div class="tabp" id="tabp"></div>
 </div>
 
-<div class="card c4 proof">
-<div class="lab">Proof, not promises</div>
-<div class="row"><div class="big">52% <span class="arrow">to</span> 88%</div><p>Leased at a Class A community after our team took over the lease up.</p></div>
-<div class="row"><div class="big">2 leases</div><p>From short form video in the first 60 days of a social program.</p></div>
-<div style="margin-top:18px"><a class="link" href="https://www.thesocialdm.com/results">See the case studies</a></div>
+<div class="card c6 month">
+<div class="lab" id="mlab">This month's focus</div>
+<h3 id="mtitle"></h3>
+<ul id="mlist"></ul>
+<div style="margin-top:16px"><a class="link" id="mlink" href="https://www.thesocialdm.com/blog">Read the guide</a></div>
 </div>
 </div>
 </section>
+</div>
 
+<div class="band" id="proof"><div class="wrap">
+<div class="sh"><div><div class="step">03 · Results</div><h2>Proof, not promises</h2><div class="sub">What happens when one team runs social, Google and AI search as one plan.</div></div><a class="link" href="https://www.thesocialdm.com/results">See the case studies</a></div>
+<div class="proof">
+<div class="card"><div class="lab">Class A lease up</div><div class="big gt">52% <span class="arrow">to</span> 88%</div><p>Leased after our team took over the lease up.</p></div>
+<div class="card"><div class="lab">Short form video</div><div class="big gt">2 leases</div><p>From short form video in the first 60 days of a social program.</p></div>
+<div class="card cta"><div><div class="lab">Your community</div><h4>Want to know what AI says about yours?</h4><p>We will show you what renters see in Google, Maps and AI answers, and where you are losing tours.</p></div><div style="margin-top:20px"><a class="btn" href="https://www.thesocialdm.com/contact">Book a visibility review</a></div></div>
+</div>
+</div></div>
+
+<div class="wrap">
 <section id="market">
-<div class="sh"><div><h2>The market, in plain English</h2><div class="sub">The numbers that shape owner budgets and renter demand, and what they mean for marketing.</div></div><div class="sub" style="margin:0;font-size:14px"><span id="checked"></span></div></div>
+<div class="sh"><div><div class="step">04 · The market</div><h2>The market, in plain English</h2><div class="sub">The numbers that shape owner budgets and renter demand, and what they mean for marketing.</div></div><div class="sub" style="margin:0;font-size:14px"><span id="checked"></span></div></div>
 <div class="strip" id="strip"></div>
 <div class="reads" id="reads"></div>
 </section>
 </div>
 
 <div class="band" id="watch"><div class="wrap">
-<div class="sh"><div><h2>AI Search Watch</h2><div class="sub">The newest changes in how Google, Maps and AI assistants find and recommend local businesses, and what each one means for leasing.</div></div></div>
+<div class="sh"><div><div class="step">05 · AI Search Watch</div><h2>What changed in search</h2><div class="sub">The newest changes in how Google, Maps and AI assistants find and recommend local businesses, and what each one means for leasing.</div></div></div>
 <div class="watch" id="search"></div>
 </div></div>
 
 <div class="wrap">
 <section id="playbook">
-<div class="sh"><div><h2>The 2027 Playbook</h2><div class="sub">Five shifts multifamily marketing teams should plan for in next year's budget.</div></div><a class="link" href="https://www.thesocialdm.com/2026-multifamily-visibility-report">Read the 2026 Visibility Report</a></div>
+<div class="sh"><div><div class="step">06 · Plan ahead</div><h2>The 2027 Playbook</h2><div class="sub">Five shifts multifamily marketing teams should plan for in next year's budget.</div></div><a class="link" href="https://www.thesocialdm.com/2026-multifamily-visibility-report">Read the 2026 Visibility Report</a></div>
 <div class="bento pb">
 <div class="card c4"><h4>Plan for answers, not just rankings</h4><p>More renter questions get answered inside Google and AI assistants. Budget for being the community those answers name, not only for page one.</p></div>
 <div class="card c4"><h4>Treat your Google profile like a leasing office</h4><p>Hours, specials, photos, floor plans and replies are often the first tour. Keep it current every week, not every quarter.</p></div>
@@ -211,12 +275,12 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
 </section>
 
 <section id="read">
-<div class="sh"><div><h2>From the Insights library</h2><div class="sub">Three picks from our research desk, refreshed every week.</div></div><a class="link" href="https://www.thesocialdm.com/blog">All insights</a></div>
+<div class="sh"><div><div class="step">07 · Keep reading</div><h2>From the Insights library</h2><div class="sub">Three picks from our research desk, refreshed every week.</div></div><a class="link" href="https://www.thesocialdm.com/blog">All insights</a></div>
 <div class="bento arts" id="arts"></div>
 </section>
 
 <section id="work">
-<div class="sh"><div><h2>Where we can help</h2><div class="sub">One founder, three brands, one standard.</div></div></div>
+<div class="sh"><div><div class="step">08 · Work with us</div><h2>Where we can help</h2><div class="sub">One founder, three brands, one standard.</div></div></div>
 <div class="bento">
 <a class="card c4 bc" href="https://www.thesocialdm.com/multifamily-marketing-agency"><span class="lab">The hub</span><span class="nm">The SocialDM</span><p>Marketing for apartment communities: social, Google Business Profile, reputation and AI search, run as one team with one plan.</p><span class="go">Explore The SocialDM</span></a>
 <a class="card c4 bc" href="https://www.thesocialdm.com/locallift"><span class="lab">For apartment communities</span><span class="nm">LocalLift</span><p>Visibility for communities in Google, Maps and AI answers, with weekly reporting that shows what renters actually see.</p><span class="go">See how LocalLift works</span></a>
@@ -224,7 +288,15 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
 </div>
 </section>
 
-<footer style="margin-top:88px">
+<div class="final">
+<div class="eyebrow" style="justify-content:center">Your next step</div>
+<h2>Find out if renters are <span class="gt">choosing you</span> or your competitor.</h2>
+<p class="sub">A short call. We look at what renters see for your community in Google, Maps and AI answers, and you leave with the gaps to fix first.</p>
+<div class="ctas"><a class="btn" href="https://www.thesocialdm.com/contact">Book a visibility review</a><a class="btn ghost" href="https://www.linkedin.com/in/michaelshad/">Follow on LinkedIn</a><button type="button" class="btn ghost" id="share">Share with your team</button></div>
+<div class="toast" id="toast"></div>
+</div>
+
+<footer>
 <div>Market data: U.S. Treasury, Federal Reserve Bank of New York (SOFR) and Freddie Mac, via FRED (St. Louis Fed); U.S. Census Bureau; U.S. Bureau of Labor Statistics. Headlines belong to their publishers. The AI Shortlist Check is a quick self check, not a measurement. Commentary explains what a change means and is not investment advice.</div>
 <div style="margin-top:12px"><a href="https://www.thesocialdm.com/">The SocialDM&#8482;</a>, created in 2019 · <a href="https://www.linkedin.com/in/michaelshad/">Follow Michael Shad on LinkedIn</a></div>
 </footer>
@@ -250,17 +322,18 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
   ["b1","b2","b3"].forEach(function (id) { var b = document.getElementById(id); for (var i = 0; i < 12; i++) b.appendChild(el("i")); });
   Q.forEach(function (q, i) { var r = el("div", "q"); r.appendChild(el("span", null, q[0])); var b = el("button"); b.type = "button"; b.setAttribute("aria-pressed", "false"); b.setAttribute("aria-label", q[0]);
     b.onclick = function () { on[i] = !on[i]; b.setAttribute("aria-pressed", on[i]); draw(); }; r.appendChild(b); qs.appendChild(r); });
-  function paint(id, frac, lab) { var c = frac >= .67 ? "#30d158" : frac >= .34 ? "#ff9f0a" : "#ff453a";
+  function paint(id, frac, lab) { var c = frac >= .67 ? "#8B8CFF" : frac >= .34 ? "#ffb340" : "#ff6b6b";
     [].forEach.call(document.getElementById(id).children, function (x, k) { x.style.background = k < Math.round(frac * 12) ? c : "#2c2c2e"; });
     var m = document.getElementById(lab); m.textContent = frac >= .67 ? "Good" : frac >= .34 ? "Average" : "Low"; m.style.color = frac === 0 ? "#a1a1a6" : c; }
   function draw() {
     var s = 0, g = { 1: [0, 0], 2: [0, 0], 3: [0, 0] };
     Q.forEach(function (q, i) { g[q[1]][1] += q[2]; if (on[i]) { s += q[2]; g[q[1]][0] += q[2]; } });
     document.getElementById("sc").textContent = s;
-    var c = s >= 80 ? "#30d158" : s >= 40 ? "#ff9f0a" : "#ff453a";
+    var c = s >= 80 ? "#8B8CFF" : s >= 40 ? "#ffb340" : "#ff6b6b";
     [].forEach.call(segs.children, function (x, k) { x.style.background = k < s / 5 ? c : "#2c2c2e"; });
     paint("b1", g[1][0] / g[1][1], "m1"); paint("b2", g[2][0] / g[2][1], "m2"); paint("b3", g[3][0] / g[3][1], "m3");
     document.getElementById("verdict").textContent = s === 100 ? "You are doing the basics well. The next step is knowing exactly what AI says about you, and why." :
+      s >= 80 ? "Strong. One gap could keep you off the shortlist renters see first." :
       s >= 60 ? "Solid start. A couple of gaps could keep you off the shortlist renters see first." :
       s > 0 ? "Renters may be finding your competitors first. These gaps are common and fixable." : "Flip each switch that is true for your community.";
   }
@@ -325,6 +398,9 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
   document.getElementById("mtitle").textContent = mm[0];
   mm[1].forEach(function (x, i) { var li = el("li"); li.appendChild(el("b", null, String(i + 1))); li.appendChild(el("span", null, x)); document.getElementById("mlist").appendChild(li); });
   if ([10, 11, 0].indexOf(now.getMonth()) > -1) document.getElementById("mlink").href = "https://www.thesocialdm.com/blog/winter-leasing-apartment-marketing";
+  document.getElementById("wk3h").textContent = mm[1][week % mm[1].length];
+  document.getElementById("wk3p").textContent = "Part of the " + MONF[now.getMonth()] + " focus: " + mm[0].toLowerCase() + ". Small, steady habits like this are what Google and AI notice.";
+  document.getElementById("wk3a").href = document.getElementById("mlink").href;
 
   var A = [
     ["Finds pages that match your words", "Google and Bing list websites, maps and listings. The renter still does the comparing.", "“2 bedroom apartments near downtown”"],
@@ -343,17 +419,24 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
       c.appendChild(el("div", "c", (x.change_text || "") + " · " + when)); s.appendChild(c); });
     var ck = new Date(d.checked); document.getElementById("checked").textContent = "Checked " + MON[ck.getMonth()] + " " + ck.getDate() + ", " + ck.getFullYear();
     var rs = (d.read_marketing || []).filter(function (x) { return x.label !== "What to watch"; });
+    var pairs = []; d.series.forEach(function (x) { var t = (d.read_marketing || []).filter(function (r) { var v = x.display.replace(/^\+/, ""), i = r.text.indexOf(v); return i > -1 && !/[0-9.]/.test(r.text.charAt(i - 1)); })[0]; if (t) pairs.push([x, t]); });
+    if (pairs.length) { var pr = pairs[week % pairs.length], f = pr[0]; document.getElementById("wk2v").textContent = f.display; document.getElementById("wk2h").textContent = f.label + (f.change_text ? ", " + f.change_text : ""); document.getElementById("wk2p").textContent = pr[1].text; }
+    else document.getElementById("wk2").style.display = "none";
     if (rs.length) { var st = week % rs.length, box = document.getElementById("reads");
-      [rs[st], rs[(st + 1) % rs.length]].forEach(function (x) { var w = el("div", "rd"); w.appendChild(el("div", "lab", x.label)); w.appendChild(el("p", null, x.text)); box.appendChild(w); }); }
-  }).catch(function () { document.getElementById("market").style.display = "none"; });
+      var used = document.getElementById("wk2p").textContent, pool = rs.filter(function (x) { return x.text !== used; }); if (!pool.length) pool = rs; st = week % pool.length;
+      [pool[st], pool[(st + 1) % pool.length]].filter(function (x, i, a) { return a.indexOf(x) === i; }).forEach(function (x) { var w = el("div", "rd"); w.appendChild(el("div", "lab", x.label)); w.appendChild(el("p", null, x.text)); box.appendChild(w); }); }
+  }).catch(function () { document.getElementById("market").style.display = "none"; document.getElementById("wk2").style.display = "none"; });
 
   fetch("/data/search.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
     var box = document.getElementById("search");
-    d.items.slice(0, 5).forEach(function (x) { var a = el("a"); a.href = x.link; a.rel = "noopener"; var p = x.date.split("-");
+    var cnt = {}; d.items.forEach(function (x) { cnt[x.why] = (cnt[x.why] || 0) + 1; });
+    var t0x = d.items.filter(function (x) { return x.why && cnt[x.why] === 1; })[0] || d.items[0]; if (t0x) { document.getElementById("wk1h").textContent = t0x.title.replace(/(\d)\s*[-–—]\s*(\d)/g, "$1 to $2").replace(/\s+[–—-]\s+/g, ": ");
+      document.getElementById("wk1p").textContent = t0x.why || ""; }
+    var seen = {}; d.items.slice(0, 5).forEach(function (x) { var a = el("a"); a.href = x.link; a.rel = "noopener"; var p = x.date.split("-");
       a.appendChild(el("div", "m", x.source + " · " + MON[+p[1] - 1] + " " + (+p[2])));
       var b = el("div"); b.appendChild(el("div", "h", x.title.replace(/(\d)\s*[-–—]\s*(\d)/g, "$1 to $2").replace(/\s+[–—-]\s+/g, ": ")));
-      if (x.why) b.appendChild(el("div", "w", x.why)); a.appendChild(b); box.appendChild(a); });
-  }).catch(function () { document.getElementById("watch").style.display = "none"; });
+      if (x.why && !seen[x.why]) { seen[x.why] = 1; b.appendChild(el("div", "w", x.why)); } a.appendChild(b); box.appendChild(a); });
+  }).catch(function () { document.getElementById("watch").style.display = "none"; document.getElementById("wk1").style.display = "none"; });
 
   fetch("/data/insights.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (d) {
     var it = d.items, n = it.length, box = document.getElementById("arts");
@@ -362,6 +445,9 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
       if (x.dek) a.appendChild(el("p", null, x.dek.length > 150 ? x.dek.slice(0, 147).replace(/\s+\S*$/, "") + "..." : x.dek));
       a.appendChild(el("span", "go", "Read on The SocialDM")); box.appendChild(a); }
   }).catch(function () { document.getElementById("read").style.display = "none"; });
+  document.getElementById("share").onclick = function () { var u = "https://themultifamilydesk.com/michael/", t = document.getElementById("toast");
+    if (navigator.share) { navigator.share({ title: "The Visibility Brief", url: u }).catch(function () {}); return; }
+    if (navigator.clipboard) navigator.clipboard.writeText(u).then(function () { t.textContent = "Link copied. Paste it to your team."; }, function () { t.textContent = u; }); else t.textContent = u; };
 })();
 </script>
 </body>
