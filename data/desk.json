@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:27:56.294029+00:00",
+ "updated": "2026-11-15T21:26:44.532341+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -208,26 +208,6 @@
    "also": []
   },
   {
-   "title": "CRE's Lending War Rages On After The Fed's Hike, But A $19B Refi Gap Looms",
-   "link": "https://www.bisnow.com/news/national/capital-markets/cre-lending-war-rages-on-after-fed-hike-but-a-19b-refi-gap-looms",
-   "source": "Bisnow",
-   "date": "2026-11-09",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rates",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -246,6 +226,26 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "CRE's Lending War Rages On After The Fed's Hike, But A $19B Refi Gap Looms",
+   "link": "https://www.bisnow.com/news/national/capital-markets/cre-lending-war-rages-on-after-fed-hike-but-a-19b-refi-gap-looms",
+   "source": "Bisnow",
+   "date": "2026-11-09",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rates",
+    "Capital Markets"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
