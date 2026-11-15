@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:13:04.492102+00:00",
+ "updated": "2026-11-15T06:34:19.195607+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -168,6 +168,25 @@
    "also": []
   },
   {
+   "title": "Orange County Multifamily Market Report \u2013 October 2026",
+   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/",
+   "source": "Yardi Matrix",
+   "date": "2026-11-03",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rents",
+    "Operations"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
    "title": "CRE's Lending War Rages On After The Fed's Hike, But A $19B Refi Gap Looms",
    "link": "https://www.bisnow.com/news/national/capital-markets/cre-lending-war-rages-on-after-fed-hike-but-a-19b-refi-gap-looms",
    "source": "Bisnow",
@@ -181,25 +200,6 @@
     "Multifamily",
     "Rates",
     "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Orange County Multifamily Market Report \u2013 October 2026",
-   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/",
-   "source": "Yardi Matrix",
-   "date": "2026-11-03",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rents",
-    "Operations"
    ],
    "geo": [],
    "note": null,
@@ -267,23 +267,6 @@
    "also": []
   },
   {
-   "title": "Why Michael Lynd sees a \u2018misalignment\u2019 between apartment sponsor and investment interest",
-   "link": "https://www.multifamilydive.com/news/property-management-merger-acquisition-apartment-equity-investment/874439/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-11",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Yardi Matrix Bulletin Spotlights Multifamily Loan Challenges",
    "link": "https://www.yardimatrix.com/blog/multifamily-loan-challenges/",
    "source": "Yardi Matrix",
@@ -296,6 +279,23 @@
    "topics": [
     "Multifamily",
     "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Why Michael Lynd sees a \u2018misalignment\u2019 between apartment sponsor and investment interest",
+   "link": "https://www.multifamilydive.com/news/property-management-merger-acquisition-apartment-equity-investment/874439/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-11",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
    ],
    "geo": [],
    "note": null,
