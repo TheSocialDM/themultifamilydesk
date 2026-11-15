@@ -1,5 +1,5 @@
 # Market Desk weekly, internal
-Nov 8 to Nov 15, 2026 · 16 refreshes
+Nov 8 to Nov 15, 2026 · 17 refreshes
 
 **Collected:** 131 unique stories  
 **Passed and published:** 20  
@@ -9,7 +9,7 @@ Nov 8 to Nov 15, 2026 · 16 refreshes
 - Filtered: 2 opinion or column
 
 **Source problems:**
-- Multi-Housing News: error 403 in 16 of 16 refreshes
+- Multi-Housing News: error 403 in 17 of 17 refreshes
 
 **Topics this week:** Multifamily 14, Supply 6, Capital Markets 6, Housing 5, Rates 4, Operations 3, Policy 3, REITs 2
 
