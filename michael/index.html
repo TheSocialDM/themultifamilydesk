@@ -21,6 +21,14 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://themultifamilydesk.com/michael/img/og-michael.jpg?v=3">
 <meta name="author" content="Michael Shad">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F52B72F0HJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-F52B72F0HJ',{page_group:'michael'});
+document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('a,button');if(!t)return;var h=t.getAttribute('href')||'',x=(t.textContent||'').trim().slice(0,60),ev=null;
+if(h.indexOf('thesocialdm.com/contact')>-1)ev='cta_book_review';else if(h.indexOf('linkedin.com')>-1)ev='contact_linkedin';else if(h.indexOf('mailto:')===0)ev='contact_email';
+else if(t.id==='share')ev='share_page';else if(h.indexOf('localliftsignature.com')>-1)ev='brand_signature';else if(h.indexOf('/locallift')>-1)ev='brand_locallift';
+else if(h.indexOf('thesocialdm.com')>-1)ev='click_socialdm';else if(t.closest('.tick'))ev='ticker_click';else if(t.closest('#search'))ev='ai_watch_click';
+else if(t.closest('.q'))ev='shortlist_check';else if(t.closest('.dots'))ev='term_browse';else if(t.closest('.tabs'))ev='ai_tabs';else if(h.charAt(0)==='#')ev='nav_'+h.slice(1);
+if(ev)gtag('event',ev,{link_url:h,link_text:x,page:'michael'});},true);</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
@@ -169,6 +177,20 @@ section{padding:96px 0 0}
 .final .sub{margin:14px auto 0}
 .final .ctas{justify-content:center}
 .toast{font-size:13px;color:var(--violet);margin-top:12px;min-height:18px}
+.tick{position:relative;overflow:hidden;white-space:nowrap;height:44px;border-bottom:1px solid var(--line);background:linear-gradient(90deg,#f7f9ff,#faf7ff)}
+.tick .live{position:absolute;left:0;top:0;bottom:0;z-index:2;display:flex;align-items:center;gap:8px;padding:0 18px 0 24px;background:#f7f9ff;box-shadow:18px 0 16px #f7f9ff;font:800 11px/1 var(--head);letter-spacing:.14em;color:#6D4AE0}
+.tick .live i{width:8px;height:8px;border-radius:50%;background:var(--grad);box-shadow:0 0 0 0 rgba(110,139,255,.6);animation:pulse 1.8s infinite}
+.tick::after{content:"";position:absolute;right:0;top:0;bottom:0;width:60px;background:linear-gradient(90deg,rgba(250,247,255,0),#faf7ff);z-index:2}
+.tick-in{display:inline-flex;align-items:center;height:44px;padding-left:96px;animation:tk var(--dur,70s) linear infinite}
+.tick:hover .tick-in{animation-play-state:paused}
+.ti{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--soft);padding:0 22px;border-right:1px solid #e3e3ee}
+.ti b{color:var(--ink);font-weight:700}.ti .k{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.ti .up{color:#7C3AED;font-weight:700}.ti .dn{color:#2F5FE0;font-weight:700}
+.ti a{text-decoration:none;color:var(--ink);font-weight:600}.ti a:hover{color:var(--blue)}
+.ti .ai{font-size:11px;font-weight:800;letter-spacing:.08em;background:var(--gradbtn);color:#fff;border-radius:5px;padding:4px 6px}
+@keyframes tk{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(110,139,255,.55)}70%{box-shadow:0 0 0 8px rgba(110,139,255,0)}100%{box-shadow:0 0 0 0 rgba(110,139,255,0)}}
+@media(prefers-reduced-motion:reduce){.tick-in{animation:none}.tick{overflow-x:auto}.tick .live i{animation:none}}
 footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color:var(--mute);line-height:1.6;margin-top:72px}
 @media(max-width:980px){.hero{grid-template-columns:minmax(0,1fr);gap:36px}.portrait{justify-self:start;max-width:300px}.c7,.c5,.c4,.c6,.c8{grid-column:span 12}.who,.proof{grid-template-columns:minmax(0,1fr)}.strip{grid-template-columns:repeat(2,minmax(0,1fr))}.chip:last-child{grid-column:1/-1}.reads{grid-template-columns:minmax(0,1fr)}.nav a:not(.btn){display:none}}
 @media(max-width:620px){.chk{grid-template-columns:minmax(0,1fr)}.watch a{grid-template-columns:minmax(0,1fr);gap:4px}.lede{font-size:18px}.hero{padding-top:36px}.card{padding:22px}.proof .big{font-size:46px}.term{align-self:start}.term .acr{font-size:56px}.brand span{display:none}.final{padding:44px 22px}.ctas .btn{flex:1 1 100%}.portrait{max-width:280px}.facts{gap:16px}.facts b{font-size:18px}.facts div{font-size:12px}}
@@ -177,6 +199,8 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
 <body>
 <div class="top"><div class="wrap"><div class="brand"><i></i><b>The SocialDM&#8482;</b><span> · The Visibility Brief</span></div>
 <nav class="nav"><a href="#week">This week</a><a href="#check">Check yourself</a><a href="#proof">Results</a><a href="#watch">AI Search Watch</a><a href="#playbook">2027 Playbook</a><a class="btn sm" href="https://www.thesocialdm.com/contact">Book a review</a></nav></div></div>
+
+<div class="tick" id="tickbar" aria-label="Live market numbers and AI search headlines"><div class="live"><i></i>LIVE</div><div class="tick-in" id="tick"></div></div>
 
 <div class="wrap">
 <header class="hero">
@@ -453,6 +477,15 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
       if (x.dek) a.appendChild(el("p", null, x.dek.length > 150 ? x.dek.slice(0, 147).replace(/\s+\S*$/, "") + "..." : x.dek));
       a.appendChild(el("span", "go", "Read on The SocialDM")); box.appendChild(a); }
   }).catch(function () { document.getElementById("read").style.display = "none"; });
+  Promise.all([fetch("/data/pulse.json", { cache: "no-store" }).then(function (r) { return r.json(); }), fetch("/data/search.json", { cache: "no-store" }).then(function (r) { return r.json(); })]).then(function (res) {
+    var p = res[0], s = res[1], box = document.getElementById("tick"), frag = document.createDocumentFragment();
+    p.series.forEach(function (x) { var it = el("span", "ti"); it.appendChild(el("span", "k", x.label)); it.appendChild(el("b", null, x.display));
+      var c = x.change_text || ""; if (/^[+\u2212-]/.test(c)) { var up = c.charAt(0) === "+"; it.appendChild(el("span", up ? "up" : "dn", (up ? "\u25B2 " : "\u25BC ") + c.replace(/^[+\u2212-]\s*/, ""))); } else if (c) it.appendChild(el("span", "k", c));
+      frag.appendChild(it); });
+    s.items.slice(0, 5).forEach(function (x) { var it = el("span", "ti"); it.appendChild(el("span", "ai", "AI SEARCH")); var a = el("a", null, x.title.replace(/(\d)\s*[-\u2013\u2014]\s*(\d)/g, "$1 to $2").replace(/\s+[\u2013\u2014-]\s+/g, ": ")); a.href = x.link; a.rel = "noopener"; it.appendChild(a); frag.appendChild(it); });
+    box.appendChild(frag); var n = box.children.length; for (var k = 0; k < n; k++) { var cl = box.children[k].cloneNode(true); cl.setAttribute("aria-hidden", "true"); box.appendChild(cl); }
+    requestAnimationFrame(function () { box.style.setProperty("--dur", Math.max(40, Math.round(box.scrollWidth / 2 / 45)) + "s"); });
+  }).catch(function () { document.getElementById("tickbar").style.display = "none"; });
   document.getElementById("share").onclick = function () { var u = "https://themultifamilydesk.com/michael/", t = document.getElementById("toast");
     if (navigator.share) { navigator.share({ title: "The Visibility Brief", url: u }).catch(function () {}); return; }
     if (navigator.clipboard) navigator.clipboard.writeText(u).then(function () { t.textContent = "Link copied. Paste it to your team."; }, function () { t.textContent = u; }); else t.textContent = u; };
