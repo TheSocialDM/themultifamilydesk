@@ -70,6 +70,25 @@ def when(s):
         return None
 
 
+WHY = [
+    (r"\btest(s|ing)?\b|dropping|remov", "Google is testing where AI Mode appears. Keep your facts current wherever renters start."),
+    (r"AI Mode|AI Overview", "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."),
+    (r"ChatGPT", "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."),
+    (r"Gemini", "Gemini powers Google's AI answers, so what it reads about your community shapes what renters see first."),
+    (r"Search Console|report|data bug", "Check your own Search Console numbers before reacting. A reporting issue can make a normal week look bad."),
+    (r"Core Update|ranking|algorithm", "Ranking shifts can move tours. Watch impressions for your community name and key searches this week."),
+    (r"Business Profile|\bGBP\b|Maps|review", "Your Google Business Profile is still the front door. Keep hours, specials, photos and replies current."),
+    (r"Perplexity|Copilot|Bing", "Renters use more than one assistant. Consistent information everywhere is what gets a community named."),
+]
+
+
+def why(title):
+    for pat, line in WHY:
+        if re.search(pat, title, re.I):
+            return line
+    return "Worth a look for anyone responsible for how renters find a community."
+
+
 def main():
     now = dt.datetime.now(dt.timezone.utc)
     seen, picked, health = set(), [], []
@@ -93,7 +112,7 @@ def main():
                 continue
             seen.add(key)
             score = w + (0.8 if LOCAL.search(title) else 0) - (now - d).days * 0.05
-            picked.append({"title": title, "link": link, "source": name, "date": d.date().isoformat(), "_s": score})
+            picked.append({"title": title, "link": link, "source": name, "date": d.date().isoformat(), "why": why(title), "_s": score})
     picked.sort(key=lambda x: (-x["_s"], x["date"]))
     top = sorted(picked[:KEEP], key=lambda x: x["date"], reverse=True)
     for x in top:
