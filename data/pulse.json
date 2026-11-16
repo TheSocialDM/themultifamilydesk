@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-16T12:12:33+00:00",
+ "checked": "2026-11-16T13:11:38+00:00",
  "series": [
   {
    "id": "DGS10",
@@ -32,14 +32,13 @@
    "id": "SOFR",
    "label": "SOFR",
    "freq": "Daily",
-   "date": "2026-11-12",
+   "date": "2026-11-13",
    "source": "FRED, St. Louis Fed",
    "value": 3.9,
    "display": "3.90%",
-   "change": 1,
-   "change_text": "+1 bp",
+   "change": 0,
+   "change_text": "unchanged",
    "spark": [
-    3.92,
     3.93,
     3.95,
     3.94,
@@ -52,6 +51,7 @@
     3.89,
     3.88,
     3.89,
+    3.9,
     3.9
    ]
   },
