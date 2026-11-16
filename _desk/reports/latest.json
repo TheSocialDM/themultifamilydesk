@@ -1,18 +1,18 @@
 {
- "from": "2026-11-09T13:11+00:00",
- "to": "2026-11-16T13:11+00:00",
- "refreshes": 32,
- "collected": 133,
+ "from": "2026-11-09T14:10+00:00",
+ "to": "2026-11-16T14:10+00:00",
+ "refreshes": 33,
+ "collected": 134,
  "published": 21,
  "filtered_out": {
-  "off_topic": 40,
+  "off_topic": 41,
   "too_old": 66,
   "duplicate": 4,
   "opinion": 2
  },
  "source_issues": {
   "Multi-Housing News": {
-   "error 403": 32
+   "error 403": 33
   }
  },
  "topics": {
