@@ -1,11 +1,11 @@
 {
- "from": "2026-11-09T21:04+00:00",
- "to": "2026-11-16T21:04+00:00",
- "refreshes": 41,
- "collected": 136,
- "published": 22,
+ "from": "2026-11-09T22:03+00:00",
+ "to": "2026-11-16T22:03+00:00",
+ "refreshes": 42,
+ "collected": 142,
+ "published": 25,
  "filtered_out": {
-  "off_topic": 42,
+  "off_topic": 45,
   "too_old": 67,
   "duplicate": 3,
   "opinion": 2
@@ -16,11 +16,11 @@
   }
  },
  "topics": {
-  "Multifamily": 16,
-  "Supply": 6,
-  "Capital Markets": 6,
+  "Multifamily": 18,
+  "Supply": 7,
+  "Capital Markets": 7,
   "Housing": 5,
-  "Rates": 4,
+  "Rates": 5,
   "Policy": 4,
   "Operations": 3,
   "REITs": 2,
@@ -67,17 +67,17 @@
   },
   {
    "why": "Lending and debt",
+   "title": "Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals",
+   "source": "Bisnow",
+   "date": "2026-11-16",
+   "link": "https://www.bisnow.com/news/national/capital-markets/wall-street-s-big-cre-lenders-are-pulling-back-while-private-credit-fights-for-deals"
+  },
+  {
+   "why": "Lending and debt",
    "title": "Apartment Loans Fuel A Booming CRE CLO Market Not Seen Since 2021",
    "source": "Bisnow",
    "date": "2026-11-12",
    "link": "https://www.bisnow.com/news/national/capital-markets/apartment-loans-fuel-a-booming-cre-clo-market-not-seen-since-2021"
-  },
-  {
-   "why": "Lending and debt",
-   "title": "SFR REIT VineBrook Stops Buybacks, Flags Upcoming Maturities",
-   "source": "Bisnow",
-   "date": "2026-11-12",
-   "link": "https://www.bisnow.com/news/national/single-family-rentals/sfr-reit-vinebrook-ends-buybacks-flags-upcoming-maturities"
   }
  ],
  "coverage_gaps": []
