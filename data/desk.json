@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:07:02.804423+00:00",
+ "updated": "2026-11-16T19:05:51.399255+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -190,24 +190,6 @@
    "also": []
   },
   {
-   "title": "October apartment rents rose MOM for first time since 2022: Yardi",
-   "link": "https://www.multifamilydive.com/news/october-apartment-rents-yardi-multifamily/874417/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rents"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Orange County Multifamily Market Report \u2013 October 2026",
    "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/",
    "source": "Yardi Matrix",
@@ -220,6 +202,24 @@
     "Multifamily",
     "Rents",
     "Operations"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "October apartment rents rose MOM for first time since 2022: Yardi",
+   "link": "https://www.multifamilydive.com/news/october-apartment-rents-yardi-multifamily/874417/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-12",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rents"
    ],
    "geo": [],
    "note": null,
