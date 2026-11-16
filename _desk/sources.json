@@ -31,15 +31,6 @@
       "stale_after_h": 720,
       "terms": "Low frequency (a few stories a month). Treat as healthy unless silent 30 days."
     },
-    "mhn": {
-      "name": "Multi-Housing News",
-      "url": "https://www.multihousingnews.com/feed/",
-      "access": "Free",
-      "public": true,
-      "weight": 1.1,
-      "stale_after_h": 72,
-      "terms": "Main feed only. robots.txt disallows /tag/ and /rss/ paths, so tag feeds are not used."
-    },
     "yardi_blog": {
       "name": "Yardi Matrix",
       "url": "https://www.yardimatrix.com/blog/feed",
@@ -127,6 +118,7 @@
     "NMHC": "No RSS endpoint found. Research releases checked by hand weekly and linked from Market Signal when used.",
     "RealPage Analytics": "Not reachable from the fetcher in testing. Checked by hand.",
     "U.S. Census Bureau, BLS, FRED": "Data series, not news. They drive Market Pulse through the FRED data service, not this feed.",
-    "The Seattle Times": "Real estate feed returns an empty response to our automated reader (Nov 14, 2026). Respected, not worked around. Checked by hand."
+    "The Seattle Times": "Real estate feed returns an empty response to our automated reader (Nov 14, 2026). Respected, not worked around. Checked by hand.",
+    "Multi-Housing News": "Feed answers 403 Forbidden to our automated reader on every refresh (Nov 9-16, 2026). Respected, not worked around. Checked by hand."
   }
 }
