@@ -1,28 +1,28 @@
 {
- "from": "2026-11-09T17:07+00:00",
- "to": "2026-11-16T17:07+00:00",
- "refreshes": 37,
- "collected": 134,
- "published": 21,
+ "from": "2026-11-09T18:07+00:00",
+ "to": "2026-11-16T18:07+00:00",
+ "refreshes": 38,
+ "collected": 136,
+ "published": 22,
  "filtered_out": {
-  "off_topic": 41,
+  "off_topic": 42,
   "too_old": 67,
   "duplicate": 3,
   "opinion": 2
  },
  "source_issues": {
   "Multi-Housing News": {
-   "error 403": 37
+   "error 403": 38
   }
  },
  "topics": {
-  "Multifamily": 15,
+  "Multifamily": 16,
   "Supply": 6,
   "Capital Markets": 6,
   "Housing": 5,
   "Rates": 4,
+  "Policy": 4,
   "Operations": 3,
-  "Policy": 3,
   "REITs": 2,
   "Rents": 2,
   "Employment": 1,

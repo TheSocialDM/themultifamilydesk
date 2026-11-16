@@ -1,17 +1,17 @@
 # Market Desk weekly, internal
-Nov 9 to Nov 16, 2026 · 37 refreshes
+Nov 9 to Nov 16, 2026 · 38 refreshes
 
-**Collected:** 134 unique stories  
-**Passed and published:** 21  
+**Collected:** 136 unique stories  
+**Passed and published:** 22  
 - Filtered: 67 too old
-- Filtered: 41 off topic for apartment owners
+- Filtered: 42 off topic for apartment owners
 - Filtered: 3 duplicate
 - Filtered: 2 opinion or column
 
 **Source problems:**
-- Multi-Housing News: error 403 in 37 of 37 refreshes
+- Multi-Housing News: error 403 in 38 of 38 refreshes
 
-**Topics this week:** Multifamily 15, Supply 6, Capital Markets 6, Housing 5, Rates 4, Operations 3, Policy 3, REITs 2
+**Topics this week:** Multifamily 16, Supply 6, Capital Markets 6, Housing 5, Rates 4, Policy 4, Operations 3, REITs 2
 
 **Worth Melanie's attention** (headlines only, no commentary):
 - [Phoenix and Arizona] Phoenix Apartment Concessions Are Luring Students Away From Campus Housing (Bisnow Phoenix, 2026-10-14) https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply
