@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:11:22.604791+00:00",
+ "updated": "2026-11-17T09:51:38.388289+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -71,6 +71,24 @@
    "also": []
   },
   {
+   "title": "3 apartment projects broke ground last week",
+   "link": "https://www.multifamilydive.com/news/apartment-projects-broke-ground-georgia-new-york-virgina/874755/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-16",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily",
+    "Supply"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
    "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
    "link": "https://www.yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026/",
    "source": "Yardi Matrix",
@@ -84,24 +102,6 @@
     "Multifamily",
     "Supply",
     "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "3 apartment projects broke ground last week",
-   "link": "https://www.multifamilydive.com/news/apartment-projects-broke-ground-georgia-new-york-virgina/874755/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-16",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily",
-    "Supply"
    ],
    "geo": [],
    "note": null,
