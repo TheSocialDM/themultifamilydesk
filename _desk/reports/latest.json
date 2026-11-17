@@ -1,11 +1,11 @@
 {
- "from": "2026-11-10T19:42+00:00",
- "to": "2026-11-17T19:42+00:00",
- "refreshes": 67,
- "collected": 143,
- "published": 26,
+ "from": "2026-11-10T20:41+00:00",
+ "to": "2026-11-17T20:41+00:00",
+ "refreshes": 68,
+ "collected": 148,
+ "published": 29,
  "filtered_out": {
-  "off_topic": 44,
+  "off_topic": 46,
   "too_old": 68,
   "duplicate": 2,
   "opinion": 3
@@ -16,10 +16,10 @@
   }
  },
  "topics": {
-  "Multifamily": 19,
+  "Multifamily": 22,
+  "Capital Markets": 8,
   "Supply": 7,
-  "Capital Markets": 7,
-  "Housing": 5,
+  "Housing": 6,
   "Rates": 5,
   "Policy": 4,
   "Operations": 3,

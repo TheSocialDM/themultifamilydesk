@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:42:14.622710+00:00",
+ "updated": "2026-11-17T20:41:28.500923+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -31,19 +31,37 @@
    "also": []
   },
   {
-   "title": "A look at how apartment REITs did in Q3",
-   "link": "https://www.multifamilydive.com/news/reits-concessions-rent-growth-acquisitions-dispositions/874382/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-12",
+   "title": "Syndicator Firm Faces Foreclosure On Atlanta Apartments Tied To $366M Loan",
+   "link": "https://www.bisnow.com/news/atlanta/capital-markets/syndicator-firm-faces-foreclosure-on-atlanta-apartments-tied-to-366m-loan",
+   "source": "Bisnow",
+   "date": "2026-11-17",
    "access": "Free",
    "filters": [
     "Multifamily",
-    "REITs"
+    "Capital Markets"
    ],
    "topics": [
     "Multifamily",
-    "REITs",
-    "Operations"
+    "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Perennial Housing launches as affordable owner, operator",
+   "link": "https://www.multifamilydive.com/news/perennial-housing-launch-affordable-owner-operator/874932/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Housing"
    ],
    "geo": [],
    "note": null,
@@ -171,24 +189,6 @@
    "also": []
   },
   {
-   "title": "October apartment rents rose MOM for first time since 2022: Yardi",
-   "link": "https://www.multifamilydive.com/news/october-apartment-rents-yardi-multifamily/874417/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rents"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals",
    "link": "https://www.bisnow.com/news/national/capital-markets/wall-street-s-big-cre-lenders-are-pulling-back-while-private-credit-fights-for-deals",
    "source": "Bisnow",
@@ -200,6 +200,23 @@
    "topics": [
     "Rates",
     "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "How multifamily operators leverage tech to oust fraudulent applications",
+   "link": "https://www.multifamilydive.com/news/multifamily-operators-ai-application-fraud/874921/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
    ],
    "geo": [],
    "note": null,
@@ -298,23 +315,6 @@
    "also": []
   },
   {
-   "title": "Why Michael Lynd sees a \u2018misalignment\u2019 between apartment sponsor and investment interest",
-   "link": "https://www.multifamilydive.com/news/property-management-merger-acquisition-apartment-equity-investment/874439/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-11",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Taskforce Spells Out Need for Cabinet-Level Housing Agency in Washington",
    "link": "https://www.theurbanist.org/taskforce-spells-out-need-for-cabinet-level-housing-agency-in-washington/",
    "source": "The Urbanist",
@@ -358,23 +358,6 @@
    "filters": [],
    "topics": [
     "Supply"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "SFR Owner Pretium To Pay $50M To Settle Charges Over Deceptive Rental Pricing",
-   "link": "https://www.bisnow.com/news/national/single-family-rentals/sfr-owner-pretium-to-pay-50m-to-settle-deceptive-rental-pricing-charges",
-   "source": "Bisnow",
-   "date": "2026-11-10",
-   "access": "Free",
-   "filters": [
-    "Housing"
-   ],
-   "topics": [
-    "Policy"
    ],
    "geo": [],
    "note": null,
