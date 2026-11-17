@@ -1,14 +1,14 @@
 {
- "from": "2026-11-10T15:45+00:00",
- "to": "2026-11-17T15:45+00:00",
- "refreshes": 62,
- "collected": 142,
- "published": 25,
+ "from": "2026-11-10T16:45+00:00",
+ "to": "2026-11-17T16:45+00:00",
+ "refreshes": 63,
+ "collected": 143,
+ "published": 26,
  "filtered_out": {
   "off_topic": 45,
   "too_old": 67,
-  "duplicate": 3,
-  "opinion": 2
+  "duplicate": 2,
+  "opinion": 3
  },
  "source_issues": {
   "Multi-Housing News": {
@@ -16,16 +16,16 @@
   }
  },
  "topics": {
-  "Multifamily": 18,
+  "Multifamily": 19,
   "Supply": 7,
   "Capital Markets": 7,
   "Housing": 5,
   "Rates": 5,
   "Policy": 4,
   "Operations": 3,
+  "Rents": 3,
   "REITs": 2,
-  "Rents": 2,
-  "Employment": 1,
+  "Employment": 2,
   "Arizona": 1,
   "Seattle": 1
  },
@@ -53,10 +53,10 @@
   },
   {
    "why": "Rents and renewals",
-   "title": "Orange County Multifamily Market Report – October 2026",
+   "title": "Pittsburgh Multifamily Market Report – October 2026",
    "source": "Yardi Matrix",
-   "date": "2026-11-03",
-   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/"
+   "date": "2026-11-06",
+   "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/"
   },
   {
    "why": "Occupancy and concessions",
@@ -66,18 +66,11 @@
    "link": "https://www.multifamilydive.com/news/reits-concessions-rent-growth-acquisitions-dispositions/874382/"
   },
   {
-   "why": "Lending and debt",
-   "title": "Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals",
-   "source": "Bisnow",
-   "date": "2026-11-16",
-   "link": "https://www.bisnow.com/news/national/capital-markets/wall-street-s-big-cre-lenders-are-pulling-back-while-private-credit-fights-for-deals"
-  },
-  {
-   "why": "Lending and debt",
-   "title": "Apartment Loans Fuel A Booming CRE CLO Market Not Seen Since 2021",
-   "source": "Bisnow",
-   "date": "2026-11-12",
-   "link": "https://www.bisnow.com/news/national/capital-markets/apartment-loans-fuel-a-booming-cre-clo-market-not-seen-since-2021"
+   "why": "Occupancy and concessions",
+   "title": "Orange County Multifamily Market Report – October 2026",
+   "source": "Yardi Matrix",
+   "date": "2026-11-03",
+   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/"
   }
  ],
  "coverage_gaps": []
