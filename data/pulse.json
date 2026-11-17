@@ -1,18 +1,17 @@
 {
- "checked": "2026-11-17T20:41:30+00:00",
+ "checked": "2026-11-17T21:40:30+00:00",
  "series": [
   {
    "id": "DGS10",
    "label": "10 year Treasury",
    "freq": "Daily",
-   "date": "2026-11-13",
+   "date": "2026-11-16",
    "source": "FRED, St. Louis Fed",
-   "value": 5.15,
-   "display": "5.15%",
-   "change": 5,
-   "change_text": "+5 bp",
+   "value": 5.12,
+   "display": "5.12%",
+   "change": -3,
+   "change_text": "\u22123 bp",
    "spark": [
-    5.0,
     4.99,
     5.05,
     4.98,
@@ -25,7 +24,8 @@
     4.88,
     4.98,
     5.1,
-    5.15
+    5.15,
+    5.12
    ]
   },
   {
@@ -119,7 +119,7 @@
  "read": [
   {
    "label": "Debt costs",
-   "text": "The 10 year Treasury rose 5 basis points from the prior reading to 5.15%, its highest in the last 14 readings. Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time, so a sustained level above 5% weighs on values and refinancing for loans coming due."
+   "text": "The 10 year Treasury was little changed at 5.12%. Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time, so a sustained level above 5% weighs on values and refinancing for loans coming due."
   },
   {
    "label": "Floating rate loans",
@@ -149,7 +149,7 @@
  "read_marketing": [
   {
    "label": "Owner budgets",
-   "text": "With the 10 year Treasury at 5.15%, owners are paying more for debt, so marketing budgets get a harder look. The plans that hold up show which leases each dollar produced."
+   "text": "With the 10 year Treasury at 5.12%, owners are paying more for debt, so marketing budgets get a harder look. The plans that hold up show which leases each dollar produced."
   },
   {
    "label": "Renter demand",
