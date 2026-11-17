@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:43:21.543291+00:00",
+ "updated": "2026-11-17T19:42:14.622710+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -89,6 +89,25 @@
    "also": []
   },
   {
+   "title": "Realpage\u2019s New York lawsuit tests the limits of algorithmic rent-pricing bans",
+   "link": "https://www.multifamilydive.com/news/realpage-new-york-lawsuit-algorithmic-rent-ban/874678/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-16",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Policy"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
    "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
    "link": "https://www.yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026/",
    "source": "Yardi Matrix",
@@ -102,25 +121,6 @@
     "Multifamily",
     "Supply",
     "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Realpage\u2019s New York lawsuit tests the limits of algorithmic rent-pricing bans",
-   "link": "https://www.multifamilydive.com/news/realpage-new-york-lawsuit-algorithmic-rent-ban/874678/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-16",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Policy"
    ],
    "geo": [],
    "note": null,
