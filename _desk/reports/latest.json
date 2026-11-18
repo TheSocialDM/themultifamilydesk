@@ -1,14 +1,14 @@
 {
- "from": "2026-11-11T03:34+00:00",
- "to": "2026-11-18T03:34+00:00",
- "refreshes": 76,
- "collected": 154,
+ "from": "2026-11-11T04:33+00:00",
+ "to": "2026-11-18T04:33+00:00",
+ "refreshes": 77,
+ "collected": 156,
  "published": 31,
  "filtered_out": {
-  "off_topic": 50,
+  "off_topic": 51,
   "too_old": 68,
   "duplicate": 2,
-  "opinion": 3
+  "opinion": 4
  },
  "source_issues": {
   "Multi-Housing News": {
