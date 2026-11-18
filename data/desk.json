@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:38:38.637797+00:00",
+ "updated": "2026-11-18T00:37:45.707542+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -9,6 +9,27 @@
   "Seattle"
  ],
  "items": [
+  {
+   "title": "Phoenix Developers Turn To Vacant Schools For Affordable Housing",
+   "link": "https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing",
+   "source": "Bisnow",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Housing",
+    "Arizona"
+   ],
+   "topics": [
+    "Supply",
+    "Housing"
+   ],
+   "geo": [
+    "Arizona"
+   ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
   {
    "title": "Seattle Social Housing Developer Drops Design Director",
    "link": "https://www.theurbanist.org/seattle-social-housing-developer-drops-design-director/",
@@ -26,6 +47,27 @@
    "geo": [
     "Seattle"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "BTR Operators Push For Treasury To Loosen Rules As Consolidation Looms",
+   "link": "https://www.bisnow.com/news/national/build-to-rent/btr-operators-push-for-treasury-to-loosen-rules-as-consolidation-looms",
+   "source": "Bisnow",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rates",
+    "Policy"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []

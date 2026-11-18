@@ -1,11 +1,11 @@
 {
- "from": "2026-11-10T23:38+00:00",
- "to": "2026-11-17T23:38+00:00",
- "refreshes": 71,
- "collected": 148,
- "published": 29,
+ "from": "2026-11-11T00:37+00:00",
+ "to": "2026-11-18T00:37+00:00",
+ "refreshes": 72,
+ "collected": 154,
+ "published": 31,
  "filtered_out": {
-  "off_topic": 46,
+  "off_topic": 50,
   "too_old": 68,
   "duplicate": 2,
   "opinion": 3
@@ -16,20 +16,27 @@
   }
  },
  "topics": {
-  "Multifamily": 22,
+  "Multifamily": 23,
+  "Supply": 8,
   "Capital Markets": 8,
-  "Supply": 7,
-  "Housing": 6,
-  "Rates": 5,
-  "Policy": 4,
+  "Housing": 7,
+  "Rates": 6,
+  "Policy": 5,
   "Operations": 3,
   "Rents": 3,
   "REITs": 2,
   "Employment": 2,
-  "Arizona": 1,
+  "Arizona": 2,
   "Seattle": 1
  },
  "for_melanie": [
+  {
+   "why": "Phoenix and Arizona",
+   "title": "Phoenix Developers Turn To Vacant Schools For Affordable Housing",
+   "source": "Bisnow Phoenix",
+   "date": "2026-11-17",
+   "link": "https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing"
+  },
   {
    "why": "Phoenix and Arizona",
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",

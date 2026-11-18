@@ -1,19 +1,20 @@
 # Market Desk weekly, internal
-Nov 10 to Nov 17, 2026 · 71 refreshes
+Nov 11 to Nov 18, 2026 · 72 refreshes
 
-**Collected:** 148 unique stories  
-**Passed and published:** 29  
+**Collected:** 154 unique stories  
+**Passed and published:** 31  
 - Filtered: 68 too old
-- Filtered: 46 off topic for apartment owners
+- Filtered: 50 off topic for apartment owners
 - Filtered: 3 opinion or column
 - Filtered: 2 duplicate
 
 **Source problems:**
-- Multi-Housing News: error 403 in 39 of 71 refreshes
+- Multi-Housing News: error 403 in 39 of 72 refreshes
 
-**Topics this week:** Multifamily 22, Capital Markets 8, Supply 7, Housing 6, Rates 5, Policy 4, Operations 3, Rents 3
+**Topics this week:** Multifamily 23, Supply 8, Capital Markets 8, Housing 7, Rates 6, Policy 5, Operations 3, Rents 3
 
 **Worth Melanie's attention** (headlines only, no commentary):
+- [Phoenix and Arizona] Phoenix Developers Turn To Vacant Schools For Affordable Housing (Bisnow Phoenix, 2026-11-17) https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing
 - [Phoenix and Arizona] Phoenix Apartment Concessions Are Luring Students Away From Campus Housing (Bisnow Phoenix, 2026-10-14) https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply
 - [Seattle and Washington] Seattle Social Housing Developer Drops Design Director (The Urbanist, 2026-11-15) https://www.theurbanist.org/seattle-social-housing-developer-drops-design-director/
 - [Rents and renewals] October apartment rents rose MOM for first time since 2022: Yardi (Multifamily Dive, 2026-11-12) https://www.multifamilydive.com/news/october-apartment-rents-yardi-multifamily/874417/
