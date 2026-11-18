@@ -1,11 +1,11 @@
 {
- "from": "2026-11-11T19:19+00:00",
- "to": "2026-11-18T19:19+00:00",
- "refreshes": 94,
- "collected": 158,
- "published": 31,
+ "from": "2026-11-11T20:18+00:00",
+ "to": "2026-11-18T20:18+00:00",
+ "refreshes": 95,
+ "collected": 164,
+ "published": 33,
  "filtered_out": {
-  "off_topic": 53,
+  "off_topic": 57,
   "too_old": 69,
   "duplicate": 1,
   "opinion": 4
@@ -16,8 +16,8 @@
   }
  },
  "topics": {
-  "Multifamily": 23,
-  "Supply": 8,
+  "Multifamily": 25,
+  "Supply": 10,
   "Capital Markets": 8,
   "Housing": 7,
   "Rates": 6,
