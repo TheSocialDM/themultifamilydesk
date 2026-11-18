@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T06:31:54.662433+00:00",
+ "updated": "2026-11-18T07:31:01.247204+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -249,23 +249,6 @@
    "also": []
   },
   {
-   "title": "How multifamily operators leverage tech to oust fraudulent applications",
-   "link": "https://www.multifamilydive.com/news/multifamily-operators-ai-application-fraud/874921/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-17",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Pittsburgh Multifamily Market Report \u2013 October 2026",
    "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/",
    "source": "Yardi Matrix",
@@ -278,6 +261,23 @@
     "Multifamily",
     "Rents",
     "Employment"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "How multifamily operators leverage tech to oust fraudulent applications",
+   "link": "https://www.multifamilydive.com/news/multifamily-operators-ai-application-fraud/874921/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
    ],
    "geo": [],
    "note": null,

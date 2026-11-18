@@ -1,13 +1,13 @@
 {
- "from": "2026-11-11T06:31+00:00",
- "to": "2026-11-18T06:31+00:00",
- "refreshes": 79,
+ "from": "2026-11-11T07:31+00:00",
+ "to": "2026-11-18T07:31+00:00",
+ "refreshes": 80,
  "collected": 156,
  "published": 31,
  "filtered_out": {
   "off_topic": 51,
-  "too_old": 68,
-  "duplicate": 2,
+  "too_old": 69,
+  "duplicate": 1,
   "opinion": 4
  },
  "source_issues": {
