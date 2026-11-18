@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:30:17.036557+00:00",
+ "updated": "2026-11-18T09:29:04.388261+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -231,24 +231,6 @@
    "also": []
   },
   {
-   "title": "Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals",
-   "link": "https://www.bisnow.com/news/national/capital-markets/wall-street-s-big-cre-lenders-are-pulling-back-while-private-credit-fights-for-deals",
-   "source": "Bisnow",
-   "date": "2026-11-16",
-   "access": "Free",
-   "filters": [
-    "Capital Markets"
-   ],
-   "topics": [
-    "Rates",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Pittsburgh Multifamily Market Report \u2013 October 2026",
    "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/",
    "source": "Yardi Matrix",
@@ -261,6 +243,24 @@
     "Multifamily",
     "Rents",
     "Employment"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals",
+   "link": "https://www.bisnow.com/news/national/capital-markets/wall-street-s-big-cre-lenders-are-pulling-back-while-private-credit-fights-for-deals",
+   "source": "Bisnow",
+   "date": "2026-11-16",
+   "access": "Free",
+   "filters": [
+    "Capital Markets"
+   ],
+   "topics": [
+    "Rates",
+    "Capital Markets"
    ],
    "geo": [],
    "note": null,
@@ -319,25 +319,6 @@
    "also": []
   },
   {
-   "title": "SFR REIT VineBrook Stops Buybacks, Flags Upcoming Maturities",
-   "link": "https://www.bisnow.com/news/national/single-family-rentals/sfr-reit-vinebrook-ends-buybacks-flags-upcoming-maturities",
-   "source": "Bisnow",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "REITs",
-    "Capital Markets"
-   ],
-   "topics": [
-    "REITs",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Yardi Matrix Bulletin Spotlights Multifamily Loan Challenges",
    "link": "https://www.yardimatrix.com/blog/multifamily-loan-challenges/",
    "source": "Yardi Matrix",
@@ -349,6 +330,25 @@
    ],
    "topics": [
     "Multifamily",
+    "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "SFR REIT VineBrook Stops Buybacks, Flags Upcoming Maturities",
+   "link": "https://www.bisnow.com/news/national/single-family-rentals/sfr-reit-vinebrook-ends-buybacks-flags-upcoming-maturities",
+   "source": "Bisnow",
+   "date": "2026-11-12",
+   "access": "Free",
+   "filters": [
+    "REITs",
+    "Capital Markets"
+   ],
+   "topics": [
+    "REITs",
     "Capital Markets"
    ],
    "geo": [],
