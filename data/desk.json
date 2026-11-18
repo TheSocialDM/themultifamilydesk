@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:23:27.348053+00:00",
+ "updated": "2026-11-18T16:22:40.175241+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -188,26 +188,6 @@
    "also": []
   },
   {
-   "title": "Apartment Loans Fuel A Booming CRE CLO Market Not Seen Since 2021",
-   "link": "https://www.bisnow.com/news/national/capital-markets/apartment-loans-fuel-a-booming-cre-clo-market-not-seen-since-2021",
-   "source": "Bisnow",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rates",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -226,6 +206,26 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Apartment Loans Fuel A Booming CRE CLO Market Not Seen Since 2021",
+   "link": "https://www.bisnow.com/news/national/capital-markets/apartment-loans-fuel-a-booming-cre-clo-market-not-seen-since-2021",
+   "source": "Bisnow",
+   "date": "2026-11-12",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rates",
+    "Capital Markets"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
