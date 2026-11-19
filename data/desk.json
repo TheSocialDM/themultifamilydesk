@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:57:04.372230+00:00",
+ "updated": "2026-11-19T19:56:14.474364+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -9,6 +9,27 @@
   "Seattle"
  ],
  "items": [
+  {
+   "title": "Troubled Loans Pile Up At $3B Mortgage REIT With Deep Multifamily Exposure",
+   "link": "https://www.bisnow.com/news/national/multifamily/troubled-loans-pile-up-at-3b-mortgage-reit-with-deep-multifamily-exposure",
+   "source": "Bisnow",
+   "date": "2026-11-19",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "REITs",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "REITs",
+    "Rates"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
   {
    "title": "Phoenix Developers Turn To Vacant Schools For Affordable Housing",
    "link": "https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing",
@@ -220,26 +241,6 @@
     "Multifamily",
     "Supply",
     "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Apartment Loans Fuel A Booming CRE CLO Market Not Seen Since 2021",
-   "link": "https://www.bisnow.com/news/national/capital-markets/apartment-loans-fuel-a-booming-cre-clo-market-not-seen-since-2021",
-   "source": "Bisnow",
-   "date": "2026-11-12",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rates",
-    "Capital Markets"
    ],
    "geo": [],
    "note": null,

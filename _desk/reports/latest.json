@@ -1,12 +1,12 @@
 {
- "from": "2026-11-12T18:57+00:00",
- "to": "2026-11-19T18:57+00:00",
- "refreshes": 121,
- "collected": 168,
- "published": 33,
+ "from": "2026-11-12T19:56+00:00",
+ "to": "2026-11-19T19:56+00:00",
+ "refreshes": 122,
+ "collected": 172,
+ "published": 34,
  "filtered_out": {
-  "off_topic": 60,
-  "too_old": 71,
+  "off_topic": 62,
+  "too_old": 72,
   "opinion": 4
  },
  "source_issues": {
@@ -15,15 +15,15 @@
   }
  },
  "topics": {
-  "Multifamily": 25,
+  "Multifamily": 26,
   "Supply": 10,
   "Capital Markets": 8,
   "Housing": 7,
-  "Rates": 6,
+  "Rates": 7,
   "Policy": 5,
+  "REITs": 3,
   "Operations": 3,
   "Rents": 3,
-  "REITs": 2,
   "Employment": 2,
   "Arizona": 2,
   "Seattle": 1
