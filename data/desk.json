@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:13:00.086890+00:00",
+ "updated": "2026-11-19T03:12:08.027345+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -184,26 +184,6 @@
    "also": []
   },
   {
-   "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
-   "link": "https://www.yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026/",
-   "source": "Yardi Matrix",
-   "date": "2026-11-11",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Supply",
-    "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -222,6 +202,26 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
+   "link": "https://www.yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026/",
+   "source": "Yardi Matrix",
+   "date": "2026-11-11",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Supply",
+    "Housing"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
