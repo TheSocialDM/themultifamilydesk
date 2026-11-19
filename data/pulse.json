@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19T16:58:51+00:00",
+ "checked": "2026-11-19T17:58:00+00:00",
  "series": [
   {
    "id": "DGS10",
@@ -59,14 +59,13 @@
    "id": "MORTGAGE30US",
    "label": "30 year mortgage rate",
    "freq": "Weekly",
-   "date": "2026-11-12",
+   "date": "2026-11-19",
    "source": "FRED, St. Louis Fed",
-   "value": 7.11,
-   "display": "7.11%",
-   "change": -7,
-   "change_text": "\u22127 bp",
+   "value": 7.28,
+   "display": "7.28%",
+   "change": 17,
+   "change_text": "+17 bp",
    "spark": [
-    6.67,
     6.65,
     6.66,
     6.71,
@@ -79,7 +78,8 @@
     7.32,
     7.24,
     7.18,
-    7.11
+    7.11,
+    7.28
    ]
   },
   {
@@ -127,7 +127,7 @@
   },
   {
    "label": "Renter demand",
-   "text": "The 30 year mortgage rate eased 7 basis points to 7.11%. Rates at this level keep homeownership costly for many renters, which tends to support renewals."
+   "text": "The 30 year mortgage rate rose 17 basis points to 7.28%. Rates at this level keep homeownership costly for many renters, which tends to support renewals."
   },
   {
    "label": "Vacancy",
@@ -153,7 +153,7 @@
   },
   {
    "label": "Renter demand",
-   "text": "At 7.11%, the 30 year mortgage keeps buying out of reach for many renters. Renewals and referrals carry more weight, so the resident experience is part of the marketing plan."
+   "text": "At 7.28%, the 30 year mortgage keeps buying out of reach for many renters. Renewals and referrals carry more weight, so the resident experience is part of the marketing plan."
   },
   {
    "label": "Leasing competition",
