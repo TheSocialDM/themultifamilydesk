@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:14:02.738317+00:00",
+ "updated": "2026-11-19T02:13:00.086890+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -266,6 +266,23 @@
    "also": []
   },
   {
+   "title": "How multifamily operators leverage tech to oust fraudulent applications",
+   "link": "https://www.multifamilydive.com/news/multifamily-operators-ai-application-fraud/874921/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
    "title": "Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals",
    "link": "https://www.bisnow.com/news/national/capital-markets/wall-street-s-big-cre-lenders-are-pulling-back-while-private-credit-fights-for-deals",
    "source": "Bisnow",
@@ -277,23 +294,6 @@
    "topics": [
     "Rates",
     "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "How multifamily operators leverage tech to oust fraudulent applications",
-   "link": "https://www.multifamilydive.com/news/multifamily-operators-ai-application-fraud/874921/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-17",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily"
    ],
    "geo": [],
    "note": null,
