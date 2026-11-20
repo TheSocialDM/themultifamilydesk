@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:51:16.288403+00:00",
+ "updated": "2026-11-20T01:50:18.570150+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -209,6 +209,25 @@
    "also": []
   },
   {
+   "title": "Pittsburgh Multifamily Market Report \u2013 October 2026",
+   "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/",
+   "source": "Yardi Matrix",
+   "date": "2026-11-06",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rents",
+    "Employment"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
    "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
    "link": "https://www.yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026/",
    "source": "Yardi Matrix",
@@ -222,25 +241,6 @@
     "Multifamily",
     "Supply",
     "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Pittsburgh Multifamily Market Report \u2013 October 2026",
-   "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/",
-   "source": "Yardi Matrix",
-   "date": "2026-11-06",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rents",
-    "Employment"
    ],
    "geo": [],
    "note": null,
