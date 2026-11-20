@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:34:24.164446+00:00",
+ "updated": "2026-11-20T19:33:28.285731+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -63,6 +63,26 @@
    ],
    "topics": [
     "Supply",
+    "Housing"
+   ],
+   "geo": [
+    "Seattle"
+   ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Jackson Street Housing Project Could Leave King County on Hook for Millions",
+   "link": "https://www.theurbanist.org/jackson-street-housing-project-could-leave-king-county-on-hook-for-millions/",
+   "source": "The Urbanist",
+   "date": "2026-11-20",
+   "access": "Free",
+   "filters": [
+    "Housing",
+    "Seattle"
+   ],
+   "topics": [
     "Housing"
    ],
    "geo": [
@@ -274,6 +294,23 @@
    ],
    "topics": [
     "Multifamily"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Trepp: 20% Of The CMBS Loans Modified Since 2022 Are Delinquent Again",
+   "link": "https://www.bisnow.com/news/national/capital-markets/trepp-20-of-the-cmbs-loans-modified-since-2022-are-delinquent-again",
+   "source": "Bisnow",
+   "date": "2026-11-20",
+   "access": "Free",
+   "filters": [
+    "Capital Markets"
+   ],
+   "topics": [
+    "Capital Markets"
    ],
    "geo": [],
    "note": null,

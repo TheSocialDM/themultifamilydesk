@@ -1,9 +1,9 @@
 {
- "from": "2026-11-13T18:34+00:00",
- "to": "2026-11-20T18:34+00:00",
- "refreshes": 148,
- "collected": 177,
- "published": 34,
+ "from": "2026-11-13T19:33+00:00",
+ "to": "2026-11-20T19:33+00:00",
+ "refreshes": 149,
+ "collected": 179,
+ "published": 36,
  "filtered_out": {
   "off_topic": 66,
   "too_old": 73,
@@ -17,16 +17,16 @@
  "topics": {
   "Multifamily": 26,
   "Supply": 10,
-  "Capital Markets": 8,
-  "Housing": 7,
+  "Capital Markets": 9,
+  "Housing": 8,
   "Rates": 7,
   "Policy": 5,
-  "Operations": 3,
   "REITs": 3,
+  "Operations": 3,
   "Rents": 3,
   "Employment": 2,
   "Arizona": 2,
-  "Seattle": 1
+  "Seattle": 2
  },
  "for_melanie": [
   {
@@ -42,6 +42,13 @@
    "source": "Bisnow Phoenix",
    "date": "2026-10-14",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply"
+  },
+  {
+   "why": "Seattle and Washington",
+   "title": "Jackson Street Housing Project Could Leave King County on Hook for Millions",
+   "source": "The Urbanist",
+   "date": "2026-11-20",
+   "link": "https://www.theurbanist.org/jackson-street-housing-project-could-leave-king-county-on-hook-for-millions/"
   },
   {
    "why": "Seattle and Washington",
@@ -63,20 +70,6 @@
    "source": "Yardi Matrix",
    "date": "2026-11-06",
    "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/"
-  },
-  {
-   "why": "Occupancy and concessions",
-   "title": "A look at how apartment REITs did in Q3",
-   "source": "Multifamily Dive",
-   "date": "2026-11-12",
-   "link": "https://www.multifamilydive.com/news/reits-concessions-rent-growth-acquisitions-dispositions/874382/"
-  },
-  {
-   "why": "Occupancy and concessions",
-   "title": "Orange County Multifamily Market Report – October 2026",
-   "source": "Yardi Matrix",
-   "date": "2026-11-03",
-   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/"
   }
  ],
  "coverage_gaps": []
