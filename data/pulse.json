@@ -26,7 +26,9 @@
     5.12,
     5.1,
     5.07
-   ]
+   ],
+   "streak_above5": 5,
+   "streak_since": "2026-11-12"
   },
   {
    "id": "SOFR",
@@ -119,7 +121,11 @@
  "read": [
   {
    "label": "Debt costs",
-   "text": "The 10 year Treasury was little changed at 5.07%. Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time, so a sustained level above 5% weighs on values and refinancing for loans coming due."
+   "text": "The 10 year Treasury was little changed at 5.07%. That makes 5 straight closes above 5%. Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time, so a sustained level above 5% weighs on values and refinancing for loans coming due."
+  },
+  {
+   "label": "Valuations",
+   "text": "Apartment cap rates have sat close to the 10 year Treasury for 17 straight quarters, the longest run in IPA data back to 1990 (IPA, Q3 2026). With the 10 year above 5% and little spread left, values depend more on rent and income growth than on falling rates."
   },
   {
    "label": "Floating rate loans",
@@ -167,5 +173,11 @@
    "label": "What to watch",
    "text": "How AI assistants answer apartment questions in your market. Being seen is not the same as being chosen, and that gap can cost tours."
   }
- ]
+ ],
+ "local": {
+  "cap_quarters": 17,
+  "cap_since": 1990,
+  "cap_period": "Q3 2026",
+  "cap_link": "https://www.credaily.com/briefs/multifamily-recovery-slows-as-apartment-sales-fall-6/"
+ }
 }

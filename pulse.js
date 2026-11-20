@@ -37,6 +37,7 @@
       var foot = t.querySelector("svg") && t.querySelector("svg").nextElementSibling;
       if (foot) {
         var extra = lab === "SOFR" ? " · the rate that replaced LIBOR" : "";
+        if (lab === "10 year Treasury" && s.streak_above5 >= 2) extra = " · " + s.streak_above5 + " straight closes above 5%";
         foot.textContent = s.freq + " · " + fmtDate(s.date, s.freq) + (s.held ? " · update delayed, last good reading" : extra);
       }
     });
@@ -51,6 +52,23 @@
       if (b.nextSibling) b.nextSibling.textContent = "  " + s.display + "  ";
       if (meta) meta.textContent = (s.id === "CUSR0000SEHA" ? "month over month" : s.change_text) + " · " + when;
     });
+    // Above 5% streak and cap rate spread entries in the ticker, and the cap rate tile.
+    var ten = by["10 year Treasury"], L = d.local;
+    document.querySelectorAll('.tick [data-k="streak"]').forEach(function (sp) {
+      if (!ten || ten.held || !(ten.streak_above5 >= 2)) { sp.style.display = "none"; return; }
+      sp.style.display = "";
+      sp.querySelector("b").textContent = ten.streak_above5 + " straight closes";
+      var m = sp.querySelectorAll("span")[1]; if (m && ten.streak_since) m.textContent = "since " + fmtDate(ten.streak_since, "Daily").replace(/, \d{4}$/, "");
+    });
+    if (L) {
+      document.querySelectorAll('.tick [data-k="cap"]').forEach(function (sp) {
+        sp.querySelector("b").textContent = L.cap_quarters + " quarters near the 10 year";
+        var m = sp.querySelectorAll("span")[1]; if (m) m.textContent = "longest since " + L.cap_since + " · IPA, " + L.cap_period;
+      });
+      var set = function (id, v) { var e = document.getElementById(id); if (e) e.textContent = v; };
+      set("cap-q", L.cap_quarters); set("cap-since", L.cap_since); set("cap-period", L.cap_period);
+      var a = document.getElementById("cap-link"); if (a && L.cap_link) a.href = L.cap_link;
+    }
     // The Desk's Read: plain language meaning of each move, rebuilt from the same checked data.
     var rd = document.querySelector("#desk-read .rdg");
     if (rd && d.read && d.read.length) {
@@ -61,6 +79,9 @@
         var p = document.createElement("p"); p.textContent = x.text;
         w.appendChild(l); w.appendChild(p); rd.appendChild(w);
       });
+      // Last line fills whatever is left of its row so the grid never shows a gap.
+      var n = d.read.length, left = 3 - ((n - 1) % 3);
+      if (left < 3) rd.lastChild.className += " fill" + left;
     }
     document.querySelectorAll("div").forEach(function (el) {
       if (el.children.length === 1 && /^Checked /.test(el.textContent.trim())) {

@@ -73,6 +73,16 @@ def build(sid, cfg, rows):
             item["change"] = ch
             item["change_text"] = "unchanged" if ch == 0 else f"{'+' if ch > 0 else '−'}{abs(ch):.1f} pt"
         item["spark"] = [x for _, x in rows[-14:]] if cfg["freq"] != "Quarterly" else [x for _, x in rows[-10:]]
+    if sid == "DGS10":
+        # Count straight daily closes above 5.00%, newest first, from the full checked series.
+        n, since = 0, None
+        for d0, x in reversed(rows):
+            if x > 5.0:
+                n += 1; since = d0
+            else:
+                break
+        item["streak_above5"] = n
+        item["streak_since"] = since
     return item
 
 
@@ -80,6 +90,9 @@ def build(sid, cfg, rows):
 LOCAL = {
     "phx_renewal": -2.4, "us_renewal": 1.7, "phx_period": "Sep 2026",
     "sea_vacancy": 6.6, "sea_yoy": -0.4, "sea_period": "Q3 2026",
+    # Cap rate spread (IPA State of the Market, Q3 2026, via CRE Daily Oct 23 2026). Quarterly: update when IPA's Q4 report is out.
+    "cap_quarters": 17, "cap_since": 1990, "cap_period": "Q3 2026",
+    "cap_link": "https://www.credaily.com/briefs/multifamily-recovery-slows-as-apartment-sales-fall-6/",
 }
 
 
@@ -108,7 +121,13 @@ def desk_read(by):
             mean = base + ", so lower long rates ease pressure on values and refinancing."
         else:
             mean = base + "."
+        st = t.get("streak_above5", 0)
+        if st >= 2:
+            lead = lead + f" That makes {st} straight closes above 5%."
         out.append({"label": "Debt costs", "text": lead + mean})
+    L = LOCAL
+    above = t and not t.get("held") and t["value"] > 5
+    out.append({"label": "Valuations", "text": f"Apartment cap rates have sat close to the 10 year Treasury for {L['cap_quarters']} straight quarters, the longest run in IPA data back to {L['cap_since']} (IPA, {L['cap_period']}). " + ("With the 10 year above 5% and little spread left, values depend more on rent and income growth than on falling rates." if above else "With little spread left, values depend more on rent and income growth than on falling rates.")})
     s = by.get("SOFR")
     if s and not s.get("held"):
         v, ch = s["value"], s.get("change", 0)
@@ -221,7 +240,8 @@ def main():
         out.append(build(sid, cfg, rows))
     data = {"checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "series": out, "problems": problems,
             "read": desk_read({i["id"]: i for i in out}),
-            "read_marketing": marketing_read({i["id"]: i for i in out})}
+            "read_marketing": marketing_read({i["id"]: i for i in out}),
+            "local": {k: LOCAL[k] for k in ("cap_quarters", "cap_since", "cap_period", "cap_link")}}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(data, open(OUT, "w"), indent=1)
     print(json.dumps({"ok": len(out) - len([s for s in out if s.get("held")]), "problems": problems}))
