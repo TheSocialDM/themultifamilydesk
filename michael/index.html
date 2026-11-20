@@ -27,7 +27,7 @@
 document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('a,button');if(!t)return;var h=t.getAttribute('href')||'',x=(t.textContent||'').trim().slice(0,60),ev=null;
 if(h.indexOf('thesocialdm.com/contact')>-1)ev='cta_book_review';else if(h.indexOf('linkedin.com')>-1)ev='contact_linkedin';else if(h.indexOf('mailto:')===0)ev='contact_email';
 else if(t.id==='share')ev='share_page';else if(h.indexOf('localliftsignature.com')>-1)ev='brand_signature';else if(h.indexOf('/locallift')>-1)ev='brand_locallift';
-else if(h.indexOf('thesocialdm.com')>-1)ev='click_socialdm';else if(t.closest('.tick'))ev='ticker_click';else if(t.closest('#search'))ev='ai_watch_click';
+else if(h.indexOf('moveinlocal.com')>-1)ev='brand_moveinlocal';else if(h.indexOf('thesocialdm.com')>-1)ev='click_socialdm';else if(t.closest('.tick'))ev='ticker_click';else if(t.closest('#search'))ev='ai_watch_click';
 else if(t.closest('.q'))ev='shortlist_check';else if(t.closest('.dots'))ev='term_browse';else if(t.closest('.tabs'))ev='ai_tabs';else if(h.charAt(0)==='#')ev='nav_'+h.slice(1);
 if(ev)gtag('event',ev,{link_url:h,link_text:x,page:'michael'});},true);</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -319,6 +319,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 56px;font-size:13px;color
 <a class="card c4 bc" href="https://www.thesocialdm.com/locallift"><span class="lab">For apartment communities</span><span class="nm">LocalLift</span><p>Visibility for communities in Google, Maps and AI answers, with weekly reporting that shows what renters actually see.</p><span class="go">See how LocalLift works</span></a>
 <a class="card c4 bc" href="https://www.localliftsignature.com/"><span class="lab">For Realtors and title reps</span><span class="nm">LocalLift Signature</span><p>Done for you social and Google posts every week, designed to look like the agent's own brand, not a template.</p><span class="go">Visit LocalLift Signature</span></a>
 </div>
+<p style="margin:18px 0 0;font-size:15px;color:#6e6e73">See it live: <a href="https://moveinlocal.com/?ref=desk" style="color:inherit;text-decoration:underline;text-underline-offset:3px">MoveInLocal</a>, renter guides we build for communities we market.</p>
 </section>
 
 <div class="final">
