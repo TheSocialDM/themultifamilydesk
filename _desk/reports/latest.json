@@ -1,7 +1,7 @@
 {
- "from": "2026-11-13T21:31+00:00",
- "to": "2026-11-20T21:31+00:00",
- "refreshes": 151,
+ "from": "2026-11-13T22:30+00:00",
+ "to": "2026-11-20T22:30+00:00",
+ "refreshes": 152,
  "collected": 179,
  "published": 36,
  "filtered_out": {
@@ -21,8 +21,8 @@
   "Housing": 8,
   "Rates": 7,
   "Policy": 5,
-  "Operations": 3,
   "REITs": 3,
+  "Operations": 3,
   "Rents": 3,
   "Employment": 2,
   "Arizona": 2,
