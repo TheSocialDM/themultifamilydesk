@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T04:24:45.020638+00:00",
+ "updated": "2026-11-21T05:23:45.594074+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -169,25 +169,6 @@
    "also": []
   },
   {
-   "title": "Perennial Housing launches as affordable owner, operator",
-   "link": "https://www.multifamilydive.com/news/perennial-housing-launch-affordable-owner-operator/874932/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-17",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -206,6 +187,25 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Perennial Housing launches as affordable owner, operator",
+   "link": "https://www.multifamilydive.com/news/perennial-housing-launch-affordable-owner-operator/874932/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Housing"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
