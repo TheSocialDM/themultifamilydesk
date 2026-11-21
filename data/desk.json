@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T05:23:45.594074+00:00",
+ "updated": "2026-11-21T06:22:48.670331+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -150,25 +150,6 @@
    "also": []
   },
   {
-   "title": "Syndicator Firm Faces Foreclosure On Atlanta Apartments Tied To $366M Loan",
-   "link": "https://www.bisnow.com/news/atlanta/capital-markets/syndicator-firm-faces-foreclosure-on-atlanta-apartments-tied-to-366m-loan",
-   "source": "Bisnow",
-   "date": "2026-11-17",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -187,6 +168,25 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Syndicator Firm Faces Foreclosure On Atlanta Apartments Tied To $366M Loan",
+   "link": "https://www.bisnow.com/news/atlanta/capital-markets/syndicator-firm-faces-foreclosure-on-atlanta-apartments-tied-to-366m-loan",
+   "source": "Bisnow",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
