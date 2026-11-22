@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:52:17.439096+00:00",
+ "updated": "2026-11-22T14:51:27.951832+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -211,23 +211,6 @@
    "also": []
   },
   {
-   "title": "Beyond the Rent: In an era of tech outages, here\u2019s how apartment firms can prepare their networks",
-   "link": "https://www.multifamilydive.com/news/tech-outages-cybersecurity-chris-krebs/875382/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-20",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
    "link": "https://www.yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026/",
    "source": "Yardi Matrix",
@@ -241,6 +224,23 @@
     "Multifamily",
     "Supply",
     "Housing"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Beyond the Rent: In an era of tech outages, here\u2019s how apartment firms can prepare their networks",
+   "link": "https://www.multifamilydive.com/news/tech-outages-cybersecurity-chris-krebs/875382/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-20",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
    ],
    "geo": [],
    "note": null,
