@@ -1,6 +1,6 @@
 {
- "from": "2026-11-15T05:59+00:00",
- "to": "2026-11-22T05:59+00:00",
+ "from": "2026-11-15T06:58+00:00",
+ "to": "2026-11-22T06:58+00:00",
  "refreshes": 188,
  "collected": 185,
  "published": 37,
@@ -11,7 +11,7 @@
  },
  "source_issues": {
   "Multi-Housing News": {
-   "error 403": 38
+   "error 403": 37
   }
  },
  "topics": {
@@ -21,8 +21,8 @@
   "Housing": 8,
   "Rates": 7,
   "Policy": 5,
-  "Operations": 3,
   "REITs": 3,
+  "Operations": 3,
   "Rents": 3,
   "Employment": 2,
   "Arizona": 2,
