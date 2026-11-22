@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:48:32.495786+00:00",
+ "updated": "2026-11-22T18:47:33.565061+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -93,27 +93,6 @@
    "also": []
   },
   {
-   "title": "BTR Operators Push For Treasury To Loosen Rules As Consolidation Looms",
-   "link": "https://www.bisnow.com/news/national/build-to-rent/btr-operators-push-for-treasury-to-loosen-rules-as-consolidation-looms",
-   "source": "Bisnow",
-   "date": "2026-11-17",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rates",
-    "Policy"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -132,6 +111,27 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "BTR Operators Push For Treasury To Loosen Rules As Consolidation Looms",
+   "link": "https://www.bisnow.com/news/national/build-to-rent/btr-operators-push-for-treasury-to-loosen-rules-as-consolidation-looms",
+   "source": "Bisnow",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rates",
+    "Policy"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
