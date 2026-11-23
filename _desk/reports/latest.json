@@ -1,6 +1,6 @@
 {
- "from": "2026-11-16T21:22+00:00",
- "to": "2026-11-23T21:22+00:00",
+ "from": "2026-11-16T22:21+00:00",
+ "to": "2026-11-23T22:21+00:00",
  "refreshes": 192,
  "collected": 180,
  "published": 34,
@@ -12,8 +12,8 @@
  "source_issues": {},
  "topics": {
   "Multifamily": 23,
-  "Supply": 9,
   "Housing": 9,
+  "Supply": 9,
   "Capital Markets": 6,
   "Policy": 5,
   "Rates": 4,

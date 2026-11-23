@@ -9,7 +9,7 @@ Nov 16 to Nov 23, 2026 · 192 refreshes
 
 **Source problems:** none
 
-**Topics this week:** Multifamily 23, Supply 9, Housing 9, Capital Markets 6, Policy 5, Rates 4, REITs 3, Operations 3
+**Topics this week:** Multifamily 23, Housing 9, Supply 9, Capital Markets 6, Policy 5, Rates 4, REITs 3, Operations 3
 
 **Worth Melanie's attention** (headlines only, no commentary):
 - [Phoenix and Arizona] Phoenix Developers Turn To Vacant Schools For Affordable Housing (Bisnow Phoenix, 2026-11-17) https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing
