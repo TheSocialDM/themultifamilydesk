@@ -8,7 +8,7 @@ Nov 16 to Nov 23, 2026 · 191 refreshes
 - Filtered: 3 opinion or column
 
 **Source problems:**
-- Multi-Housing News: error 403 in 2 of 191 refreshes
+- Multi-Housing News: error 403 in 1 of 191 refreshes
 
 **Topics this week:** Multifamily 26, Supply 10, Housing 9, Capital Markets 9, Rates 7, Policy 5, REITs 3, Operations 3
 

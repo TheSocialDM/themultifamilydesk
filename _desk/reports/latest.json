@@ -1,6 +1,6 @@
 {
- "from": "2026-11-16T17:25+00:00",
- "to": "2026-11-23T17:25+00:00",
+ "from": "2026-11-16T18:24+00:00",
+ "to": "2026-11-23T18:24+00:00",
  "refreshes": 191,
  "collected": 182,
  "published": 37,
@@ -11,7 +11,7 @@
  },
  "source_issues": {
   "Multi-Housing News": {
-   "error 403": 2
+   "error 403": 1
   }
  },
  "topics": {
