@@ -1,6 +1,6 @@
 {
- "from": "2026-11-16T18:24+00:00",
- "to": "2026-11-23T18:24+00:00",
+ "from": "2026-11-16T19:23+00:00",
+ "to": "2026-11-23T19:23+00:00",
  "refreshes": 191,
  "collected": 182,
  "published": 37,
@@ -9,11 +9,7 @@
   "too_old": 73,
   "opinion": 3
  },
- "source_issues": {
-  "Multi-Housing News": {
-   "error 403": 1
-  }
- },
+ "source_issues": {},
  "topics": {
   "Multifamily": 26,
   "Supply": 10,
@@ -21,8 +17,8 @@
   "Capital Markets": 9,
   "Rates": 7,
   "Policy": 5,
-  "REITs": 3,
   "Operations": 3,
+  "REITs": 3,
   "Rents": 3,
   "Employment": 2,
   "Arizona": 2,

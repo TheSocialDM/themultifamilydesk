@@ -7,10 +7,9 @@ Nov 16 to Nov 23, 2026 · 191 refreshes
 - Filtered: 69 off topic for apartment owners
 - Filtered: 3 opinion or column
 
-**Source problems:**
-- Multi-Housing News: error 403 in 1 of 191 refreshes
+**Source problems:** none
 
-**Topics this week:** Multifamily 26, Supply 10, Housing 9, Capital Markets 9, Rates 7, Policy 5, REITs 3, Operations 3
+**Topics this week:** Multifamily 26, Supply 10, Housing 9, Capital Markets 9, Rates 7, Policy 5, Operations 3, REITs 3
 
 **Worth Melanie's attention** (headlines only, no commentary):
 - [Phoenix and Arizona] Phoenix Developers Turn To Vacant Schools For Affordable Housing (Bisnow Phoenix, 2026-11-17) https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing
