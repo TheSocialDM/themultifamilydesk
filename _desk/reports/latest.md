@@ -1,16 +1,16 @@
 # Market Desk weekly, internal
-Nov 15 to Nov 22, 2026 · 193 refreshes
+Nov 16 to Nov 23, 2026 · 192 refreshes
 
-**Collected:** 184 unique stories  
-**Passed and published:** 37  
+**Collected:** 187 unique stories  
+**Passed and published:** 38  
 - Filtered: 74 too old
-- Filtered: 69 off topic for apartment owners
+- Filtered: 71 off topic for apartment owners
 - Filtered: 4 opinion or column
 
 **Source problems:**
-- Multi-Housing News: error 403 in 23 of 193 refreshes
+- Multi-Housing News: error 403 in 21 of 192 refreshes
 
-**Topics this week:** Multifamily 27, Supply 10, Capital Markets 9, Housing 8, Rates 7, Policy 5, Operations 3, REITs 3
+**Topics this week:** Multifamily 27, Supply 11, Housing 9, Capital Markets 9, Rates 7, Policy 5, Operations 3, REITs 3
 
 **Worth Melanie's attention** (headlines only, no commentary):
 - [Phoenix and Arizona] Phoenix Developers Turn To Vacant Schools For Affordable Housing (Bisnow Phoenix, 2026-11-17) https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing

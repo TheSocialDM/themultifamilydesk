@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:42:47.378317+00:00",
+ "updated": "2026-11-23T00:42:10.473496+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -231,6 +231,24 @@
    "also": []
   },
   {
+   "title": "HUD Issues Final Citizenship Rule, Giving Landlords Just Weeks To Comply",
+   "link": "https://www.bisnow.com/news/national/affordable-housing/hud-issues-final-citizenship-rule-giving-landlords-just-weeks-to-comply",
+   "source": "Bisnow",
+   "date": "2026-11-22",
+   "access": "Free",
+   "filters": [
+    "Housing"
+   ],
+   "topics": [
+    "Supply",
+    "Housing"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
    "title": "Beyond the Rent: In an era of tech outages, here\u2019s how apartment firms can prepare their networks",
    "link": "https://www.multifamilydive.com/news/tech-outages-cybersecurity-chris-krebs/875382/",
    "source": "Multifamily Dive",
@@ -258,24 +276,6 @@
    ],
    "topics": [
     "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
-   "title": "Wall Street's Big CRE Lenders Are Pulling Back While Private Credit Fights For Deals",
-   "link": "https://www.bisnow.com/news/national/capital-markets/wall-street-s-big-cre-lenders-are-pulling-back-while-private-credit-fights-for-deals",
-   "source": "Bisnow",
-   "date": "2026-11-16",
-   "access": "Free",
-   "filters": [
-    "Capital Markets"
-   ],
-   "topics": [
-    "Rates",
-    "Capital Markets"
    ],
    "geo": [],
    "note": null,
