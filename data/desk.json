@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T06:36:14.908109+00:00",
+ "updated": "2026-11-23T07:30:48.202265+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -173,25 +173,6 @@
    "also": []
   },
   {
-   "title": "Syndicator Firm Faces Foreclosure On Atlanta Apartments Tied To $366M Loan",
-   "link": "https://www.bisnow.com/news/atlanta/capital-markets/syndicator-firm-faces-foreclosure-on-atlanta-apartments-tied-to-366m-loan",
-   "source": "Bisnow",
-   "date": "2026-11-17",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Perennial Housing launches as affordable owner, operator",
    "link": "https://www.multifamilydive.com/news/perennial-housing-launch-affordable-owner-operator/874932/",
    "source": "Multifamily Dive",
@@ -204,6 +185,25 @@
    "topics": [
     "Multifamily",
     "Housing"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Syndicator Firm Faces Foreclosure On Atlanta Apartments Tied To $366M Loan",
+   "link": "https://www.bisnow.com/news/atlanta/capital-markets/syndicator-firm-faces-foreclosure-on-atlanta-apartments-tied-to-366m-loan",
+   "source": "Bisnow",
+   "date": "2026-11-17",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "Capital Markets"
    ],
    "geo": [],
    "note": null,
