@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:30:44.070989+00:00",
+ "updated": "2026-11-23T13:29:33.264925+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -9,27 +9,6 @@
   "Seattle"
  ],
  "items": [
-  {
-   "title": "Troubled Loans Pile Up At $3B Mortgage REIT With Deep Multifamily Exposure",
-   "link": "https://www.bisnow.com/news/national/multifamily/troubled-loans-pile-up-at-3b-mortgage-reit-with-deep-multifamily-exposure",
-   "source": "Bisnow",
-   "date": "2026-11-19",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "REITs",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "REITs",
-    "Rates"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
   {
    "title": "Phoenix Developers Turn To Vacant Schools For Affordable Housing",
    "link": "https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing",
@@ -47,6 +26,27 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Troubled Loans Pile Up At $3B Mortgage REIT With Deep Multifamily Exposure",
+   "link": "https://www.bisnow.com/news/national/multifamily/troubled-loans-pile-up-at-3b-mortgage-reit-with-deep-multifamily-exposure",
+   "source": "Bisnow",
+   "date": "2026-11-19",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "REITs",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "REITs",
+    "Rates"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
