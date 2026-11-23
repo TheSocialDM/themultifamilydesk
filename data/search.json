@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:21:08+00:00",
+ "updated": "2026-11-23T23:20:29+00:00",
  "items": [
   {
    "title": "Google AI Mode Dive Deeper Is Now Live",
@@ -23,6 +23,13 @@
    "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
   },
   {
+   "title": "Check Who\u2019s Posting Before You Trust Reddit On AEO Tools",
+   "link": "https://www.searchenginejournal.com/check-whos-posting-before-you-trust-reddit-on-aeo-tools/598641/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-23",
+   "why": "Worth a look for anyone responsible for how renters find a community."
+  },
+  {
    "title": "I Blind-Tested 3 Gemini Models On Real SEO Questions \u2013 Neon Won 5 Of 6",
    "link": "https://www.searchenginejournal.com/blind-test-of-gemini-4-neon-vs-hydrogen-vs-3-8-flash-on-real-seo-questions-here-is-what-won-and-what-it-costs/598384/",
    "source": "Search Engine Journal",
@@ -35,13 +42,6 @@
    "source": "Search Engine Roundtable",
    "date": "2026-11-22",
    "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
-  },
-  {
-   "title": "Why Building Trust Through Real People Stands The Test Of Time In SEO & AI Search",
-   "link": "https://www.searchenginejournal.com/why-building-trust-through-real-people-stands-the-test-of-time-in-seo-ai-search/598110/",
-   "source": "Search Engine Journal",
-   "date": "2026-11-20",
-   "why": "Google is testing where AI Mode appears. Keep your facts current wherever renters start."
   }
  ],
  "health": [
