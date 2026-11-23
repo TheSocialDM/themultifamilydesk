@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:23:58+00:00",
+ "updated": "2026-11-23T20:10:41+00:00",
  "items": [
   {
    "title": "Google AI Mode Dive Deeper Is Now Live",
@@ -23,6 +23,13 @@
    "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
   },
   {
+   "title": "I Blind-Tested 3 Gemini Models On Real SEO Questions \u2013 Neon Won 5 Of 6",
+   "link": "https://www.searchenginejournal.com/blind-test-of-gemini-4-neon-vs-hydrogen-vs-3-8-flash-on-real-seo-questions-here-is-what-won-and-what-it-costs/598384/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-23",
+   "why": "Gemini powers Google's AI answers, so what it reads about your community shapes what renters see first."
+  },
+  {
    "title": "You Can Connect ChatGPT Business Hub With ChatGPT Ad Account",
    "link": "https://www.seroundtable.com/chatgpt-business-hub-ad-account-42592.html",
    "source": "Search Engine Roundtable",
@@ -35,13 +42,6 @@
    "source": "Search Engine Journal",
    "date": "2026-11-20",
    "why": "Google is testing where AI Mode appears. Keep your facts current wherever renters start."
-  },
-  {
-   "title": "Google, ChatGPT & Others AI Engines Provide Coupon Codes",
-   "link": "https://www.seroundtable.com/google-chatgpt-coupon-codes-42581.html",
-   "source": "Search Engine Roundtable",
-   "date": "2026-11-20",
-   "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
   }
  ],
  "health": [
