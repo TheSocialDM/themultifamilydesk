@@ -1,26 +1,26 @@
 {
- "from": "2026-11-17T19:01+00:00",
- "to": "2026-11-24T19:01+00:00",
+ "from": "2026-11-17T20:00+00:00",
+ "to": "2026-11-24T20:00+00:00",
  "refreshes": 191,
- "collected": 190,
- "published": 34,
+ "collected": 184,
+ "published": 30,
  "filtered_out": {
-  "off_topic": 82,
+  "off_topic": 80,
   "too_old": 72,
   "opinion": 2
  },
  "source_issues": {},
  "topics": {
-  "Multifamily": 23,
+  "Multifamily": 20,
   "Housing": 9,
   "Supply": 9,
   "Capital Markets": 6,
-  "Policy": 5,
+  "Policy": 4,
   "Rates": 4,
-  "REITs": 3,
-  "Operations": 3,
-  "Rents": 3,
+  "REITs": 2,
+  "Operations": 2,
   "Arizona": 2,
+  "Rents": 2,
   "Seattle": 2,
   "Employment": 1
  },
@@ -55,17 +55,17 @@
   },
   {
    "why": "Rents and renewals",
-   "title": "October apartment rents rose MOM for first time since 2022: Yardi",
-   "source": "Multifamily Dive",
-   "date": "2026-11-12",
-   "link": "https://www.multifamilydive.com/news/october-apartment-rents-yardi-multifamily/874417/"
-  },
-  {
-   "why": "Rents and renewals",
    "title": "Pittsburgh Multifamily Market Report – October 2026",
    "source": "Yardi Matrix",
    "date": "2026-11-06",
    "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/"
+  },
+  {
+   "why": "Rents and renewals",
+   "title": "Orange County Multifamily Market Report – October 2026",
+   "source": "Yardi Matrix",
+   "date": "2026-11-03",
+   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/"
   }
  ],
  "coverage_gaps": []
