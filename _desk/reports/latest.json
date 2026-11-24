@@ -1,7 +1,7 @@
 {
- "from": "2026-11-17T09:10+00:00",
- "to": "2026-11-24T09:10+00:00",
- "refreshes": 192,
+ "from": "2026-11-17T10:09+00:00",
+ "to": "2026-11-24T10:09+00:00",
+ "refreshes": 191,
  "collected": 184,
  "published": 34,
  "filtered_out": {
@@ -17,8 +17,8 @@
   "Capital Markets": 6,
   "Policy": 5,
   "Rates": 4,
-  "Operations": 3,
   "REITs": 3,
+  "Operations": 3,
   "Rents": 3,
   "Arizona": 2,
   "Seattle": 2,
