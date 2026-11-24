@@ -1,12 +1,12 @@
 {
- "from": "2026-11-17T22:57+00:00",
- "to": "2026-11-24T22:57+00:00",
+ "from": "2026-11-17T23:56+00:00",
+ "to": "2026-11-24T23:56+00:00",
  "refreshes": 191,
- "collected": 190,
+ "collected": 185,
  "published": 34,
  "filtered_out": {
-  "off_topic": 82,
-  "too_old": 72,
+  "off_topic": 79,
+  "too_old": 70,
   "opinion": 2
  },
  "source_issues": {},
