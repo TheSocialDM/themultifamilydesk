@@ -1,27 +1,6 @@
 {
 "runs": [
 {
-"time": "2026-11-16T17:07:49.093343+00:00",
-"collected": 130,
-"published": 20,
-"fates": {
-"kept": 20,
-"off_topic": 39,
-"too_old": 67,
-"duplicate": 3,
-"opinion": 1
-},
-"health": {
-"Multifamily Dive": "healthy",
-"Bisnow": "healthy",
-"Bisnow Phoenix": "healthy",
-"Multi-Housing News": "error 403",
-"Yardi Matrix": "healthy",
-"Nareit": "healthy",
-"The Urbanist": "healthy"
-}
-},
-{
 "time": "2026-11-16T18:07:02.804423+00:00",
 "collected": 129,
 "published": 21,
@@ -4239,6 +4218,25 @@
 "Nareit": "healthy",
 "The Urbanist": "healthy"
 }
+},
+{
+"time": "2026-11-24T18:02:12.593965+00:00",
+"collected": 126,
+"published": 14,
+"fates": {
+"kept": 14,
+"off_topic": 41,
+"too_old": 69,
+"opinion": 2
+},
+"health": {
+"Multifamily Dive": "healthy",
+"Bisnow": "healthy",
+"Bisnow Phoenix": "healthy",
+"Yardi Matrix": "healthy",
+"Nareit": "healthy",
+"The Urbanist": "healthy"
+}
 }
 ],
 "stories": {
@@ -4376,13 +4374,6 @@
 ],
 "date": "2026-11-10",
 "link": "https://www.multifamilydive.com/news/apartment-cmbs-delinquency-servicing-rate/874321/"
-},
-"https://multifamilydive.com/news/truamerica-expands-construction-california-project/874286": {
-"title": "TruAmerica expands into ground-up development with California project",
-"source": "Multifamily Dive",
-"first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-16T17:07:49.093343+00:00",
-"fate": "off_topic"
 },
 "https://bisnow.com/news/national/capital-markets/brookfield-quietly-buys-sprawling-mobile-home-community-portfolio-members-of-congress-have-questions": {
 "title": "Members Of Congress Have Questions For Brookfield After Its Mass Mobile Home Purchase",
@@ -4598,25 +4589,18 @@
 "date": "2026-11-09",
 "link": "https://www.bisnow.com/news/national/capital-markets/cre-lending-war-rages-on-after-fed-hike-but-a-19b-refi-gap-looms"
 },
-"https://bisnow.com/news/national/commercial-real-estate/cryto-tokenization-clarity-act": {
-"title": "Washington Never Delivered Crypto Rules. That's Not What's Stalling Tokenized Real Estate",
-"source": "Bisnow",
-"first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-16T17:07:49.093343+00:00",
-"fate": "off_topic"
-},
 "https://bisnow.com/news/phoenix/industrial/developers-in-talks-with-tsmc-suppliers-for-7b-halo-vista-mixed-use-project": {
 "title": "Developers In Talks With TSMC Suppliers For $7B Halo Vista Mixed-Use Project",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply": {
 "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily",
@@ -4638,105 +4622,105 @@
 "title": "Logistics Company Buys Land For 1.2M SF Phoenix Industrial Park",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/data-center/glendale-arizona-recommends-rezoning-for-controversial-data-center-project": {
 "title": "Maricopa County Data Center Project Moves Toward Approval Despite Pushback",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/mixed-use/mesa-city-council-greenlights-3b-mixed-use-project": {
 "title": "Mesa City Council Greenlights $3B Mixed-Use Project",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/data-center-community-relations/arizona-ag-calls-for-data-center-pause-as-backlash-in-phoenix-persists": {
 "title": "Arizona AG Calls For Data Center Pause As Backlash In Phoenix Persists",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/mixed-use/glendale-approved-to-build-sports-and-events-complex-near-cardinals-stadium": {
 "title": "Glendale Approves Rezoning For Sports And Events Complex Near Cardinals' Stadium",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/data-center-community-relations/pinal-county-rejects-controversial-data-center-project": {
 "title": "Pinal County Rejects Controversial Data Center Project",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/office/86m-sale-marks-phoenix-largest-single-building-office-deal-2026": {
 "title": "$86M Sale Marks Phoenix's Largest Single-Building Office Deal Of 2026",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/data-center/phoenix-data-center-projects-face-delays-as-public-backlash-regulations-mount": {
 "title": "Phoenix Data Center Projects Face Delays As Public Backlash, Regulations Mount",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/industrial/halo-vista-developers-in-phoenix-reveal-industrial-plans-to-attract-tsmc-suppliers": {
 "title": "Halo Vista Developers In Phoenix Reveal Plans To Attract TSMC Suppliers",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/office/charles-schwab-files-11-7m-permit-for-scottsdale-office-renovations": {
 "title": "Charles Schwab To Invest $11.7M In Scottsdale Office Renovations",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/finance/lument-closes-on-73m-bridge-loan-for-acquisition-of-phoenix-btr-community-135585": {
 "title": "Developer Lands $73M Bridge Loan For Phoenix Build-To-Rent Community",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/office/phoenix-office-market-thrives-vacancy-continues-decline-135517": {
 "title": "Phoenix Office Vacancy Continues Decline Despite Sluggish Leasing",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/industrial/historic-ground-lease-bringing-1m-sf-light-industrial-project-to-phoenix-135398": {
 "title": "Developer Signs Ground Lease For 1M SF Industrial Project In Phoenix",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/adaptive-reuse/phoenix-sees-boon-in-office-conversions-due-to-excess-supply-lack-of-land-135135": {
 "title": "Phoenix's Housing, Industrial Demands Are Driving Surge In Conversions",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/industrial/massive-lowes-warehouse-in-mesa-industrial-park-sells-for-116m-135042": {
 "title": "Massive Lowe's Warehouse In Mesa Industrial Park Sells For $116M",
 "source": "Bisnow Phoenix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://bisnow.com/news/phoenix/industrial/machine-investment-group-acquires-10-building-industrial-park-in-southeast-valley-134814": {
@@ -4760,18 +4744,11 @@
 "last": "2026-11-16T21:04:01.355565+00:00",
 "fate": "too_old"
 },
-"https://bisnow.com/news/phoenix/office/ground-floor-retail-offerings-boost-office-scene-in-phoenix-area-134439": {
-"title": "Phoenix Office Developers Lean On Retail As An RTO Incentive",
-"source": "Bisnow Phoenix",
-"first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-16T17:07:49.093343+00:00",
-"fate": "too_old"
-},
 "https://yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026": {
 "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily",
@@ -4790,7 +4767,7 @@
 "title": "Pittsburgh Multifamily Market Report – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily"
@@ -4808,14 +4785,14 @@
 "title": "Cleveland Multifamily Market Report – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://yardimatrix.com/blog/multifamily-loan-challenges": {
 "title": "Yardi Matrix Bulletin Spotlights Multifamily Loan Challenges",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily",
@@ -4833,14 +4810,14 @@
 "title": "St. Louis Multifamily Market Report – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://yardimatrix.com/blog/orange-county-multifamily-market-report": {
 "title": "Orange County Multifamily Market Report – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily"
@@ -4858,21 +4835,21 @@
 "title": "Salt Lake City Multifamily Market Report – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://yardimatrix.com/blog/us-industrial-market-outlook": {
 "title": "U.S. Industrial Market Outlook – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://yardimatrix.com/blog/portland-multifamily-market-report": {
 "title": "Portland Multifamily Market Report – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://yardimatrix.com/blog/san-antonio-multifamily-market-report": {
@@ -4886,329 +4863,329 @@
 "title": "LaSalle’s Allan Swaringen Positive on Core Real Estate Amid Continued Higher Rates",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://reit.com/news/articles/self-storage-reits-stabilizing-fundamentals-and-strong-total-returns": {
 "title": "Self-Storage REITs: Stabilizing Fundamentals and Strong Total Returns",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/ftse-epra-nareit-global-real-estate-index-series-turns-25-sets-world-class-benchmark": {
 "title": "FTSE EPRA Nareit Global Real Estate Index Series Turns 25, Sets World Class Benchmark",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/self-storage-reits-see-housing-challenges-driving-demand-space-green-street": {
 "title": "Self-Storage REITs See Housing Challenges Driving Demand for Space: Green Street",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/names-to-note-october-2026": {
 "title": "Names to Note: October 2026",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/fifth-dimension-reits-should-automate-audited-processes-and-demand-more-than-chatbots-from-vendors": {
 "title": "Fifth Dimension: REITs Should Automate Audited Processes and Demand More Than Chatbots from Vendors",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/video/deloittes-2027-commercial-real-estate-outlook-highlights-increased-strategic-discipline": {
 "title": "Deloitte’s 2027 Commercial Real Estate Outlook Highlights Increased Strategic Discipline",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/jlls-jacob-rowden-sees-new-expansionary-phase-us-office-leasing": {
 "title": "JLL’s Jacob Rowden Sees New Expansionary Phase for U.S. Office Leasing",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/sonida-senior-living-puts-its-operating-model-to-the-test-at-scale": {
 "title": "Sonida Senior Living Puts Its Operating Model to the Test at Scale",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/jackson-lucas-executives-navigating-succession-reit-c-suite": {
 "title": "Jackson Lucas Executives on Navigating Succession in the REIT C-Suite",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/hiffman-nationals-carrie-szarzynski-property-management-profit-center": {
 "title": "Hiffman National’s Carrie Szarzynski on Property Management as a Profit Center",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/video/ftse-nareit-us-real-estate-indexes-review-whats-next-webinar-recap-0": {
 "title": "FTSE Nareit U.S. Real Estate Indexes in Review & What’s Next: Webinar Recap",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/accountabilitys-sunny-misser-on-trends-reshaping-the-sustainability-landscape": {
 "title": "AccountAbility’s Sunny Misser on Trends Reshaping the Sustainability Landscape",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/deloittes-brian-ruben-kevin-richards-key-elements-reit-board-effectiveness": {
 "title": "Deloitte’s Brian Ruben & Kevin Richards on Key Elements of REIT Board Effectiveness",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/boardwalk-reit-elevates-multifamily-affordability-into-a-strategic-growth-engine": {
 "title": "Boardwalk REIT Elevates Multifamily Affordability into a Strategic Growth Engine",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/cdt-continues-to-strengthen-affordable-housing-finance-model-across-cycles": {
 "title": "CDT Continues to Strengthen Affordable Housing Finance Model Across Cycles",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/timberland-reits-offer-attractive-defensive-offensive-blend-da-davidsons-kurt-yinger": {
 "title": "Timberland REITs Offer Attractive Defensive, Offensive Blend: D.A. Davidson’s Kurt Yinger",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/timberland-reits-may-enjoy-strong-tailwinds-from-needed-home-construction": {
 "title": "Timberland REITs May Enjoy Strong Tailwinds from Needed Home Construction",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/names-to-note-september-2026": {
 "title": "Names to Note: September 2026",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/reit-advocate-reflects-landmark-2001-move-include-sector-sp-indices": {
 "title": "REIT Advocate Reflects on Landmark 2001 Move to Include Sector in S&P Indices",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/iron-mountain-celebrates-75-years-of-adaptation-and-innovation": {
 "title": "Iron Mountain Celebrates 75 Years of Adaptation and Innovation",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/reits-inclusion-in-sp-us-indexes-pivotal-to-sector-recognition-growth": {
 "title": "REITs’ Inclusion in S&P U.S. Indexes Pivotal to Sector Recognition, Growth",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/extra-space-storages-noah-springer-value-scale-data-operational-efficiency": {
 "title": "Extra Space Storage’s Noah Springer on Value of Scale, Data, Operational Efficiency",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/aews-gina-szymanski-bullish-outlook-reit-growth-fundamentals": {
 "title": "AEW’s Gina Szymanski Bullish on Outlook for REIT Growth, Fundamentals",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/macerich-sees-mall-advertising-as-compelling-opportunity-for-real-time-engagement": {
 "title": "Macerich Sees Mall Advertising as Compelling Opportunity for Real Time Engagement",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/centersquare-sees-favorable-setup-reits-low-supply-solid-balance-sheets": {
 "title": "CenterSquare Sees Favorable Setup for REITs from Low Supply, Solid Balance Sheets",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/health-care-reits-seeing-long-term-demand-tailwinds-raymond-james-dave-rodgers": {
 "title": "Health Care REITs Seeing Long-Term Demand Tailwinds: Raymond James’ Dave Rodgers",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/health-care-fundamentals-remain-strong-baby-boomers-drive-sector-demand": {
 "title": "Health Care Fundamentals Remain Strong, Baby Boomers Drive Sector Demand",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/names-to-note-august-2026": {
 "title": "Names to Note: August 2026",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/apreas-sigrid-zialcita-long-term-investment-opportunities-across-asia-pacific": {
 "title": "APREA’s Sigrid Zialcita on Long-Term Investment Opportunities Across Asia Pacific",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/lineage-employee-equity-plan-creates-ownership-mindset-supports-retention": {
 "title": "Lineage Employee Equity Plan Creates Ownership Mindset, Supports Retention",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/brixmor-ceo-repositioning-assets-capitalize-open-air-retail-strength": {
 "title": "Brixmor CEO on Repositioning Assets to Capitalize on Open-Air Retail Strength",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/how-operational-green-building-certifications-improve-portfolio-sustainability-benchmark-scores": {
 "title": "How Operational Green Building Certifications Improve Portfolio Sustainability Benchmark Scores",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/rayonier-sees-multiple-ways-to-maximize-portfolio-value-post-merger": {
 "title": "Rayonier Sees Multiple Ways to Maximize Portfolio Value Post Merger",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/reit-portfolio-managers-see-tailwinds-from-low-supply-structural-growth-drivers": {
 "title": "REIT Portfolio Managers See Tailwinds from Low Supply, Structural Growth Drivers",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/truist-securities-barry-jonas-appeal-gaming-reits-investors": {
 "title": "Truist Securities’ Barry Jonas on the Appeal of Gaming REITs to Investors",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/gaming-reits-post-steady-improvement-in-ffo-noi": {
 "title": "Gaming REITs Post Steady Improvement in FFO, NOI",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/yardis-randy-moss-link-between-regulatory-changes-rising-energy-costs-nav": {
 "title": "Yardi’s Randy Moss on the Link Between Regulatory Changes, Rising Energy Costs, NAV",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/names-to-note-july-2026": {
 "title": "Names to Note: July 2026",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/aews-mike-acton-says-fundamental-property-investment-asset-management-essential": {
 "title": "AEW’s Mike Acton Says Fundamental Property Investment, Asset Management Essential",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/nareit-webinar-explores-how-reits-are-embedding-sustainability-into-business-strategy": {
 "title": "Nareit Webinar Explores How REITs Are Embedding Sustainability Into Business Strategy",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/principals-rich-hill-reits-transition-recovery-expansion": {
 "title": "Principal’s Rich Hill on REITs’ Transition from Recovery to Expansion",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/regency-centers-video-series-targets-smaller-retailers-with-store-opening-guidance": {
 "title": "Regency Centers’ Video Series Targets Smaller Retailers with Store-Opening Guidance",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/podcasts/nareits-ed-pierzak-sees-strong-momentum-reits-2026-and-beyond": {
 "title": "Nareit’s Ed Pierzak Sees Strong Momentum for REITs in 2026 and Beyond",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/video/ftse-nareit-us-real-estate-indexes-review-whats-next-webinar-recap": {
 "title": "FTSE Nareit U.S. Real Estate Indexes in Review & What’s Next: Webinar Recap",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/video/copt-defense-properties-sees-strong-growth-opportunities-defense-spending-accelerates": {
 "title": "COPT Defense Properties Sees Strong Growth Opportunities as Defense Spending Accelerates",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/articles/data-center-reits-continue-to-pique-investor-interest-post-strong-performance-gains": {
 "title": "Data Center REITs Continue to Pique Investor Interest, Post Strong Performance Gains",
 "source": "Nareit",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "too_old"
 },
 "https://reit.com/news/video/kite-realty-ceo-says-portfolio-repositioning-strengthens-long-term-growth-outlook": {
@@ -5236,7 +5213,7 @@
 "title": "Seattle Street Ends: Eastlake",
 "source": "The Urbanist",
 "first": "2026-11-14T21:13:04.492102+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/shoreline-pedestrian-bridge-defect-jeopardizes-already-delayed-timeline": {
@@ -5337,7 +5314,7 @@
 "title": "Seattle Social Housing Developer Drops Design Director",
 "source": "The Urbanist",
 "first": "2026-11-15T16:31:43.348892+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Housing",
@@ -5380,7 +5357,7 @@
 "title": "Lawmakers Turn to a 'Highway Use Fee' to Bolster Sagging Transportation Budget",
 "source": "The Urbanist",
 "first": "2026-11-16T14:10:49.576191+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://multifamilydive.com/news/realpage-new-york-lawsuit-algorithmic-rent-ban/874678": {
@@ -5476,21 +5453,21 @@
 "title": "Shopping Center In Metro Phoenix Sells For $116.7M",
 "source": "Bisnow Phoenix",
 "first": "2026-11-16T22:03:17.145502+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/op-ed-its-time-to-reconnect-fremont-and-grapple-with-the-barrier-aurora-avenue-creates": {
 "title": "Op-Ed: It's Time to Reconnect Fremont and Grapple with the Barrier Aurora Avenue Creates",
 "source": "The Urbanist",
 "first": "2026-11-17T16:45:21.246018+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "opinion"
 },
 "https://multifamilydive.com/news/perennial-housing-launch-affordable-owner-operator/874932": {
 "title": "Perennial Housing launches as affordable owner, operator",
 "source": "Multifamily Dive",
 "first": "2026-11-17T20:41:28.500923+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily",
@@ -5508,7 +5485,7 @@
 "title": "How multifamily operators leverage tech to oust fraudulent applications",
 "source": "Multifamily Dive",
 "first": "2026-11-17T20:41:28.500923+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily"
@@ -5597,7 +5574,7 @@
 "title": "Phoenix Developers Turn To Vacant Schools For Affordable Housing",
 "source": "Bisnow Phoenix",
 "first": "2026-11-18T00:37:45.707542+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Housing",
@@ -5617,49 +5594,49 @@
 "title": "Barbie Gets Her Own Hotel In Mattel's Planned Glendale Theme Park",
 "source": "Bisnow Phoenix",
 "first": "2026-11-18T00:37:45.707542+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/data-center-capital-markets/nvidia-tops-forecasts-in-first-report-without-jensen-huang-but-gets-choosier-about-backing-data-centers": {
 "title": "Nvidia Tops Forecasts In First Report Without Jensen Huang, But Gets Choosier About Backing Data Centers",
 "source": "Bisnow",
 "first": "2026-11-18T04:33:57.194901+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/op-ed-microsofts-pac-failed-but-governor-ferguson-is-still-coming-to-heel": {
 "title": "Op-Ed: Microsoft’s PAC Failed, but Governor Ferguson Is Still Coming to Heel",
 "source": "The Urbanist",
 "first": "2026-11-18T04:33:57.194901+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "opinion"
 },
 "https://yardimatrix.com/blog/self-storage-market-outlook": {
 "title": "Self Storage Market Outlook – October 2026",
 "source": "Yardi Matrix",
 "first": "2026-11-18T16:22:40.175241+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/seattle-council-and-mayor-spar-over-amended-budget": {
 "title": "Seattle Council and Mayor Spar Over Amended Budget",
 "source": "The Urbanist",
 "first": "2026-11-18T16:22:40.175241+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://multifamilydive.com/news/hud-finalizes-rule-mixed-immigration-status-households/875086": {
 "title": "HUD finalizes rule targeting mixed-immigration-status households receiving aid",
 "source": "Multifamily Dive",
 "first": "2026-11-18T20:18:53.886775+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://multifamilydive.com/news/multifamily-construction-starts-october-hud/875043": {
 "title": "Multifamily starts rose in October amid high borrowing, materials costs",
 "source": "Multifamily Dive",
 "first": "2026-11-18T20:18:53.886775+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily"
@@ -5676,7 +5653,7 @@
 "title": "How apartment developers can successfully install connected services",
 "source": "Multifamily Dive",
 "first": "2026-11-18T20:18:53.886775+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily"
@@ -5693,77 +5670,77 @@
 "title": "'Doesn't Look Good': October CRE Sales Volume Slumps, Setting Up Weak Q4",
 "source": "Bisnow",
 "first": "2026-11-18T20:18:53.886775+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/mixed-use/companies-led-by-49ers-ceo-former-rockets-exec-launch-sports-real-estate-arm": {
 "title": "Companies Led By 49ers CEO, Former Rockets Exec Launch Sports Real Estate Arm",
 "source": "Bisnow",
 "first": "2026-11-18T20:18:53.886775+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/pinehurst-station-posts-anemic-ridership-in-first-full-month": {
 "title": "Pinehurst Station Posts Anemic Ridership in First Full Month",
 "source": "The Urbanist",
 "first": "2026-11-18T20:18:53.886775+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/capital-markets/private-equity-lags-reits-in-getting-cre-portfolios-up-to-market-speed": {
 "title": "Private Equity Lags REITs In Getting CRE Portfolios Up To Market Speed",
 "source": "Bisnow",
 "first": "2026-11-19T04:11:24.316841+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/democrats-secure-supermajority-in-state-house-but-fall-short-in-senate": {
 "title": "Democrats Secure Supermajority in State House, but Fall Short in Senate",
 "source": "The Urbanist",
 "first": "2026-11-19T04:11:24.316841+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://reit.com/news/podcasts/institutional-real-estate-investors-continue-deploy-capital-reits": {
 "title": "Institutional Real Estate Investors Continue to Deploy Capital into REITs",
 "source": "Nareit",
 "first": "2026-11-19T16:00:04.083937+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/county-council-advances-rapidride-r-plan-to-consolidate-route-7-stops": {
 "title": "County Council Advances RapidRide R Plan to Consolidate Route 7 Stops",
 "source": "The Urbanist",
 "first": "2026-11-19T16:00:04.083937+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/hotel/brookfield-bets-110m-on-resorts-company-rolling-up-independent-campgrounds": {
 "title": "Brookfield Bets $110M On Resorts Company Rolling Up Independent Campgrounds",
 "source": "Bisnow",
 "first": "2026-11-19T19:56:14.474364+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/retail/kfc-fast-food-bankruptcies": {
 "title": "KFC Operator Is Latest Casualty In Wave Of Fast-Food Franchisee Bankruptcies",
 "source": "Bisnow",
 "first": "2026-11-19T19:56:14.474364+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/retail/target-sales-growth-expansion-and-remodel-push": {
 "title": "Target To Spend Up To $6B On Store Upgrades, Openings As Sales Accelerate",
 "source": "Bisnow",
 "first": "2026-11-19T19:56:14.474364+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/multifamily/troubled-loans-pile-up-at-3b-mortgage-reit-with-deep-multifamily-exposure": {
 "title": "Troubled Loans Pile Up At $3B Mortgage REIT With Deep Multifamily Exposure",
 "source": "Bisnow",
 "first": "2026-11-19T19:56:14.474364+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily",
@@ -5783,42 +5760,42 @@
 "title": "Subtext adds student properties in Texas and Nevada",
 "source": "Multifamily Dive",
 "first": "2026-11-19T23:52:28.400575+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://multifamilydive.com/news/progress-residential-pretium-partners-ftc-junk-fee-lawsuit/875176": {
 "title": "Progress Residential, owner Pretium Partners settle FTC rental fee suit for $50M",
 "source": "Multifamily Dive",
 "first": "2026-11-19T23:52:28.400575+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/data-center-capital-markets/anthropic-record-ipo-reverberates-across-data-center-sector": {
 "title": "Anthropic's Record IPO Reverberates Across Data Center Sector",
 "source": "Bisnow",
 "first": "2026-11-19T23:52:28.400575+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/county-council-moves-to-restore-weekend-vashon-water-taxi-service": {
 "title": "County Council Moves to Restore Weekend Vashon Water Taxi Service",
 "source": "The Urbanist",
 "first": "2026-11-19T23:52:28.400575+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/tacoma-council-axes-crisis-response-team-slashes-city-budget-to-address-deficit": {
 "title": "Tacoma Council Axes Crisis Response Team, Slashes City Budget to Address Deficit",
 "source": "The Urbanist",
 "first": "2026-11-20T15:37:12.974126+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/capital-markets/trepp-20-of-the-cmbs-loans-modified-since-2022-are-delinquent-again": {
 "title": "Trepp: 20% Of The CMBS Loans Modified Since 2022 Are Delinquent Again",
 "source": "Bisnow",
 "first": "2026-11-20T19:33:28.285731+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Capital Markets"
@@ -5834,7 +5811,7 @@
 "title": "Jackson Street Housing Project Could Leave King County on Hook for Millions",
 "source": "The Urbanist",
 "first": "2026-11-20T19:33:28.285731+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Housing",
@@ -5853,7 +5830,7 @@
 "title": "Beyond the Rent: In an era of tech outages, here’s how apartment firms can prepare their networks",
 "source": "Multifamily Dive",
 "first": "2026-11-20T23:29:46.919919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily"
@@ -5869,49 +5846,49 @@
 "title": "Bonaventure moves into Indiana with 274-unit buy",
 "source": "Multifamily Dive",
 "first": "2026-11-20T23:29:46.919919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/data-center-sustainability-operations/meta-could-push-back-climate-goal-as-data-centres-cause-spike-in-carbon-emissions": {
 "title": "Meta's Soaring Data Center Emissions Force It To Reconsider Climate Goal",
 "source": "Bisnow",
 "first": "2026-11-20T23:29:46.919919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/retail/the-childrens-place-hires-adviser-to-market-store-leases-distribution-center-following-bankruptcy-filing": {
 "title": "The Children's Place Hires Adviser To Sell 509 Store Leases, Distribution Center",
 "source": "Bisnow",
 "first": "2026-11-20T23:29:46.919919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/construction-development/senate-passes-bill-to-speed-up-permitting-make-data-centers-pay-more": {
 "title": "Senate Passes Bill To Speed Up Permitting, Make Data Centers Pay More",
 "source": "Bisnow",
 "first": "2026-11-20T23:29:46.919919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/sound-transit-funds-study-to-speed-up-d-line-bus": {
 "title": "Sound Transit Funds Study to Speed Up D Line Bus",
 "source": "The Urbanist",
 "first": "2026-11-21T21:38:17.608184+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/new-york/capital-markets/foreign-capital-investors-blue-wave": {
 "title": "The Blue Wave Has Foreign Capital Dipping Its Toes Back Into U.S. Commercial Real Estate",
 "source": "Bisnow",
 "first": "2026-11-23T00:42:10.473496+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/affordable-housing/hud-issues-final-citizenship-rule-giving-landlords-just-weeks-to-comply": {
 "title": "HUD Issues Final Citizenship Rule, Giving Landlords Just Weeks To Comply",
 "source": "Bisnow",
 "first": "2026-11-23T00:42:10.473496+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Housing"
@@ -5928,21 +5905,21 @@
 "title": "Best Side Cycling Tests Out New Henderson Bike Lane in Rainier Beach",
 "source": "The Urbanist",
 "first": "2026-11-23T00:42:10.473496+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/data-center-development/nvidia-reinstates-jensen-huang": {
 "title": "Nvidia Reinstates Jensen Huang As CEO",
 "source": "Bisnow",
 "first": "2026-11-23T16:27:00.306332+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://multifamilydive.com/news/optech-morgan-willow-bridge-artifical-intellience-/875487": {
 "title": "How 2 apartment powerhouses are setting their tech strategy",
 "source": "Multifamily Dive",
 "first": "2026-11-23T20:10:40.295919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "published",
 "filters": [
 "Multifamily"
@@ -5958,56 +5935,56 @@
 "title": "$500M Data Center Debt Auction Fizzles, Leaving Dutch Bank To Shop For Buyers",
 "source": "Bisnow",
 "first": "2026-11-23T20:10:40.295919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/data-center-development/trump-threatens-tremendous-tax-on-us-companies-building-data-centers-abroad": {
 "title": "Trump Threatens 'Tremendous Tax' On Companies Building Data Centers Abroad",
 "source": "Bisnow",
 "first": "2026-11-23T20:10:40.295919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://theurbanist.org/transit-advocates-push-larsen-to-ditch-car-centric-build-america-250-act": {
 "title": "Transit Advocates Push Larsen to Ditch Car-Centric 'BUILD America 250 Act'",
 "source": "The Urbanist",
 "first": "2026-11-23T20:10:40.295919+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/capital-markets/mount-street-dallas-hub-paul-smyth-greystone-broadsword": {
 "title": "Mount Street Establishes New Dallas Hub, Buys $1.4B Servicing Business",
 "source": "Bisnow",
 "first": "2026-11-23T23:20:27.492292+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://reit.com/news/articles/shielding-noi-how-modern-property-tax-management-improves-noi-and-drives-asset-protection": {
 "title": "Shielding NOI: How Modern Property Tax Management Improves NOI and Drives Asset Protection",
 "source": "Nareit",
 "first": "2026-11-23T23:20:27.492292+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/data-center-community-relations/battery-storage-boom-faces-growing-resistance-moratoriums-spread": {
 "title": "Battery Storage Boom Faces Growing Resistance As Moratoriums Spread",
 "source": "Bisnow",
 "first": "2026-11-24T03:16:34.064749+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://bisnow.com/news/national/multifamily/nyc-la-chicago-among-cities-suing-to-block-hud-citizenship-rule": {
 "title": "NYC, LA, Chicago Among Cities Suing To Block HUD's New Citizenship Rule",
 "source": "Bisnow",
 "first": "2026-11-24T03:16:34.064749+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 },
 "https://reit.com/news/podcasts/measurabl-bxp-see-sustainability-driving-asset-managements-bottom-line": {
 "title": "Measurabl, BXP See Sustainability Driving Asset Management’s Bottom Line",
 "source": "Nareit",
 "first": "2026-11-24T15:05:16.009971+00:00",
-"last": "2026-11-24T17:03:10.023162+00:00",
+"last": "2026-11-24T18:02:12.593965+00:00",
 "fate": "off_topic"
 }
 }
