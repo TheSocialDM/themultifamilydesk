@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:06:57+00:00",
+ "updated": "2026-11-24T14:06:00+00:00",
  "items": [
   {
    "title": "Google Business Profiles Appeals Simplified Into A Single Form",
@@ -14,6 +14,13 @@
    "source": "Search Engine Roundtable",
    "date": "2026-11-24",
    "why": "Your Google Business Profile is still the front door. Keep hours, specials, photos and replies current."
+  },
+  {
+   "title": "Bing AI Generated Answer - Different From AI Overviews/Copilot Search",
+   "link": "https://www.seroundtable.com/bing-ai-generated-answer-42598.html",
+   "source": "Search Engine Roundtable",
+   "date": "2026-11-24",
+   "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
   },
   {
    "title": "Google Burying Links Deeper Down In AI Overviews",
@@ -35,13 +42,6 @@
    "source": "Search Engine Journal",
    "date": "2026-11-23",
    "why": "Gemini powers Google's AI answers, so what it reads about your community shapes what renters see first."
-  },
-  {
-   "title": "Google AI Mode Dive Deeper Is Now Live",
-   "link": "https://www.seroundtable.com/google-ai-mode-dive-deeper-feature-live-42589.html",
-   "source": "Search Engine Roundtable",
-   "date": "2026-11-23",
-   "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
   }
  ],
  "health": [
