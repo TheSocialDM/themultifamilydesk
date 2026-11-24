@@ -1,6 +1,6 @@
 {
- "from": "2026-11-17T20:59+00:00",
- "to": "2026-11-24T20:59+00:00",
+ "from": "2026-11-17T21:58+00:00",
+ "to": "2026-11-24T21:58+00:00",
  "refreshes": 191,
  "collected": 184,
  "published": 30,
@@ -12,14 +12,14 @@
  "source_issues": {},
  "topics": {
   "Multifamily": 20,
-  "Supply": 9,
   "Housing": 9,
+  "Supply": 9,
   "Capital Markets": 6,
   "Policy": 4,
   "Rates": 4,
   "REITs": 2,
-  "Arizona": 2,
   "Operations": 2,
+  "Arizona": 2,
   "Rents": 2,
   "Seattle": 2,
   "Employment": 1

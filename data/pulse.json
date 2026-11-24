@@ -1,18 +1,17 @@
 {
- "checked": "2026-11-24T20:59:25+00:00",
+ "checked": "2026-11-24T21:58:28+00:00",
  "series": [
   {
    "id": "DGS10",
    "label": "10 year Treasury",
    "freq": "Daily",
-   "date": "2026-11-20",
+   "date": "2026-11-23",
    "source": "FRED, St. Louis Fed",
    "value": 4.92,
    "display": "4.92%",
-   "change": -12,
-   "change_text": "\u221212 bp",
+   "change": 0,
+   "change_text": "unchanged",
    "spark": [
-    4.91,
     4.95,
     4.9,
     4.84,
@@ -25,6 +24,7 @@
     5.1,
     5.07,
     5.04,
+    4.92,
     4.92
    ],
    "streak_above5": 0,
@@ -121,7 +121,7 @@
  "read": [
   {
    "label": "Debt costs",
-   "text": "The 10 year Treasury fell 12 basis points from the prior reading to 4.92%. Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time, so lower long rates ease pressure on values and refinancing."
+   "text": "The 10 year Treasury was little changed at 4.92%. Permanent loan rates are priced as a spread over this benchmark, and cap rates tend to follow it over time."
   },
   {
    "label": "Valuations",
