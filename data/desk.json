@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:40:32.071885+00:00",
+ "updated": "2026-11-25T17:39:46.023455+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -113,27 +113,6 @@
    "also": []
   },
   {
-   "title": "Seattle Social Housing Developer Drops Design Director",
-   "link": "https://www.theurbanist.org/seattle-social-housing-developer-drops-design-director/",
-   "source": "The Urbanist",
-   "date": "2026-11-15",
-   "access": "Free",
-   "filters": [
-    "Housing",
-    "Seattle"
-   ],
-   "topics": [
-    "Supply",
-    "Housing"
-   ],
-   "geo": [
-    "Seattle"
-   ],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Recent federal policy moves that impact multifamily",
    "link": "https://www.multifamilydive.com/news/federal-policy-moves-multifamily/875358/",
    "source": "Multifamily Dive",
@@ -196,7 +175,24 @@
    "also": []
   },
   {
-   "title": "3 ways apartment firms can mitigate AI risk",
+   "title": "Apartment sales plummeted 43% in October",
+   "link": "https://www.multifamilydive.com/news/apartment-sales-multifamily-prices-treasury-rates/875764/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-25",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "3 ways apartment firms can manage AI risk",
    "link": "https://www.multifamilydive.com/news/artifiicial-intelligence-cybersecurity-property-management/875663/",
    "source": "Multifamily Dive",
    "date": "2026-11-24",
