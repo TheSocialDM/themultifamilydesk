@@ -1,6 +1,6 @@
 {
- "from": "2026-11-18T21:35+00:00",
- "to": "2026-11-25T21:35+00:00",
+ "from": "2026-11-18T22:34+00:00",
+ "to": "2026-11-25T22:34+00:00",
  "refreshes": 191,
  "collected": 184,
  "published": 36,
@@ -18,8 +18,8 @@
   "Rates": 6,
   "Policy": 4,
   "REITs": 2,
-  "Operations": 2,
   "Arizona": 2,
+  "Operations": 2,
   "Rents": 2,
   "Seattle": 2,
   "Employment": 1
