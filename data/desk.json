@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:36:38.906420+00:00",
+ "updated": "2026-11-25T21:35:59.712115+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -92,20 +92,18 @@
    "also": []
   },
   {
-   "title": "Troubled Loans Pile Up At $3B Mortgage REIT With Deep Multifamily Exposure",
-   "link": "https://www.bisnow.com/news/national/multifamily/troubled-loans-pile-up-at-3b-mortgage-reit-with-deep-multifamily-exposure",
+   "title": "Multifamily Debt Brokerage Meridian Capital Group Hit With Ransomware Hack",
+   "link": "https://www.bisnow.com/news/national/multifamily/multifamily-debt-brokerage-meridian-capital-group-hit-with-ransomware-hack",
    "source": "Bisnow",
-   "date": "2026-11-19",
+   "date": "2026-11-25",
    "access": "Free",
    "filters": [
     "Multifamily",
-    "REITs",
     "Capital Markets"
    ],
    "topics": [
     "Multifamily",
-    "REITs",
-    "Rates"
+    "Capital Markets"
    ],
    "geo": [],
    "note": null,
@@ -196,6 +194,23 @@
    "link": "https://www.multifamilydive.com/news/artifiicial-intelligence-cybersecurity-property-management/875663/",
    "source": "Multifamily Dive",
    "date": "2026-11-24",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Simon Sues To Evict Jos\u00e9 Andr\u00e9s-Affiliated Restaurant Over $2M In Unpaid Rent",
+   "link": "https://www.bisnow.com/news/national/retail/simon-sues-to-evict-jose-andres-restaurant-over-2m-in-unpaid-rent",
+   "source": "Bisnow",
+   "date": "2026-11-25",
    "access": "Free",
    "filters": [
     "Multifamily"
