@@ -1,11 +1,11 @@
 {
- "from": "2026-11-18T02:53+00:00",
- "to": "2026-11-25T02:53+00:00",
+ "from": "2026-11-18T03:52+00:00",
+ "to": "2026-11-25T03:52+00:00",
  "refreshes": 191,
- "collected": 186,
+ "collected": 184,
  "published": 35,
  "filtered_out": {
-  "off_topic": 79,
+  "off_topic": 77,
   "too_old": 70,
   "opinion": 2
  },
@@ -18,8 +18,8 @@
   "Rates": 6,
   "Policy": 4,
   "REITs": 2,
-  "Arizona": 2,
   "Operations": 2,
+  "Arizona": 2,
   "Rents": 2,
   "Seattle": 2,
   "Employment": 1

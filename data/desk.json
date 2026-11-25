@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:53:53.815829+00:00",
+ "updated": "2026-11-25T03:52:43.970034+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -113,25 +113,6 @@
    "also": []
   },
   {
-   "title": "Recent federal policy moves that impact multifamily",
-   "link": "https://www.multifamilydive.com/news/federal-policy-moves-multifamily/875358/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-24",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Seattle Social Housing Developer Drops Design Director",
    "link": "https://www.theurbanist.org/seattle-social-housing-developer-drops-design-director/",
    "source": "The Urbanist",
@@ -148,6 +129,25 @@
    "geo": [
     "Seattle"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Recent federal policy moves that impact multifamily",
+   "link": "https://www.multifamilydive.com/news/federal-policy-moves-multifamily/875358/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-24",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Housing"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
