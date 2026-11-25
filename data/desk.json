@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:54:42.692730+00:00",
+ "updated": "2026-11-25T02:53:53.815829+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -19,6 +19,26 @@
     "Multifamily",
     "Capital Markets",
     "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rates",
+    "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "U.S. Apartment Buyers Want 8% Off Deals They Already Signed. Most Sellers Are Saying No",
+   "link": "https://www.bisnow.com/news/national/capital-markets/us-apartment-buyers-want-8-percent-off-deals-they-already-signed-most-sellers-are-saying-no",
+   "source": "Bisnow",
+   "date": "2026-11-24",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
    ],
    "topics": [
     "Multifamily",
