@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T11:45:14+00:00",
+ "updated": "2026-11-25T12:44:16+00:00",
  "items": [
   {
    "title": "Google Business Profiles Appeals Simplified Into A Single Form",
@@ -30,18 +30,18 @@
    "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
   },
   {
-   "title": "Google Burying Links Deeper Down In AI Overviews",
-   "link": "https://www.seroundtable.com/google-pushing-links-in-ai-overviews-down-42600.html",
-   "source": "Search Engine Roundtable",
-   "date": "2026-11-24",
-   "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
-  },
-  {
    "title": "Report Flags Most Reddit Users Rating AEO Tools As Likely Promoters",
    "link": "https://www.searchenginejournal.com/check-whos-posting-before-you-trust-reddit-on-aeo-tools/598641/",
    "source": "Search Engine Journal",
    "date": "2026-11-23",
    "why": "Check your own Search Console numbers before reacting. A reporting issue can make a normal week look bad."
+  },
+  {
+   "title": "I Blind-Tested 3 Gemini Models On Real SEO Questions \u2013 Neon Won 5 Of 6",
+   "link": "https://www.searchenginejournal.com/blind-test-of-gemini-4-neon-vs-hydrogen-vs-3-8-flash-on-real-seo-questions-here-is-what-won-and-what-it-costs/598384/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-23",
+   "why": "Gemini powers Google's AI answers, so what it reads about your community shapes what renters see first."
   }
  ],
  "health": [
