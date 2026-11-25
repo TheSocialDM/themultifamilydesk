@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:42:20+00:00",
+ "updated": "2026-11-25T15:41:22+00:00",
  "items": [
   {
    "title": "Google Image Collections & Saved Items Adds Ask Anything AI Mode",
@@ -7,6 +7,13 @@
    "source": "Search Engine Roundtable",
    "date": "2026-11-25",
    "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
+  },
+  {
+   "title": "ChatGPT Ads Are Growing Fast \u2013 But Are Advertisers Seeing Results?",
+   "link": "https://www.searchenginejournal.com/chatgpt-ads-are-growing-fast-but-are-advertisers-seeing-results/598052/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-25",
+   "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
   },
   {
    "title": "Is GEO Visibility Delivering Business Value, Or Are We Measuring The Wrong Outcome?",
@@ -35,13 +42,6 @@
    "source": "Search Engine Journal",
    "date": "2026-11-23",
    "why": "Check your own Search Console numbers before reacting. A reporting issue can make a normal week look bad."
-  },
-  {
-   "title": "I Blind-Tested 3 Gemini Models On Real SEO Questions \u2013 Neon Won 5 Of 6",
-   "link": "https://www.searchenginejournal.com/blind-test-of-gemini-4-neon-vs-hydrogen-vs-3-8-flash-on-real-seo-questions-here-is-what-won-and-what-it-costs/598384/",
-   "source": "Search Engine Journal",
-   "date": "2026-11-23",
-   "why": "Gemini powers Google's AI answers, so what it reads about your community shapes what renters see first."
   }
  ],
  "health": [
