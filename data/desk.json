@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:46:03.975429+00:00",
+ "updated": "2026-11-25T11:45:13.386076+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -213,23 +213,6 @@
    "also": []
   },
   {
-   "title": "How 2 apartment powerhouses are setting their tech strategy",
-   "link": "https://www.multifamilydive.com/news/optech-morgan-willow-bridge-artifical-intellience-/875487/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-23",
-   "access": "Free",
-   "filters": [
-    "Multifamily"
-   ],
-   "topics": [
-    "Multifamily"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Yardi Matrix Increases Multifamily Housing Completion Estimate for 2026",
    "link": "https://www.yardimatrix.com/blog/multifamily-housing-completion-estimate-for-2026/",
    "source": "Yardi Matrix",
@@ -243,6 +226,23 @@
     "Multifamily",
     "Supply",
     "Housing"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "How 2 apartment powerhouses are setting their tech strategy",
+   "link": "https://www.multifamilydive.com/news/optech-morgan-willow-bridge-artifical-intellience-/875487/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-23",
+   "access": "Free",
+   "filters": [
+    "Multifamily"
+   ],
+   "topics": [
+    "Multifamily"
    ],
    "geo": [],
    "note": null,
