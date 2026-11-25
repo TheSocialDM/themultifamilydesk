@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-25T22:34:51+00:00",
+ "updated": "2026-11-25T23:33:51+00:00",
  "items": [
+  {
+   "title": "ChatGPT Ads New Call-To-Actions, Business Agents Beyond US, More Audience Metrics & More",
+   "link": "https://www.seroundtable.com/chatgpt-ads-updates-42623.html",
+   "source": "Search Engine Roundtable",
+   "date": "2026-11-25",
+   "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
+  },
   {
    "title": "Google Image Collections & Saved Items Adds Ask Anything AI Mode",
    "link": "https://www.seroundtable.com/google-image-collections-ask-anything-ai-mode-42595.html",
@@ -35,13 +42,6 @@
    "source": "Search Engine Roundtable",
    "date": "2026-11-24",
    "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
-  },
-  {
-   "title": "Report Flags Most Reddit Users Rating AEO Tools As Likely Promoters",
-   "link": "https://www.searchenginejournal.com/check-whos-posting-before-you-trust-reddit-on-aeo-tools/598641/",
-   "source": "Search Engine Journal",
-   "date": "2026-11-23",
-   "why": "Check your own Search Console numbers before reacting. A reporting issue can make a normal week look bad."
   }
  ],
  "health": [
