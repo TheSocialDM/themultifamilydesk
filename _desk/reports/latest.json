@@ -1,11 +1,11 @@
 {
- "from": "2026-11-19T14:19+00:00",
- "to": "2026-11-26T14:19+00:00",
+ "from": "2026-11-19T15:18+00:00",
+ "to": "2026-11-26T15:18+00:00",
  "refreshes": 191,
- "collected": 183,
+ "collected": 181,
  "published": 34,
  "filtered_out": {
-  "off_topic": 78,
+  "off_topic": 76,
   "too_old": 69,
   "opinion": 2
  },
@@ -17,8 +17,8 @@
   "Capital Markets": 8,
   "Rates": 6,
   "Policy": 3,
-  "Operations": 2,
   "Arizona": 2,
+  "Operations": 2,
   "Rents": 2,
   "Seattle": 2,
   "Employment": 1,
