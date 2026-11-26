@@ -1,9 +1,9 @@
 # Market Desk weekly, internal
-Nov 19 to Nov 26, 2026 · 191 refreshes
+Nov 19 to Nov 26, 2026 · 190 refreshes
 
-**Collected:** 184 unique stories  
+**Collected:** 186 unique stories  
 **Passed and published:** 36  
-- Filtered: 77 off topic for apartment owners
+- Filtered: 79 off topic for apartment owners
 - Filtered: 69 too old
 - Filtered: 2 opinion or column
 
