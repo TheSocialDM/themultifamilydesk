@@ -1,28 +1,28 @@
 {
- "from": "2026-11-19T02:50+00:00",
- "to": "2026-11-26T02:50+00:00",
+ "from": "2026-11-19T03:30+00:00",
+ "to": "2026-11-26T03:30+00:00",
  "refreshes": 191,
- "collected": 186,
- "published": 36,
+ "collected": 183,
+ "published": 34,
  "filtered_out": {
-  "off_topic": 79,
+  "off_topic": 78,
   "too_old": 69,
   "opinion": 2
  },
  "source_issues": {},
  "topics": {
   "Multifamily": 26,
-  "Housing": 10,
   "Supply": 9,
-  "Capital Markets": 9,
+  "Housing": 9,
+  "Capital Markets": 8,
   "Rates": 6,
-  "Policy": 4,
-  "REITs": 2,
+  "Policy": 3,
   "Arizona": 2,
   "Operations": 2,
   "Rents": 2,
   "Seattle": 2,
-  "Employment": 1
+  "Employment": 1,
+  "REITs": 1
  },
  "for_melanie": [
   {
