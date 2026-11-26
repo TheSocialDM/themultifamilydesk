@@ -1,6 +1,13 @@
 {
- "updated": "2026-11-26T03:30:12+00:00",
+ "updated": "2026-11-26T04:29:07+00:00",
  "items": [
+  {
+   "title": "OpenAI Isn\u2019t Planning Prompt-Level Reports For ChatGPT Ads",
+   "link": "https://www.searchenginejournal.com/openai-isnt-planning-prompt-level-reports-for-chatgpt-ads/599126/",
+   "source": "Search Engine Journal",
+   "date": "2026-11-26",
+   "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
+  },
   {
    "title": "ChatGPT Ads New Call-To-Actions, Business Agents Beyond US, More Audience Metrics & More",
    "link": "https://www.seroundtable.com/chatgpt-ads-updates-42623.html",
@@ -35,13 +42,6 @@
    "source": "Search Engine Roundtable",
    "date": "2026-11-24",
    "why": "Your Google Business Profile is still the front door. Keep hours, specials, photos and replies current."
-  },
-  {
-   "title": "Google On How Links Are Selected & Shown In AI Overviews & AI Mode",
-   "link": "https://www.seroundtable.com/google-ai-overviews-ai-mode-link-selection-42617.html",
-   "source": "Search Engine Roundtable",
-   "date": "2026-11-24",
-   "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
   }
  ],
  "health": [
