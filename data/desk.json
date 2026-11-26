@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T08:25:20.275476+00:00",
+ "updated": "2026-11-26T09:24:31.483388+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -31,26 +31,6 @@
    "also": []
   },
   {
-   "title": "U.S. Apartment Buyers Want 8% Off Deals They Already Signed. Most Sellers Are Saying No",
-   "link": "https://www.bisnow.com/news/national/capital-markets/us-apartment-buyers-want-8-percent-off-deals-they-already-signed-most-sellers-are-saying-no",
-   "source": "Bisnow",
-   "date": "2026-11-24",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Rates",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Developers Turn To Vacant Schools For Affordable Housing",
    "link": "https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing",
    "source": "Bisnow",
@@ -67,6 +47,26 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "U.S. Apartment Buyers Want 8% Off Deals They Already Signed. Most Sellers Are Saying No",
+   "link": "https://www.bisnow.com/news/national/capital-markets/us-apartment-buyers-want-8-percent-off-deals-they-already-signed-most-sellers-are-saying-no",
+   "source": "Bisnow",
+   "date": "2026-11-24",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rates",
+    "Capital Markets"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
