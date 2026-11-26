@@ -1,25 +1,25 @@
 {
- "from": "2026-11-19T15:18+00:00",
- "to": "2026-11-26T15:18+00:00",
+ "from": "2026-11-19T16:17+00:00",
+ "to": "2026-11-26T16:17+00:00",
  "refreshes": 191,
- "collected": 181,
- "published": 34,
+ "collected": 183,
+ "published": 35,
  "filtered_out": {
   "off_topic": 76,
   "too_old": 69,
-  "opinion": 2
+  "opinion": 3
  },
  "source_issues": {},
  "topics": {
-  "Multifamily": 26,
+  "Multifamily": 27,
   "Supply": 9,
+  "Capital Markets": 9,
   "Housing": 9,
-  "Capital Markets": 8,
   "Rates": 6,
   "Policy": 3,
+  "Rents": 3,
   "Arizona": 2,
   "Operations": 2,
-  "Rents": 2,
   "Seattle": 2,
   "Employment": 1,
   "REITs": 1
@@ -55,17 +55,17 @@
   },
   {
    "why": "Rents and renewals",
+   "title": "National Multifamily Market Report – October 2026",
+   "source": "Yardi Matrix",
+   "date": "2026-11-26",
+   "link": "https://www.yardimatrix.com/blog/national-multifamily-market-report/"
+  },
+  {
+   "why": "Rents and renewals",
    "title": "Pittsburgh Multifamily Market Report – October 2026",
    "source": "Yardi Matrix",
    "date": "2026-11-06",
    "link": "https://www.yardimatrix.com/blog/pittsburgh-multifamily-market-report/"
-  },
-  {
-   "why": "Rents and renewals",
-   "title": "Orange County Multifamily Market Report – October 2026",
-   "source": "Yardi Matrix",
-   "date": "2026-11-03",
-   "link": "https://www.yardimatrix.com/blog/orange-county-multifamily-market-report/"
   }
  ],
  "coverage_gaps": []

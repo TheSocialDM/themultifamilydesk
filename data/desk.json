@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:18:40.069150+00:00",
+ "updated": "2026-11-26T16:17:51.659550+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -9,6 +9,26 @@
   "Seattle"
  ],
  "items": [
+  {
+   "title": "National Multifamily Market Report \u2013 October 2026",
+   "link": "https://www.yardimatrix.com/blog/national-multifamily-market-report/",
+   "source": "Yardi Matrix",
+   "date": "2026-11-26",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "Rents",
+    "Capital Markets"
+   ],
+   "geo": [],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
   {
    "title": "A Brooklyn apartment building sat vacant for years. A revolving loan program aims to bring it back to life.",
    "link": "https://www.multifamilydive.com/news/nyc-housing-funded-revolving-housing-loan-mamdani/875531/",
