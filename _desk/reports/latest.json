@@ -1,6 +1,6 @@
 {
- "from": "2026-11-19T06:27+00:00",
- "to": "2026-11-26T06:27+00:00",
+ "from": "2026-11-19T07:26+00:00",
+ "to": "2026-11-26T07:26+00:00",
  "refreshes": 191,
  "collected": 183,
  "published": 34,
@@ -17,8 +17,8 @@
   "Capital Markets": 8,
   "Rates": 6,
   "Policy": 3,
-  "Arizona": 2,
   "Operations": 2,
+  "Arizona": 2,
   "Rents": 2,
   "Seattle": 2,
   "Employment": 1,
