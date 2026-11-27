@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T12:57:56+00:00",
+ "checked": "2026-11-27T13:56:58+00:00",
  "series": [
   {
    "id": "DGS10",
@@ -34,14 +34,13 @@
    "id": "SOFR",
    "label": "SOFR",
    "freq": "Daily",
-   "date": "2026-11-24",
+   "date": "2026-11-25",
    "source": "FRED, St. Louis Fed",
-   "value": 3.94,
-   "display": "3.94%",
-   "change": 2,
-   "change_text": "+2 bp",
+   "value": 3.95,
+   "display": "3.95%",
+   "change": 1,
+   "change_text": "+1 bp",
    "spark": [
-    3.94,
     3.92,
     3.89,
     3.88,
@@ -54,7 +53,8 @@
     3.91,
     3.92,
     3.92,
-    3.94
+    3.94,
+    3.95
    ]
   },
   {
@@ -129,7 +129,7 @@
   },
   {
    "label": "Floating rate loans",
-   "text": "SOFR was little changed at 3.94%, so the base rate on floating rate loans held roughly flat."
+   "text": "SOFR was little changed at 3.95%, so the base rate on floating rate loans held roughly flat."
   },
   {
    "label": "Renter demand",
