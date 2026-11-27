@@ -1,5 +1,5 @@
 # Market Desk weekly, internal
-Nov 20 to Nov 27, 2026 · 190 refreshes
+Nov 20 to Nov 27, 2026 · 191 refreshes
 
 **Collected:** 174 unique stories  
 **Passed and published:** 32  
