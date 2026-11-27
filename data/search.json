@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:59:02+00:00",
+ "updated": "2026-11-27T12:57:56+00:00",
  "items": [
   {
    "title": "Google Local Pack No Reviews Bug",
@@ -23,13 +23,6 @@
    "why": "ChatGPT now answers local questions. Communities with clear, consistent details across the web are easier for it to name."
   },
   {
-   "title": "Google Image Collections & Saved Items Adds Ask Anything AI Mode",
-   "link": "https://www.seroundtable.com/google-image-collections-ask-anything-ai-mode-42595.html",
-   "source": "Search Engine Roundtable",
-   "date": "2026-11-25",
-   "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
-  },
-  {
    "title": "ChatGPT Ads Hit 100,000 Advertisers \u2013 But Are They Seeing Results?",
    "link": "https://www.searchenginejournal.com/chatgpt-ads-are-growing-fast-but-are-advertisers-seeing-results/598052/",
    "source": "Search Engine Journal",
@@ -42,6 +35,13 @@
    "source": "Search Engine Journal",
    "date": "2026-11-25",
    "why": "Worth a look for anyone responsible for how renters find a community."
+  },
+  {
+   "title": "Google On How Links Are Selected & Shown In AI Overviews & AI Mode",
+   "link": "https://www.seroundtable.com/google-ai-overviews-ai-mode-link-selection-42617.html",
+   "source": "Search Engine Roundtable",
+   "date": "2026-11-24",
+   "why": "More searches get answered before a click, so the facts on your Google profile and website need to be complete and current."
   }
  ],
  "health": [
