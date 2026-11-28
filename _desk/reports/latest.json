@@ -1,6 +1,6 @@
 {
- "from": "2026-11-21T10:37+00:00",
- "to": "2026-11-28T10:37+00:00",
+ "from": "2026-11-21T11:36+00:00",
+ "to": "2026-11-28T11:36+00:00",
  "refreshes": 190,
  "collected": 168,
  "published": 29,
@@ -17,8 +17,8 @@
   "Supply": 7,
   "Rates": 5,
   "Rents": 3,
-  "Operations": 2,
   "Arizona": 2,
+  "Operations": 2,
   "Seattle": 2,
   "Employment": 1,
   "Policy": 1,
