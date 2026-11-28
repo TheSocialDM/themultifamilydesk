@@ -1,5 +1,5 @@
 # Market Desk weekly, internal
-Nov 21 to Nov 28, 2026 · 189 refreshes
+Nov 21 to Nov 28, 2026 · 190 refreshes
 
 **Collected:** 168 unique stories  
 **Passed and published:** 29  
@@ -8,7 +8,7 @@ Nov 21 to Nov 28, 2026 · 189 refreshes
 - Filtered: 3 opinion or column
 
 **Source problems:**
-- Multifamily Dive: stale in 1 of 189 refreshes
+- Multifamily Dive: stale in 2 of 190 refreshes
 
 **Topics this week:** Multifamily 23, Housing 9, Capital Markets 8, Supply 7, Rates 5, Rents 3, Arizona 2, Operations 2
 
