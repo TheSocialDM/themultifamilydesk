@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:45:27.192192+00:00",
+ "updated": "2026-11-28T02:44:40.274314+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -151,25 +151,6 @@
    "also": []
   },
   {
-   "title": "Recent federal policy moves that impact multifamily",
-   "link": "https://www.multifamilydive.com/news/federal-policy-moves-multifamily/875358/",
-   "source": "Multifamily Dive",
-   "date": "2026-11-24",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Housing"
-   ],
-   "topics": [
-    "Multifamily",
-    "Housing"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Phoenix Apartment Concessions Are Luring Students Away From Campus Housing",
    "link": "https://www.bisnow.com/news/phoenix/student-housing/phoenix-student-housing-faces-competition-multifamily-oversupply",
    "source": "Bisnow",
@@ -188,6 +169,25 @@
    "geo": [
     "Arizona"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Recent federal policy moves that impact multifamily",
+   "link": "https://www.multifamilydive.com/news/federal-policy-moves-multifamily/875358/",
+   "source": "Multifamily Dive",
+   "date": "2026-11-24",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Housing"
+   ],
+   "topics": [
+    "Multifamily",
+    "Housing"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
