@@ -7,9 +7,10 @@ Nov 21 to Nov 28, 2026 · 189 refreshes
 - Filtered: 67 off topic for apartment owners
 - Filtered: 3 opinion or column
 
-**Source problems:** none
+**Source problems:**
+- Multifamily Dive: stale in 1 of 189 refreshes
 
-**Topics this week:** Multifamily 23, Housing 9, Capital Markets 8, Supply 7, Rates 5, Rents 3, Operations 2, Arizona 2
+**Topics this week:** Multifamily 23, Housing 9, Capital Markets 8, Supply 7, Rates 5, Rents 3, Arizona 2, Operations 2
 
 **Worth Melanie's attention** (headlines only, no commentary):
 - [Phoenix and Arizona] Phoenix Developers Turn To Vacant Schools For Affordable Housing (Bisnow Phoenix, 2026-11-17) https://www.bisnow.com/news/phoenix/affordable-housing/phoenix-developers-turn-to-vacant-schools-for-affordable-housing

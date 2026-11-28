@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:32:12.296125+00:00",
+ "updated": "2026-11-28T16:31:13.022816+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -316,7 +316,7 @@
  "sources": [
   {
    "name": "Multifamily Dive",
-   "state": "healthy",
+   "state": "stale",
    "access": "Free"
   },
   {
