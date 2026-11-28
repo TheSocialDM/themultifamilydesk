@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T09:37:56.371388+00:00",
+ "updated": "2026-11-28T10:37:10.373164+00:00",
  "filters": [
   "Multifamily",
   "REITs",
@@ -112,25 +112,6 @@
    "also": []
   },
   {
-   "title": "Multifamily Debt Brokerage Meridian Capital Group Hit With Ransomware Hack",
-   "link": "https://www.bisnow.com/news/national/multifamily/multifamily-debt-brokerage-meridian-capital-group-hit-with-ransomware-hack",
-   "source": "Bisnow",
-   "date": "2026-11-25",
-   "access": "Free",
-   "filters": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "topics": [
-    "Multifamily",
-    "Capital Markets"
-   ],
-   "geo": [],
-   "note": null,
-   "note_status": null,
-   "also": []
-  },
-  {
    "title": "Jackson Street Housing Project Could Leave King County on Hook for Millions",
    "link": "https://www.theurbanist.org/jackson-street-housing-project-could-leave-king-county-on-hook-for-millions/",
    "source": "The Urbanist",
@@ -146,6 +127,25 @@
    "geo": [
     "Seattle"
    ],
+   "note": null,
+   "note_status": null,
+   "also": []
+  },
+  {
+   "title": "Multifamily Debt Brokerage Meridian Capital Group Hit With Ransomware Hack",
+   "link": "https://www.bisnow.com/news/national/multifamily/multifamily-debt-brokerage-meridian-capital-group-hit-with-ransomware-hack",
+   "source": "Bisnow",
+   "date": "2026-11-25",
+   "access": "Free",
+   "filters": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "topics": [
+    "Multifamily",
+    "Capital Markets"
+   ],
+   "geo": [],
    "note": null,
    "note_status": null,
    "also": []
